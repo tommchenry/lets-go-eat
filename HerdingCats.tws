@@ -20,7 +20,7 @@ p9
 (dp11
 S'selected'
 p12
-I01
+I00
 sS'pos'
 p13
 (lp14
@@ -34,7 +34,7 @@ p16
 (dp18
 S'text'
 p19
-V<<set $friendcount = 10>>\u000a<<set $playerhungerlevel = 5>> \u000a<<set $time = 0>>\u000a\u000aYou are in the lobby of the convention hotel. Everyone is excited to go to dinner, and hungry from a long day of working the convention floor. \u000a\u000a
+V<<set $friendcount = 10>>\u000a<<set $playerhungerlevel = 5>> \u000a<<set $time = 0>>\u000a<<display Friend Generator>>\u000a<<set $friends = [$Jess,$Eric,$KC,$Holly,$Kate,$Sara,$Phil]>>\u000a\u000aYou are in the lobby of the convention hotel. Everyone is excited to go to dinner and hungry from a long day of working the convention floor. \u000a\u000aCurrently you have <<print $friends.length>> friends who want to eat dinner together. \u000a\u000a<<print $friends[1].name>> says <<print $friends[1].pronoun>> might want <<print $friends[1].secretpref>>, but only if that's okay with everybody. No one else says anything.
 p20
 sS'title'
 p21
@@ -48,9 +48,9 @@ p24
 ((I2014
 I5
 I23
-I19
-I17
-I29
+I20
+I28
+I11
 I4
 I143
 I1
@@ -90,10 +90,10 @@ Tiddler
 p38
 (dp39
 g19
-S'Untitled Story'
+VHerding Cats?
 p40
 sg21
-S'StoryTitle'
+VStoryTitle
 p41
 sg23
 g24
@@ -101,8 +101,8 @@ g24
 I5
 I23
 I19
-I5
-I19
+I32
+I22
 I4
 I143
 I1
@@ -113,26 +113,6 @@ Rp45
 sg29
 (lp46
 sg31
-g45
-sbsa(dp47
-g12
-I00
-sg13
-(lp48
-I10
-aI290
-asg15
-(itiddlywiki
-Tiddler
-p49
-(dp50
-g19
-S'Anonymous'
-p51
-sg21
-S'StoryAuthor'
-p52
-sg23
 g24
 ((I2014
 I5
@@ -143,18 +123,114 @@ I19
 I4
 I143
 I1
-tp53
+tp47
+(dp48
+tp49
+Rp50
+sbsa(dp51
+g12
+I01
+sg13
+(lp52
+I10
+aI291
+asg15
+(itiddlywiki
+Tiddler
+p53
 (dp54
-tp55
-Rp56
+g19
+Vtommchenry
+p55
+sg21
+VStoryAuthor
+p56
+sg23
+g24
+((I2014
+I5
+I23
+I19
+I32
+I31
+I4
+I143
+I1
+tp57
+(dp58
+tp59
+Rp60
 sg29
-(lp57
+(lp61
 sg31
-g56
+g24
+((I2014
+I5
+I23
+I19
+I5
+I19
+I4
+I143
+I1
+tp62
+(dp63
+tp64
+Rp65
+sbsa(dp66
+g12
+I00
+sg13
+(lp67
+I174
+aI6
+asg15
+(itiddlywiki
+Tiddler
+p68
+(dp69
+g19
+V<<set $Jess = {\u000a	name: "Jess",\u000a	pronoun: "she",\u000a	hungerlevel: 5,\u000a	secretpref: "Indian",\u000a	secrethate: "Thai",\u000a}>>\u000a<<set $Eric = {\u000a	name: "Eric",\u000a	pronoun: "he",\u000a	hungerlevel: 5,\u000a	secretpref: "Pizza",\u000a	secrethate: "Thai",\u000a}>>\u000a<<set $KC = {\u000a	name: "KC",\u000a	pronoun: "he",\u000a	hungerlevel: 5,\u000a	secretpref: "Thai",\u000a	secrethate: "Indian",\u000a}>>\u000a<<set $Holly = {\u000a	name: "Holly",\u000a	pronoun: "she",\u000a	hungerlevel: 5,\u000a	secretpref: "Steak",\u000a	secrethate: "Pizza",\u000a}>>\u000a<<set $Kate = {\u000a	name: "Kate",\u000a	pronoun: "she",\u000a	hungerlevel: 5,\u000a	secretpref: "Vegetarian",\u000a	secrethate: "Steak",\u000a}>>\u000a<<set $Sara = {\u000a	name: "Sara",\u000a	pronoun: "she",\u000a	hungerlevel: 5,\u000a	secretpref: "Vegetarian",\u000a	secrethate: "Steak",\u000a}>>\u000a<<set $Phil = {\u000a	name: "Phil",\u000a	pronoun: "he",\u000a	hungerlevel: 5, \u000a	secretpref: "Pizza",\u000a	secrethate: "Vegetarian",\u000a}>>\u000a
+p70
+sg21
+VFriend Generator
+p71
+sg23
+g24
+((I2014
+I5
+I23
+I20
+I16
+I25
+I4
+I143
+I1
+tp72
+(dp73
+tp74
+Rp75
+sg29
+(lp76
+sg31
+g24
+((I2014
+I5
+I23
+I20
+I8
+I46
+I4
+I143
+I1
+tp77
+(dp78
+tp79
+Rp80
 sbsasS'scale'
-p58
+p81
 I1
 sS'snapping'
-p59
+p82
 I00
 ss.
