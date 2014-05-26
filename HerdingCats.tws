@@ -34,7 +34,7 @@ p16
 (dp18
 S'text'
 p19
-V<<set $friendcount = 10>>\u000a<<set $playerhungerlevel = 5>> \u000a<<set $time = 0>>\u000a<<display Friend Generator>>\u000a<<set $friends = [$Jess,$Eric,$KC,$Holly,$Kate,$Sara,$Phil]>>\u000a\u000aYou are in the lobby of the convention hotel. Everyone is excited to go to dinner but tired and hungry from a long day of working the convention floor. \u000a\u000aCurrently you have <<print $friends.length>> friends who want to eat dinner together. \u000a\u000a<<set $tellerfriend = Math.floor(Math.random()*$friends.length)>>\u000a<<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> might want <<print $friends[$tellerfriend].secretpref>>, but only if that's okay with everybody. \u000a\u000a"Does <<print $friends[$tellerfriend].secretpref>> sound good to everybody?" [[you ask.|First Question]]\u000a\u000a
+V<<set $friendcount = 10>>\u000a<<set $playerhungerlevel = 5>> \u000a<<set $time = 0>>\u000a<<display Friend Generator>>\u000a<<set $friends = [$Jess,$Eric,$KC,$Holly,$Kate,$Sara,$Phil]>>\u000a\u000aYou are in the lobby of the convention hotel. Everyone is excited to go to dinner but tired and hungry from a long day of working the convention floor. \u000a\u000aCurrently you have <<print $friends.length>> friends who want to eat dinner together. \u000a\u000a<<set $tellerfriend = Math.floor(Math.random()*$friends.length)>>\u000a<<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> might want <<print $friends[$tellerfriend].secretpref>>, but only if that's okay with everybody. \u000a\u000a"Does <<print $friends[$tellerfriend].secretpref>> sound good to everybody?" [[you ask.|First Question]]\u000a\u000a[[Debug|Restaurant]]
 p20
 sS'title'
 p21
@@ -47,12 +47,12 @@ struct_time
 p24
 ((I2014
 I5
-I23
-I20
-I51
-I54
-I4
-I143
+I26
+I19
+I49
+I8
+I0
+I146
 I1
 tp25
 (dp26
@@ -290,7 +290,7 @@ Tiddler
 p98
 (dp99
 g19
-V<<set $currgoal = $friends[$tellerfriend].secretpref>>\u000a"Alright, well let's get <<print $currgoal>>, I guess?" You say with a carefully considered lack of any force.
+V<<set $currgoal = $friends[$tellerfriend].secretpref>>\u000a"Alright, well let's get <<print $currgoal>>, I guess?" You say with a carefully considered lack of any force.\u000a\u000a[[Leave to Eat|Leave to Eat]]
 p100
 sg21
 VFirst Yes
@@ -299,12 +299,12 @@ sg23
 g24
 ((I2014
 I5
-I23
-I21
-I14
-I57
-I4
-I143
+I24
+I15
+I24
+I28
+I5
+I144
 I1
 tp102
 (dp103
@@ -340,7 +340,7 @@ Tiddler
 p113
 (dp114
 g19
-VYou'd rather not have <<print $friends[$tellerfriend].secretpref>> tonight. \u000a\u000a"I think I might like <<cyclinglink $currgoal "Pizza" "Steak" "Thai" "Indian">> instead, [[but only if that's okay with everybody?"|First No 2]]
+VYou'd rather not have <<print $friends[$tellerfriend].secretpref>> tonight. \u000a\u000a"I think I might like <<cyclinglink $currgoal "Pizza" "Steak" "Thai" "Indian" "Vegetarian">> instead, [[but only if that's okay with everybody?"|First No 2]]
 p115
 sg21
 VFirst No
@@ -349,12 +349,12 @@ sg23
 g24
 ((I2014
 I5
-I23
-I21
 I24
-I25
-I4
-I143
+I15
+I26
+I59
+I5
+I144
 I1
 tp117
 (dp118
@@ -431,7 +431,7 @@ tp140
 Rp141
 sbsa(dp142
 g12
-I01
+I00
 sg13
 (lp143
 I612
@@ -442,7 +442,7 @@ Tiddler
 p144
 (dp145
 g19
-V<<set $tellerfriend = Math.floor(Math.random()*$friends.length)>>\u000a<<if $friends[$tellerfriend].secrethate eq $currgoal>>\u000a<<print $friends[$tellerfriend].name>> says, "Oooh, I'm just not feeling <<print $currgoal>> tonight, if that's okay."\u000a\u000a"That's fine," you say, [[I'll have whatever. I was just thinking out loud."|First No 3]]\u000a<<else>>\u000a"<<print $currgoal>> is fine with me, I guess," <<print $friends[$tellerfriend].name>> says with a shrug. "I mean, I'll eat whatever."\u000a<<endif>>\u000aNo one else says anything. 
+V<<set $tellerfriend = Math.floor(Math.random()*$friends.length)>>\u000a<<if $friends[$tellerfriend].secrethate eq $currgoal>>\u000a<<print $friends[$tellerfriend].name>> says, "Oooh, I'm just not feeling <<print $currgoal>> tonight, if that's okay."\u000a\u000a"That's fine," you say, [[I'll have whatever. I was just thinking out loud."|First No 3]]\u000a<<else>>\u000a"<<print $currgoal>> is fine with me, I guess," <<print $friends[$tellerfriend].name>> says with a shrug. "I mean, I'll eat whatever."\u000a<<endif>>\u000aNo one else says anything. \u000a\u000a[[Leave to Eat]]
 p146
 sg21
 VFirst No 2
@@ -451,12 +451,12 @@ sg23
 g24
 ((I2014
 I5
-I23
-I21
-I52
-I39
-I4
-I143
+I24
+I15
+I24
+I47
+I5
+I144
 I1
 tp148
 (dp149
@@ -484,8 +484,8 @@ g12
 I00
 sg13
 (lp158
-I519
-aI293
+I611
+aI324
 asg15
 (itiddlywiki
 Tiddler
@@ -529,10 +529,160 @@ tp168
 (dp169
 tp170
 Rp171
+sbsa(dp172
+g12
+I00
+sg13
+(lp173
+I417
+aI282
+asg15
+(itiddlywiki
+Tiddler
+p174
+(dp175
+g19
+VYou are at the doors of the convention center. \u000a\u000aRight now, it sounds like you're going to get <<print $currgoal>>, but only if that's what everybody wants. \u000a\u000a[[Walk to first restaurant|Restaurant]]
+p176
+sg21
+VLeave to Eat
+p177
+sg23
+g24
+((I2014
+I5
+I26
+I19
+I45
+I21
+I0
+I146
+I1
+tp178
+(dp179
+tp180
+Rp181
+sg29
+(lp182
+sg31
+g24
+((I2014
+I5
+I24
+I15
+I19
+I34
+I5
+I144
+I1
+tp183
+(dp184
+tp185
+Rp186
+sbsa(dp187
+g12
+I01
+sg13
+(lp188
+F646.0
+aF15.0
+asg15
+(itiddlywiki
+Tiddler
+p189
+(dp190
+g19
+V<<set //initialize\u000a\u000a//Steak\u000a$steak1= {name:"Flanks", quality:1, wait: 0, type:"Steak"};\u000a$steak2= {name:"Shanks", quality:2, wait: 2, type:"Steak"};\u000a$steak3= {name:"Hank's", quality:3, wait: 3, type:"Steak"};\u000a\u000a//Thai\u000a$thai1= {name:"Thai Express", quality:1, wait: 0, type:"Thai"};\u000a$thai2= {name:"Taste of Thai", quality:2, wait: 2, type:"Thai"};\u000a$thai3= {name:"Urban Thai", quality:3, wait: 3, type:"Thai"};\u000a\u000a//Pizza\u000a$pizza1= {name:"Giggle's Pizza", quality:1, wait: 0, type:"Pizza"};\u000a$pizza2= {name:"Daddy John's Pizza", quality:2, wait: 2, type:"Pizza"};\u000a$pizza3= {name:"Noble Rome Pizza", quality:2, wait: 1, type:"Pizza"};\u000a\u000a//Vegetarian\u000a$vegetarian1= {name:"Flanks", quality:1, wait: 0, type:"Vegetarian"};\u000a$vegetarian2= {name:"Shanks", quality:2, wait: 2, type:"Vegetarian"};\u000a$vegetarian3= {name:"Hank's", quality:3, wait: 3, type:"Vegetarian"};\u000a\u000a//Indian\u000a$indian1= {name:"Curried Billy's", quality:1, wait: 0, type:"Indian"};\u000a$indian2= {name:"India Garden", quality:2, wait: 2, type:"Indian"};\u000a$indian3= {name:"India Classic", quality:3, wait: 2, type:"Indian"};\u000a\u000a$restaurants=[$steak1, $steak2, $steak3, $tha1, $thai2, $thai3, $pizza1, $pizza2, $pizza3, $vegetarian1, $vegetarian2, $vegetarian3, $indian1, $indian2, $indian3];\u000a>>\u000a
+p191
+sg21
+VRestaurant Generator
+p192
+sg23
+g24
+((I2014
+I5
+I26
+I19
+I50
+I2
+I0
+I146
+I1
+tp193
+(dp194
+tp195
+Rp196
+sg29
+(lp197
+sg31
+g24
+((I2014
+I5
+I24
+I15
+I25
+I37
+I5
+I144
+I1
+tp198
+(dp199
+tp200
+Rp201
+sbsa(dp202
+g12
+I00
+sg13
+(lp203
+F405.0
+aF443.0
+asg15
+(itiddlywiki
+Tiddler
+p204
+(dp205
+g19
+V<<display Restaurant Generator>>\u000a<<set $currrestaurant = Math.floor(Math.random()*$restaurants.length)>>\u000a<<print $restaurants[$currrestaurant].name>>\u000a<<print $restaurants[$currrestaurant].quality>>\u000a<<print $restaurants[$currrestaurant].wait>>\u000a<<print $restaurants[$currrestaurant].type>>
+p206
+sg21
+VRestaurant
+p207
+sg23
+g24
+((I2014
+I5
+I26
+I19
+I47
+I19
+I0
+I146
+I1
+tp208
+(dp209
+tp210
+Rp211
+sg29
+(lp212
+sg31
+g24
+((I2014
+I5
+I26
+I19
+I45
+I1
+I0
+I146
+I1
+tp213
+(dp214
+tp215
+Rp216
 sbsasS'scale'
-p172
+p217
 I1
 sS'snapping'
-p173
+p218
 I00
 ss.
