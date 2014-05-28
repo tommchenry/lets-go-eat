@@ -20,23 +20,26 @@ another person
 back to the hotel
 
 5/24/2014:
--Random restaurant rolls?
+XRandom restaurant rolls?
 -Check your phone, show the next couple restaurants ahead
 
 5/26/2014
--Restuarant Map Maker -- pulls random restaurants from the restaurant pool to
+XRestuarant Map Maker -- pulls random restaurants from the restaurant pool to
 build a town ($restaurants)
 
 5/27/2014
-	Current Errors in Town Generator
-	Can pull 15 (undefined)
-		Can always pull one past the length (e.g. 13 after 2 have been removed)
-		Subtract one from the random draw? 
-	Can double restaurants
-	Some restaurant draws return blanks? 
-**All Resolved**
+	XCurrent Errors in Town Generator
+	XCan pull 15 (undefined)
+	X	Can always pull one past the length (e.g. 13 after 2 have been removed)
+	X	Subtract one from the random draw? 
+	XCan double restaurants
+	XSome restaurant draws return blanks? 
 -Multiple directions to walk from convention center, Town Generator to roll up in
 	2 (3?) directions, so the player + party can backtrack
 -The ability to burn a turn checking a cellphone to get an idea of what's around
 -Price as a factor for higher quality places -- thriftiness/money stat? 
+-TITLE: But Only If That's Okay With Everybody Else
+-TITLE: I'll Eat Whatever
+-Add .desc to each object for personalized description
+-Add a unique graphic for each restaurant
 
