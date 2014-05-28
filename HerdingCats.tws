@@ -34,7 +34,7 @@ p16
 (dp18
 S'text'
 p19
-V<<set $friendcount = 10>>\u000a<<set $playerhungerlevel = 5>> \u000a<<set $time = 0>>\u000a<<display Friend Generator>>\u000a<<set $friends = [$Jess,$Eric,$KC,$Holly,$Kate,$Sara,$Phil]>>\u000a\u000aYou are in the lobby of the convention hotel. Everyone is excited to go to dinner but tired and hungry from a long day of working the convention floor. \u000a\u000aCurrently you have <<print $friends.length>> friends who want to eat dinner together. \u000a\u000a<<set $tellerfriend = Math.floor(Math.random()*$friends.length)>>\u000a<<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> might want <<print $friends[$tellerfriend].secretpref>>, but only if that's okay with everybody. \u000a\u000a"Does <<print $friends[$tellerfriend].secretpref>> sound good to everybody?" [[you ask.|First Question]]\u000a\u000a[[Debug|Restaurant]]
+V<<silently>>\u000a<<set $friendcount = 10;\u000a$playerhungerlevel = 5; \u000a$time = 0;\u000a$currentPosition = 0;\u000a>>\u000a<<display Friend Generator>>\u000a<<set $friends = [$Jess,$Eric,$KC,$Holly,$Kate,$Sara,$Phil]>>\u000a<<endsilently>>\u000aYou are in the lobby of the convention hotel. Everyone is excited to go to dinner but tired and hungry from a long day of working the convention floor. \u000a\u000aCurrently you have <<print $friends.length>> friends who want to eat dinner together. \u000a\u000a<<set $tellerfriend = Math.floor(Math.random()*$friends.length)>>\u000a<<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> might want <<print $friends[$tellerfriend].secretpref>>, but only if that's okay with everybody. \u000a\u000a"Does <<print $friends[$tellerfriend].secretpref>> sound good to everybody?" [[you ask.|First Question]]\u000a\u000a[[Debug|Restaurant]]\u000a<<display Restaurant Generator>>\u005c\u000a<<display Town Generator>>
 p20
 sS'title'
 p21
@@ -47,12 +47,12 @@ struct_time
 p24
 ((I2014
 I5
-I26
-I19
-I49
-I8
-I0
-I146
+I28
+I3
+I18
+I32
+I2
+I148
 I1
 tp25
 (dp26
@@ -484,8 +484,8 @@ g12
 I00
 sg13
 (lp158
-I611
-aI324
+I637
+aI362
 asg15
 (itiddlywiki
 Tiddler
@@ -534,15 +534,15 @@ g12
 I00
 sg13
 (lp173
-I417
-aI282
+I451
+aI274
 asg15
 (itiddlywiki
 Tiddler
 p174
 (dp175
 g19
-VYou are at the doors of the convention center. \u000a\u000aRight now, it sounds like you're going to get <<print $currgoal>>, but only if that's what everybody wants. \u000a\u000a[[Walk to first restaurant|Restaurant]]
+VYou are at the doors of the convention center. \u000a\u000aRight now, it sounds like you're going to get <<print $currgoal>>, but only if that's what everybody wants. \u000a\u000a[[Walk to first restaurant|Restaurant]]\u000a
 p176
 sg21
 VLeave to Eat
@@ -551,12 +551,12 @@ sg23
 g24
 ((I2014
 I5
-I26
-I19
-I45
-I21
-I0
-I146
+I28
+I3
+I18
+I22
+I2
+I148
 I1
 tp178
 (dp179
@@ -642,7 +642,7 @@ Tiddler
 p204
 (dp205
 g19
-V<<display Restaurant Generator>>\u000a<<display Town Generator>>\u000aName1 <<print $town[0].name>>\u000aName2 <<print $town[1].name>>\u000aName3 <<print $town[2].name>>\u000aName4 <<print $town[3].name>>\u000aName5 <<print $town[4].name>>
+VTown:\u000aName1 <<print $town[0].name>>\u000aName2 <<print $town[1].name>>\u000aName3 <<print $town[2].name>>\u000aName4 <<print $town[3].name>>\u000aName5 <<print $town[4].name>>\u000aName6 <<print $town[5].name>>\u000a\u000aYou walk to <<print $town[$currentPosition].name>>. It is a <<print $town[$currentPosition].type>> restaurant. <<if $town[$currentPosition].quality eq 1>>It looks a little rundown. You might have to get the food to go.<<endif>><<if $town[$currentPosition].quality eq 2>>This looks pretty good, for convention food.<<endif>><<if $town[$currentPosition].quality eq 3>>This place looks really nice, but it might be a little pricey for some people.<<endif>>\u000a\u000a<<display Action List>>
 p206
 sg21
 VRestaurant
@@ -651,12 +651,12 @@ sg23
 g24
 ((I2014
 I5
-I27
-I18
 I28
-I41
-I1
-I147
+I3
+I19
+I53
+I2
+I148
 I1
 tp208
 (dp209
@@ -692,7 +692,7 @@ Tiddler
 p219
 (dp220
 g19
-V<<set $i=0;\u000a//empty town\u000a$town=[];\u000a>>\u000a\u000aTown: <<print $town>>\u000a<<display Restaurant Picker>>\u000aTown: <<print $town>>\u000a
+V<<set $i=0;\u000a//empty town\u000a$town=[];\u000a>>\u000a<<display Restaurant Picker>>\u000a
 p221
 sg21
 VTown Generator
@@ -701,12 +701,12 @@ sg23
 g24
 ((I2014
 I5
-I27
-I18
-I15
-I58
-I1
-I147
+I28
+I2
+I54
+I4
+I2
+I148
 I1
 tp223
 (dp224
@@ -731,7 +731,7 @@ tp230
 Rp231
 sbsa(dp232
 g12
-I01
+I00
 sg13
 (lp233
 I898
@@ -742,7 +742,7 @@ Tiddler
 p234
 (dp235
 g19
-V<<if $i lte 5>>\u000a<<set $restaurantPick = Math.floor(Math.random()*(\u000a$allRestaurants.length-$i))>>\u000a/%Pass <<print $i>>\u000aRestaurant Pick Number = <<print $restaurantPick>>\u000aRestaurants in Pool = \u000a0 <<print $allRestaurants[0].name>>\u000a1 <<print $allRestaurants[1].name>>\u000a2 <<print $allRestaurants[2].name>>\u000a3 <<print $allRestaurants[3].name>>\u000a4 <<print $allRestaurants[4].name>>\u000a5 <<print $allRestaurants[5].name>>\u000a6 <<print $allRestaurants[6].name>>\u000a7 <<print $allRestaurants[7].name>>\u000a8 <<print $allRestaurants[8].name>>\u000a9 <<print $allRestaurants[9].name>>\u000a10 <<print $allRestaurants[10].name>>\u000a11 <<print $allRestaurants[11].name>>\u000a12 <<print $allRestaurants[12].name>>\u000a13 <<print $allRestaurants[13].name>>\u000a14 <<print $allRestaurants[14].name>>\u000a15 <<print $allRestaurants[15].name>>\u000aRestaurant = <<print $allRestaurants[$restaurantPick].name>>\u000aTown = \u000a<<print $town[0].name>>\u000a<<print $town[1].name>>\u000a<<print $town[2].name>>\u000a<<print $town[3].name>>\u000a<<print $town[4].name>>\u000a<<print $town[5].name>>\u000a%/\u000a<<set $town.push($allRestaurants[$restaurantPick])>>\u000a<<set $allRestaurants.splice($restaurantPick,1)>>\u000a<<set $i=$i +1>><<display "Restaurant Picker">>\u000a<<endif>>
+V<<silently>>\u000a<<if $i lte 5>>\u000a<<set $restaurantPick = Math.floor(Math.random()*(\u000a$allRestaurants.length-$i))>>\u000a/%Pass <<print $i>>\u000aRestaurant Pick Number = <<print $restaurantPick>>\u000aRestaurants in Pool = \u000a0 <<print $allRestaurants[0].name>>\u000a1 <<print $allRestaurants[1].name>>\u000a2 <<print $allRestaurants[2].name>>\u000a3 <<print $allRestaurants[3].name>>\u000a4 <<print $allRestaurants[4].name>>\u000a5 <<print $allRestaurants[5].name>>\u000a6 <<print $allRestaurants[6].name>>\u000a7 <<print $allRestaurants[7].name>>\u000a8 <<print $allRestaurants[8].name>>\u000a9 <<print $allRestaurants[9].name>>\u000a10 <<print $allRestaurants[10].name>>\u000a11 <<print $allRestaurants[11].name>>\u000a12 <<print $allRestaurants[12].name>>\u000a13 <<print $allRestaurants[13].name>>\u000a14 <<print $allRestaurants[14].name>>\u000a15 <<print $allRestaurants[15].name>>\u000aRestaurant = <<print $allRestaurants[$restaurantPick].name>>\u000aTown = \u000a<<print $town[0].name>>\u000a<<print $town[1].name>>\u000a<<print $town[2].name>>\u000a<<print $town[3].name>>\u000a<<print $town[4].name>>\u000a<<print $town[5].name>>\u000a%/\u000a<<set $town.push($allRestaurants[$restaurantPick])>>\u000a<<set $allRestaurants.splice($restaurantPick,1)>>\u000a<<set $i=$i +1>><<display "Restaurant Picker">>\u000a<<endif>>\u000a<<endsilently>>
 p236
 sg21
 VRestaurant Picker
@@ -753,8 +753,8 @@ g24
 I5
 I28
 I2
-I50
-I34
+I53
+I26
 I2
 I148
 I1
@@ -779,10 +779,160 @@ tp243
 (dp244
 tp245
 Rp246
+sbsa(dp247
+g12
+I00
+sg13
+(lp248
+F984.0
+aF153.0
+asg15
+(itiddlywiki
+Tiddler
+p249
+(dp250
+g19
+V[[Eat Here]]\u000a[[Walk to the Next Restaurant|Next Restaurant]]\u000a[[Walk to the Previous Restaurant|Previous Restaurant]]\u000a[[Put Names In]]\u000a[[Ask if this is okay with everybody?]]\u000a[[Check Phone]]
+p251
+sg21
+VAction List
+p252
+sg23
+g24
+((I2014
+I5
+I28
+I3
+I11
+I44
+I2
+I148
+I1
+tp253
+(dp254
+tp255
+Rp256
+sg29
+(lp257
+sg31
+g24
+((I2014
+I5
+I28
+I3
+I5
+I18
+I2
+I148
+I1
+tp258
+(dp259
+tp260
+Rp261
+sbsa(dp262
+g12
+I00
+sg13
+(lp263
+F952.0
+aF332.0
+asg15
+(itiddlywiki
+Tiddler
+p264
+(dp265
+g19
+V<<if $currentPosition + 1 lte 5>>\u000a<<set $currentPosition = $currentPosition + 1>>\u000a[[You walk further down the street to the next place.|Restaurant]]<<else>>You come to the crest of a hill and look back at the convention center, shrunk in the distance. You're now on the outskirts of town and only black forest and highway lay ahead for miles. \u000a\u000a[[No one's agreed on the restaurant yet, but they all agree you should head back.|Restaurant]]\u000a<<endif>>
+p266
+sg21
+VNext Restaurant
+p267
+sg23
+g24
+((I2014
+I5
+I28
+I3
+I23
+I36
+I2
+I148
+I1
+tp268
+(dp269
+tp270
+Rp271
+sg29
+(lp272
+sg31
+g24
+((I2014
+I5
+I28
+I3
+I11
+I57
+I2
+I148
+I1
+tp273
+(dp274
+tp275
+Rp276
+sbsa(dp277
+g12
+I01
+sg13
+(lp278
+F1148.0
+aF181.0
+asg15
+(itiddlywiki
+Tiddler
+p279
+(dp280
+g19
+V<<if $currentPosition - 1 gte 0>>\u000a<<set $currentPosition = $currentPosition - 1>>\u000a[[You walk further down the street to the next place.|Restaurant]]<<else>>You have returned to the convention center from whence you started.\u000a\u000a[[No one's agreed on the restaurant yet, but they all agree there won't be any food here until they start serving overpriced pizza slices in the exhibit hall tomorrow afternoon.|Restaurant]]\u000a<<endif>>
+p281
+sg21
+VPrevious Restaurant
+p282
+sg23
+g24
+((I2014
+I5
+I28
+I3
+I26
+I8
+I2
+I148
+I1
+tp283
+(dp284
+tp285
+Rp286
+sg29
+(lp287
+sg31
+g24
+((I2014
+I5
+I28
+I3
+I25
+I0
+I2
+I148
+I1
+tp288
+(dp289
+tp290
+Rp291
 sbsasS'scale'
-p247
+p292
 I1
 sS'snapping'
-p248
+p293
 I00
 ss.

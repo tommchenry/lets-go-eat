@@ -28,10 +28,15 @@ back to the hotel
 build a town ($restaurants)
 
 5/27/2014
-Current Errors in Town Generator
-Can pull 15 (undefined)
-	Can always pull one past the length (e.g. 13 after 2 have been removed)
-	Subtract one from the random draw? 
-Can double restaurants
-Some restaurant draws return blanks? 
+	Current Errors in Town Generator
+	Can pull 15 (undefined)
+		Can always pull one past the length (e.g. 13 after 2 have been removed)
+		Subtract one from the random draw? 
+	Can double restaurants
+	Some restaurant draws return blanks? 
 **All Resolved**
+-Multiple directions to walk from convention center, Town Generator to roll up in
+	2 (3?) directions, so the player + party can backtrack
+-The ability to burn a turn checking a cellphone to get an idea of what's around
+-Price as a factor for higher quality places -- thriftiness/money stat? 
+
