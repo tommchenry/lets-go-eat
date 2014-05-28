@@ -592,7 +592,7 @@ Tiddler
 p189
 (dp190
 g19
-V<<set //initialize\u000a\u000a//Steak\u000a$steak1= {name:"Flanks", quality:1, wait: 0, type:"Steak"};\u000a$steak2= {name:"Shanks", quality:2, wait: 2, type:"Steak"};\u000a$steak3= {name:"Hank's", quality:3, wait: 3, type:"Steak"};\u000a\u000a//Thai\u000a$thai1= {name:"Thai Express", quality:1, wait: 0, type:"Thai"};\u000a$thai2= {name:"Taste of Thai", quality:2, wait: 2, type:"Thai"};\u000a$thai3= {name:"Urban Thai", quality:3, wait: 3, type:"Thai"};\u000a\u000a//Pizza\u000a$pizza1= {name:"Giggle's Pizza", quality:1, wait: 0, type:"Pizza"};\u000a$pizza2= {name:"Daddy John's Pizza", quality:2, wait: 2, type:"Pizza"};\u000a$pizza3= {name:"Noble Rome Pizza", quality:2, wait: 1, type:"Pizza"};\u000a\u000a//Vegetarian\u000a$vegetarian1= {name:"Flanks", quality:1, wait: 0, type:"Vegetarian"};\u000a$vegetarian2= {name:"Shanks", quality:2, wait: 2, type:"Vegetarian"};\u000a$vegetarian3= {name:"Hank's", quality:3, wait: 3, type:"Vegetarian"};\u000a\u000a//Indian\u000a$indian1= {name:"Curried Billy's", quality:1, wait: 0, type:"Indian"};\u000a$indian2= {name:"India Garden", quality:2, wait: 2, type:"Indian"};\u000a$indian3= {name:"India Classic", quality:3, wait: 2, type:"Indian"};\u000a\u000a$allRestaurants=[$steak1, $steak2, $steak3, $tha1, $thai2, $thai3, $pizza1, $pizza2, $pizza3, $vegetarian1, $vegetarian2, $vegetarian3, $indian1, $indian2, $indian3];\u000a>>\u000a
+V<<set //initialize\u000a\u000a//Steak\u000a$steak1= {name:"Flanks", quality:1, wait: 0, type:"Steak"};\u000a$steak2= {name:"Shanks", quality:2, wait: 2, type:"Steak"};\u000a$steak3= {name:"Hank's", quality:3, wait: 3, type:"Steak"};\u000a\u000a//Thai\u000a$thai1= {name:"Thai Express", quality:1, wait: 0, type:"Thai"};\u000a$thai2= {name:"Taste of Thai", quality:2, wait: 2, type:"Thai"};\u000a$thai3= {name:"Urban Thai", quality:3, wait: 3, type:"Thai"};\u000a\u000a//Pizza\u000a$pizza1= {name:"Giggle's Pizza", quality:1, wait: 0, type:"Pizza"};\u000a$pizza2= {name:"Daddy John's Pizza", quality:2, wait: 2, type:"Pizza"};\u000a$pizza3= {name:"Noble Rome Pizza", quality:2, wait: 1, type:"Pizza"};\u000a\u000a//Vegetarian\u000a$vegetarian1= {name:"Salad Twisters", quality:1, wait: 0, type:"Vegetarian"};\u000a$vegetarian2= {name:"Veggi-Express", quality:1, wait: 2, type:"Vegetarian"};\u000a$vegetarian3= {name:"Greenleaf's", quality:2, wait: 3, type:"Vegetarian"};\u000a\u000a//Indian\u000a$indian1= {name:"Curried Billy's", quality:1, wait: 0, type:"Indian"};\u000a$indian2= {name:"India Garden", quality:2, wait: 2, type:"Indian"};\u000a$indian3= {name:"India Classic", quality:3, wait: 2, type:"Indian"};\u000a\u000a$allRestaurants=[$steak1, $steak2, $steak3, $thai1, $thai2, $thai3, $pizza1, $pizza2, $pizza3, $vegetarian1, $vegetarian2, $vegetarian3, $indian1, $indian2, $indian3];\u000a>>\u000a
 p191
 sg21
 VRestaurant Generator
@@ -601,12 +601,12 @@ sg23
 g24
 ((I2014
 I5
-I27
+I28
+I2
+I47
 I17
-I58
-I6
-I1
-I147
+I2
+I148
 I1
 tp193
 (dp194
@@ -642,7 +642,7 @@ Tiddler
 p204
 (dp205
 g19
-V<<display Restaurant Generator>>\u000a<<display Town Generator>>\u000aName1 <<print $allRestaurants[0].name>>\u000aName2<<print $town[1].name>>\u000aName3<<print $town[2].name>>\u000aName4<<print $town[3].name>>\u000aName5<<print $town[4].name>>
+V<<display Restaurant Generator>>\u000a<<display Town Generator>>\u000aName1 <<print $town[0].name>>\u000aName2 <<print $town[1].name>>\u000aName3 <<print $town[2].name>>\u000aName4 <<print $town[3].name>>\u000aName5 <<print $town[4].name>>
 p206
 sg21
 VRestaurant
@@ -653,8 +653,8 @@ g24
 I5
 I27
 I18
-I14
-I5
+I28
+I41
 I1
 I147
 I1
@@ -742,7 +742,7 @@ Tiddler
 p234
 (dp235
 g19
-V<<if $i lte 5>>\u000aPass <<print $i>>\u000a<<set $restaurantPick = Math.floor(Math.random()*$allRestaurants.length) + 1>>\u000aRestaurant Pick Number = <<print $restaurantPick>>\u000a<<set $town.push($allRestaurants[$restaurantPick])>>\u000aRestaurant = <<print $allRestaurants[$restaurantPick].name>>\u000a<<set $allRestaurants.splice($restaurantPick,1)>>\u000a<<set $i=$i +1>><<display "Restaurant Picker">>\u000a<<endif>>
+V<<if $i lte 5>>\u000a<<set $restaurantPick = Math.floor(Math.random()*(\u000a$allRestaurants.length-$i))>>\u000a/%Pass <<print $i>>\u000aRestaurant Pick Number = <<print $restaurantPick>>\u000aRestaurants in Pool = \u000a0 <<print $allRestaurants[0].name>>\u000a1 <<print $allRestaurants[1].name>>\u000a2 <<print $allRestaurants[2].name>>\u000a3 <<print $allRestaurants[3].name>>\u000a4 <<print $allRestaurants[4].name>>\u000a5 <<print $allRestaurants[5].name>>\u000a6 <<print $allRestaurants[6].name>>\u000a7 <<print $allRestaurants[7].name>>\u000a8 <<print $allRestaurants[8].name>>\u000a9 <<print $allRestaurants[9].name>>\u000a10 <<print $allRestaurants[10].name>>\u000a11 <<print $allRestaurants[11].name>>\u000a12 <<print $allRestaurants[12].name>>\u000a13 <<print $allRestaurants[13].name>>\u000a14 <<print $allRestaurants[14].name>>\u000a15 <<print $allRestaurants[15].name>>\u000aRestaurant = <<print $allRestaurants[$restaurantPick].name>>\u000aTown = \u000a<<print $town[0].name>>\u000a<<print $town[1].name>>\u000a<<print $town[2].name>>\u000a<<print $town[3].name>>\u000a<<print $town[4].name>>\u000a<<print $town[5].name>>\u000a%/\u000a<<set $town.push($allRestaurants[$restaurantPick])>>\u000a<<set $allRestaurants.splice($restaurantPick,1)>>\u000a<<set $i=$i +1>><<display "Restaurant Picker">>\u000a<<endif>>
 p236
 sg21
 VRestaurant Picker
@@ -751,12 +751,12 @@ sg23
 g24
 ((I2014
 I5
-I27
-I18
-I20
-I38
-I1
-I147
+I28
+I2
+I50
+I34
+I2
+I148
 I1
 tp238
 (dp239

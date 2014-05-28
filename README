@@ -30,5 +30,8 @@ build a town ($restaurants)
 5/27/2014
 Current Errors in Town Generator
 Can pull 15 (undefined)
+	Can always pull one past the length (e.g. 13 after 2 have been removed)
+	Subtract one from the random draw? 
 Can double restaurants
 Some restaurant draws return blanks? 
+**All Resolved**
