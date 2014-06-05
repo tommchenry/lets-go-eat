@@ -79,7 +79,7 @@ tp34
 Rp35
 sbsa(dp36
 g12
-I00
+I01
 sg13
 (lp37
 I10
@@ -90,7 +90,7 @@ Tiddler
 p38
 (dp39
 g19
-VHerding Cats?
+VLet's Go Eat
 p40
 sg21
 VStoryTitle
@@ -98,13 +98,13 @@ p41
 sg23
 g24
 ((I2014
+I6
 I5
-I23
-I19
-I32
-I22
-I4
-I143
+I5
+I28
+I55
+I3
+I156
 I1
 tp42
 (dp43
@@ -981,7 +981,7 @@ tp305
 Rp306
 sbsa(dp307
 g12
-I01
+I00
 sg13
 (lp308
 F1211.0
@@ -992,7 +992,7 @@ Tiddler
 p309
 (dp310
 g19
-V/%for loop\u000acycle through each friend in friends gang\u000aif secretpref eq currentrestaurant.type + points\u000aif secret hate eq current restaurant.type - points or leave\u000aif hunger gte X and wait gte 1 leave\u000aif quality lte X and pickyness gte 1 leave or - points\u000a%/\u000a<<if $i lte $friends.length - 1>>\u005c\u000a<<if $friends[$i].secretpref eq $town[$currentPosition].type>>\u005c\u000a<<print $friends[$i].name>> says "Hooray!"\u005c\u000a<<set $score = $score + 5>>\u005c\u000a<<else if $friends[$i].secrethate eq $town[$currentPosition].type>>\u005c\u000a<<print $friends[$i].name>> says "Ugh!"\u005c\u000a<<set $score = $score - 3>>\u005c\u000a<<else>>\u005c\u000a<<print $friends[$i].name>> says "Cool."\u005c\u000a<<set $score + $score + 1>>\u005c\u000a<<endif>>\u005c\u000a<<set $i = $i + 1>>\u005c\u000a<<display Point Check>>\u000a<<endif>>
+V/%for loop\u000aif secret hate eq current restaurant.type - points or leave\u000aif hunger gte X and wait gte 1 leave\u000aif quality lte X and pickyness gte 1 leave or - points\u000a%/\u000a<<if $i lte $friends.length - 1>>\u005c\u000a<<if $friends[$i].secretpref eq $town[$currentPosition].type>>\u005c\u000a<<print $friends[$i].name>> says "Hooray!"\u005c\u000a<<set $score = $score + 5>>\u005c\u000a<<else if $friends[$i].secrethate eq $town[$currentPosition].type>>\u005c\u000a<<print $friends[$i].name>> says "Ugh!"\u005c\u000a<<set $score = $score - 3>>\u005c\u000a<<else>>\u005c\u000a<<print $friends[$i].name>> says "Cool."\u005c\u000a<<set $score + $score + 1>>\u005c\u000a<<endif>>\u005c\u000a<<set $i = $i + 1>>\u005c\u000a<<display Point Check>>\u000a<<endif>>
 p311
 sg21
 VPoint Check
@@ -1004,7 +1004,7 @@ I5
 I28
 I6
 I17
-I22
+I58
 I2
 I148
 I1

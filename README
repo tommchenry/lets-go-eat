@@ -42,4 +42,16 @@ build a town ($restaurants)
 -TITLE: I'll Eat Whatever
 -Add .desc to each object for personalized description
 -Add a unique graphic for each restaurant
-
+-Multiplayer Mode: 
+	-Up to 16 diners can be in the group
+	-You get more points if your secret preference is where you eat
+	-You lose more points if your secret hate is where you eat
+	-Cooperative score
+	-No speaking away from game
+	-Dialogue options are all Midwestern nonsense "Hrm." "I guess that's
+fine." "Okay." All things you could read both ways
+	-Wait too long, everyone starves
+	-Multi-day convention mode, too much low-quality food, exasperation
+higher
+	-Exasperation stat, you can up it to gain more power, but too high,
+everybody fights, nobody wins
