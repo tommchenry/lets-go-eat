@@ -63,3 +63,19 @@ everybody fights, nobody wins
 data in this file. Otherwise everything seems to work.
 -Taste spectrum in friend objects? An array of possible restaurants a friend
 might like, then a random pull to set their preference this time? 
+
+6/16/2014
+Added the option to put in names when there's a wait.
+xWait should show up in the description somehow. 
+-Add a min/max wait time to each restaurant? 
+-Intangibles deck to draw after a place is picked -- bad waiter, late food,
+wrong bill, etc.
+-Guy Fieri style chain takes over places in subsequent days, slowly homogenizing
+them all
+-Started work on phone
+-Create a passage that just provides group status inforamtion and the rare
+opportunity for $friends to volunteer information. Run it at each restaurant,
+score check, wait check, phone check, etc. Other events could happen here as
+well
+If there is a wait, actively require the player to push a WAIT action each turn
+after names are put in. This way you can gain/lose people and change your mind.
