@@ -91,3 +91,17 @@ XCreate a routine to run at the end of each turn. Increments hunger, time, etc.
 -Waits that shrink the closer places get to close?
 -Variable close times
 XCreate variable hunger levels
+
+6/24/2014
+-Create a random preference/hate puller
+XRandom Friend Group builder
+	XProblem: After 6 passes, Friend Pick number starts becoming negative,
+can't pick more than 6 friends.RESOLVED
+-Add some text at the beginning that lists the friends coming to dinner with
+you. 
+-$tellerfriend now cycles each turn.
+-Friends can now starve to death.
+-Tombstones? Oregon Trail style? Need a $friends[$i].graveloc, and
+$friends[$i].gravemsg
+-Started basic code for friends leaving. What if you have multiple people who
+die/want to leave at the same time? 
