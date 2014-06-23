@@ -5,7 +5,7 @@ S''
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\Tom\\Dropbox\\Twine\\LetsGoEat\\LetsGoEat.tws'
+VC:\u005cUsers\u005cTom\u005cDropbox\u005cTwine\u005cLetsGoEat\u005cLetsGoEat.tws
 p4
 sS'target'
 p5
@@ -34,7 +34,7 @@ p16
 (dp18
 S'text'
 p19
-V<<display Friend Generator>>\u000a<<silently>>\u000a<<set $friendcount = 10;\u000a$playerhungerlevel = 5; \u000a$time = 0;\u000a$currentPosition = 0;\u000a$score = 0;\u000a$friends = [$Jess, $Eric, $KC, $Holly, $Kate, $Sara, $Phil];\u000a$currgoal = "Vegetarian";\u000a>>\u000a<<endsilently>>\u000aYou are in the lobby of the convention hotel. Everyone is excited to go to dinner but tired and hungry from a long day of working the convention floor. \u000a\u000aCurrently you have <<print $friends.length>> friends who want to eat dinner together. \u000a\u000a\u000a<<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> might want <<print $friends[$tellerfriend].secretpref>>, but only if that's okay with everybody. \u000a\u000a"Does <<print $friends[$tellerfriend].secretpref>> sound good to everybody?" [[you ask.|First Question]]\u000a\u000a[[Debug|Restaurant]]\u000a<<display Restaurant Generator>>\u005c\u000a<<display Town Generator>>
+V<<display Friend Generator>>\u000a<<silently>>\u000a<<set $friendcount = 10;\u000a$playerhungerlevel = Math.floor(Math.random() * 6) + 1; \u000a$time = 0;\u000a$currentPosition = 0;\u000a$score = 0;\u000a$friends = [$Jess, $Eric, $KC, $Holly, $Kate, $Sara, $Phil];\u000a$currgoal = "Vegetarian";\u000a>>\u000a<<endsilently>>\u000aYou are in the lobby of the convention hotel. Everyone is excited to go to dinner but tired and hungry from a long day of working the convention floor. \u000a\u000aCurrently you have <<print $friends.length>> friends who want to eat dinner together. \u000a\u000a\u000a<<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> might want <<print $friends[$tellerfriend].secretpref>>, but only if that's okay with everybody. \u000a\u000a"Does <<print $friends[$tellerfriend].secretpref>> sound good to everybody?" [[you ask.|First Question]]\u000a\u000a[[Debug|Restaurant]]\u000a<<display Restaurant Generator>>\u005c\u000a<<display Town Generator>>
 p20
 sS'title'
 p21
@@ -47,12 +47,12 @@ struct_time
 p24
 ((I2014
 I6
-I16
-I22
-I48
-I54
+I23
 I0
-I167
+I39
+I10
+I0
+I174
 I1
 tp25
 (dp26
@@ -190,7 +190,7 @@ Tiddler
 p68
 (dp69
 g19
-V<<set $Jess = {\u000a	name: "Jess",\u000a	pronoun: "she",\u000a	hungerlevel: 5,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Indian",\u000a	secrethate: "Thai",\u000a}>>\u000a<<set $Eric = {\u000a	name: "Eric",\u000a	pronoun: "he",\u000a	hungerlevel: 5,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Pizza",\u000a	secrethate: "Thai",\u000a}>>\u000a<<set $KC = {\u000a	name: "KC",\u000a	pronoun: "he",\u000a	hungerlevel: 5,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Thai",\u000a	secrethate: "Indian",\u000a}>>\u000a<<set $Holly = {\u000a	name: "Holly",\u000a	pronoun: "she",\u000a	hungerlevel: 5,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Steak",\u000a	secrethate: "Pizza",\u000a}>>\u000a<<set $Kate = {\u000a	name: "Kate",\u000a	pronoun: "she",\u000a	hungerlevel: 5,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Vegetarian",\u000a	secrethate: "Steak",\u000a}>>\u000a<<set $Sara = {\u000a	name: "Sara",\u000a	pronoun: "she",\u000a	hungerlevel: 5,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Vegetarian",\u000a	secrethate: "Steak",\u000a}>>\u000a<<set $Phil = {\u000a	name: "Phil",\u000a	pronoun: "he",\u000a	hungerlevel: 5,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Pizza",\u000a	secrethate: "Vegetarian",\u000a}>>\u000a
+V<<set $Jess = {\u000a	name: "Jess",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Indian",\u000a	secrethate: "Thai",\u000a}>>\u000a<<set $Eric = {\u000a	name: "Eric",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Pizza",\u000a	secrethate: "Thai",\u000a}>>\u000a<<set $KC = {\u000a	name: "KC",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Thai",\u000a	secrethate: "Indian",\u000a}>>\u000a<<set $Holly = {\u000a	name: "Holly",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Steak",\u000a	secrethate: "Pizza",\u000a}>>\u000a<<set $Kate = {\u000a	name: "Kate",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Vegetarian",\u000a	secrethate: "Steak",\u000a}>>\u000a<<set $Sara = {\u000a	name: "Sara",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Vegetarian",\u000a	secrethate: "Steak",\u000a}>>\u000a<<set $Phil = {\u000a	name: "Phil",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Pizza",\u000a	secrethate: "Vegetarian",\u000a}>>\u000a
 p70
 sg21
 VFriend Generator
@@ -199,12 +199,12 @@ sg23
 g24
 ((I2014
 I6
-I16
-I22
-I53
-I32
+I23
 I0
-I167
+I37
+I59
+I0
+I174
 I1
 tp72
 (dp73
@@ -731,7 +731,7 @@ tp230
 Rp231
 sbsa(dp232
 g12
-I00
+I01
 sg13
 (lp233
 I898
@@ -842,7 +842,7 @@ Tiddler
 p264
 (dp265
 g19
-V<<if $currentPosition + 1 lte 5>>\u000a<<set $currentPosition = $currentPosition + 1>>\u000a[[You walk further down the street to the next place.|Restaurant]]<<else>>You come to the crest of a hill and look back at the convention center, shrunk in the distance. You're now on the outskirts of town and only black forest and highway lay ahead for miles. \u000a\u000a[[No one's agreed on the restaurant yet, but they all agree you should head back.|Restaurant]]\u000a<<endif>>\u000a<<set $playerhungerlevel = $playerhungerlevel + 1>>\u000a<<set $time = $time + 1>>
+V<<if $currentPosition + 1 lte 5>>\u000a<<set $currentPosition = $currentPosition + 1>>\u000a[[You walk further down the street to the next place.|Restaurant]]<<else>>You come to the crest of a hill and look back at the convention center, shrunk in the distance. You're now on the outskirts of town and only black forest and highway lay ahead for miles. \u000a\u000a[[No one's agreed on the restaurant yet, but they all agree you should head back.|Restaurant]]\u000a<<endif>>\u000a<<display Time Passer>>
 p266
 sg21
 VNext Restaurant
@@ -850,13 +850,13 @@ p267
 sg23
 g24
 ((I2014
-I5
+I6
+I23
+I0
+I20
 I28
-I5
-I45
-I19
-I2
-I148
+I0
+I174
 I1
 tp268
 (dp269
@@ -892,7 +892,7 @@ Tiddler
 p279
 (dp280
 g19
-V<<if $currentPosition - 1 gte 0>>\u000a<<set $currentPosition = $currentPosition - 1>>\u000a[[You walk further down the street to the next place.|Restaurant]]<<else>>You have returned to the convention center from whence you started.\u000a\u000a[[No one's agreed on the restaurant yet, but they all agree there won't be any food here until they start serving overpriced pizza slices in the exhibit hall tomorrow afternoon.|Restaurant]]\u000a<<endif>>\u000a<<set $playerhungerlevel = $playerhungerlevel + 1>>\u000a<<set $time = $time + 1>>
+V<<if $currentPosition - 1 gte 0>>\u000a<<set $currentPosition = $currentPosition - 1>>\u000a[[You walk further down the street to the next place.|Restaurant]]<<else>>You have returned to the convention center from whence you started.\u000a\u000a[[No one's agreed on the restaurant yet, but they all agree there won't be any food here until they start serving overpriced pizza slices in the exhibit hall tomorrow afternoon.|Restaurant]]\u000a<<endif>>\u000a<<display Time Passer>>
 p281
 sg21
 VPrevious Restaurant
@@ -900,13 +900,13 @@ p282
 sg23
 g24
 ((I2014
-I5
-I28
-I5
-I45
-I24
-I2
-I148
+I6
+I23
+I0
+I21
+I52
+I0
+I174
 I1
 tp283
 (dp284
@@ -1129,10 +1129,110 @@ tp348
 (dp349
 tp350
 Rp351
+sbsa(dp352
+g12
+I00
+sg13
+(lp353
+F1313.0
+aF460.0
+asg15
+(itiddlywiki
+Tiddler
+p354
+(dp355
+g19
+V<<set $playerhungerlevel = $playerhungerlevel + 1>>\u000a<<set $time = $time + 1>>\u000a<<set $i = 0>>\u000a<<display Everyone Gets Hungrier>>
+p356
+sg21
+VTime Passer
+p357
+sg23
+g24
+((I2014
+I6
+I23
+I0
+I22
+I26
+I0
+I174
+I1
+tp358
+(dp359
+tp360
+Rp361
+sg29
+(lp362
+sg31
+g24
+((I2014
+I6
+I23
+I0
+I18
+I58
+I0
+I174
+I1
+tp363
+(dp364
+tp365
+Rp366
+sbsa(dp367
+g12
+I00
+sg13
+(lp368
+F1455.0
+aF294.0
+asg15
+(itiddlywiki
+Tiddler
+p369
+(dp370
+g19
+V<<if $i lte $friends.length - 1>>\u005c\u000a<<set $friends[$i].hungerlevel = $friends[$i].hungerlevel + 1>>\u005c\u000a<<if $friends[$i].hungerlevel gte 8>>\u005c\u000a<<print $friends[$i].name>> needs food badly.\u000a<<endif>>\u005c\u000a/%<<print $friends[$i].name>>: <<print $friends[$i].hungerlevel>>%/\u000a<<set $i = $i + 1>>\u005c\u000a<<display Everyone Gets Hungrier>>\u005c\u000a<<endif>>\u005c
+p371
+sg21
+VEveryone Gets Hungrier
+p372
+sg23
+g24
+((I2014
+I6
+I23
+I0
+I41
+I24
+I0
+I174
+I1
+tp373
+(dp374
+tp375
+Rp376
+sg29
+(lp377
+sg31
+g24
+((I2014
+I6
+I23
+I0
+I22
+I36
+I0
+I174
+I1
+tp378
+(dp379
+tp380
+Rp381
 sbsasS'scale'
-p352
+p382
 I1
 sS'snapping'
-p353
+p383
 I00
 ss.

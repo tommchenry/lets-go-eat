@@ -79,3 +79,15 @@ score check, wait check, phone check, etc. Other events could happen here as
 well
 If there is a wait, actively require the player to push a WAIT action each turn
 after names are put in. This way you can gain/lose people and change your mind.
+
+
+6/19/2014
+-Option to tweet your final score screen. "We went out for X, Y friends died
+along the way, but I scored Z points." #LetsGoEat
+
+6/23/2014
+-Weather? 
+XCreate a routine to run at the end of each turn. Increments hunger, time, etc.
+-Waits that shrink the closer places get to close?
+-Variable close times
+XCreate variable hunger levels
