@@ -5,7 +5,7 @@ S''
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\tmchenry\\Desktop\\Dropbox\\Twine\\LetsGoEat\\LetsGoEat.tws'
+VC:\u005cUsers\u005ctmchenry\u005cDesktop\u005cDropbox\u005cTwine\u005cLetsGoEat\u005cLetsGoEat.tws
 p4
 sS'metadata'
 p5
@@ -584,7 +584,7 @@ tp187
 Rp188
 sbsa(dp189
 g14
-I00
+I01
 sg15
 (lp190
 F702.25
@@ -595,7 +595,7 @@ Tiddler
 p191
 (dp192
 g21
-V<<set //initialize\u000a\u000a//Steak\u000a$steak1= {name:"Flanks", quality:1, wait: 0, type:"Steak"};\u000a$steak2= {name:"Shanks", quality:2, wait: 2, type:"Steak"};\u000a$steak3= {name:"Hank's", quality:3, wait: 3, type:"Steak"};\u000a\u000a//Thai\u000a$thai1= {name:"Thai Express", quality:1, wait: 0, type:"Thai", image:"[img[ThaiLow]]"};\u000a$thai2= {name:"Taste of Thai", quality:2, wait: 2, type:"Thai"};\u000a$thai3= {name:"Urban Thai", quality:3, wait: 3, type:"Thai"};\u000a\u000a//Pizza\u000a$pizza1= {name:"Giggle's Pizza", quality:1, wait: 0, type:"Pizza", image:"[img[PizzaLow]]"};\u000a$pizza2= {name:"Daddy John's Pizza", quality:2, wait: 2, type:"Pizza"};\u000a$pizza3= {name:"Noble Rome Pizza", quality:2, wait: 1, type:"Pizza"};\u000a\u000a//Vegetarian\u000a$vegetarian1= {name:"Salad Twisters", quality:1, wait: 0, type:"Vegetarian"};\u000a$vegetarian2= {name:"Veggi-Express", quality:1, wait: 2, type:"Vegetarian"};\u000a$vegetarian3= {name:"Greenleaf's", quality:2, wait: 3, type:"Vegetarian"};\u000a\u000a//Indian\u000a$indian1= {name:"Curried Billy's", quality:1, wait: 0, type:"Indian"};\u000a$indian2= {name:"India Garden", quality:2, wait: 2, type:"Indian"};\u000a$indian3= {name:"India Classic", quality:3, wait: 2, type:"Indian"};\u000a\u000a$allRestaurants=[$steak1, $steak2, $steak3, $thai1, $thai2, $thai3, $pizza1, $pizza2, $pizza3, $vegetarian1, $vegetarian2, $vegetarian3, $indian1, $indian2, $indian3];\u000a>>\u000a
+V<<set //initialize\u000a\u000a//Steak\u000a$steak1= {name:"Flanks", quality:1, wait: 0, type:"Steak"};\u000a$steak2= {name:"Shanks", quality:2, wait: 2, type:"Steak"};\u000a$steak3= {name:"Hank's", quality:3, wait: 3, type:"Steak"};\u000a\u000a//Thai\u000a$thai1= {name:"Thai Express", quality:1, wait: 0, type:"Thai", image:"[img[ThaiLow]]"};\u000a$thai2= {name:"Taste of Thai", quality:2, wait: 2, type:"Thai"};\u000a$thai3= {name:"Urban Thai", quality:3, wait: 3, type:"Thai"};\u000a\u000a//Pizza\u000a$pizza1= {name:"Giggle's Pizza", quality:1, wait: 0, type:"Pizza", image:"[img[PizzaLow]]"};\u000a$pizza2= {name:"Daddy John's Pizza", quality:2, wait: 2, type:"Pizza"};\u000a$pizza3= {name:"Noble Rome Pizza", quality:2, wait: 1, type:"Pizza"};\u000a\u000a//Vegetarian\u000a$vegetarian1= {name:"Salad Twisters", quality:1, wait: 0, type:"Vegetarian", image:"[img[VegetarianLow]]"};\u000a$vegetarian2= {name:"Veggi-Express", quality:1, wait: 2, type:"Vegetarian"};\u000a$vegetarian3= {name:"Greenleaf's", quality:2, wait: 3, type:"Vegetarian"};\u000a\u000a//Indian\u000a$indian1= {name:"Curried Billy's", quality:1, wait: 0, type:"Indian"};\u000a$indian2= {name:"India Garden", quality:2, wait: 2, type:"Indian"};\u000a$indian3= {name:"India Classic", quality:3, wait: 2, type:"Indian"};\u000a\u000a$allRestaurants=[$steak1, $steak2, $steak3, $thai1, $thai2, $thai3, $pizza1, $pizza2, $pizza3, $vegetarian1, $vegetarian2, $vegetarian3, $indian1, $indian2, $indian3];\u000a>>\u000a
 p193
 sg23
 VRestaurant Generator
@@ -604,12 +604,12 @@ sg25
 g26
 ((I2014
 I6
-I24
-I21
-I4
-I16
-I1
-I175
+I25
+I14
+I18
+I26
+I2
+I176
 I1
 tp195
 (dp196
@@ -737,8 +737,8 @@ g14
 I00
 sg15
 (lp235
-I898
-aI32
+F898.0
+aF32.0
 asg17
 (itiddlywiki
 Tiddler
@@ -1395,7 +1395,7 @@ Tiddler
 p431
 (dp432
 g21
-V<<set $intangibleDraw = Math.floor(Math.random() * 20) + 1;>>\u000a<<if $intangible draw eq 1>>You have to ask three times for your food, the waiter bursts into tears. When the food finally comes out, it's cold. The waiter forgets about you. - 10<<set $score = $score-10>><<endif>>\u000a<<if $intangible draw eq 2>><<endif>>\u000a<<if $intangible draw eq 3>><<endif>>\u000a<<if $intangible draw eq 4>><<endif>>\u000a<<if $intangible draw eq 5>><<endif>>\u000a<<if $intangible draw eq 6>><<endif>>\u000a<<if $intangible draw eq 7>><<endif>>\u000a<<if $intangible draw eq 8>><<endif>>\u000a<<if $intangible draw eq 9>><<endif>>\u000a<<if $intangible draw eq 10>><<endif>>\u000a<<if $intangible draw eq 11>><<endif>>\u000a<<if $intangible draw eq 12>><<endif>>\u000a<<if $intangible draw eq 13>><<endif>>\u000a<<if $intangible draw eq 14>><<endif>>\u000a<<if $intangible draw eq 15>><<endif>>\u000a<<if $intangible draw eq 16>><<endif>>\u000a<<if $intangible draw eq 17>><<endif>>\u000a<<if $intangible draw eq 18>><<endif>>\u000a<<if $intangible draw eq 19>><<endif>>\u000a<<if $intangible draw eq 20>><<endif>>\u000a
+V/%Parts of a dining experience\u000aFood\u000aService\u000aAtmosphere\u000aPerceived Value\u000a%/\u000a<<set $intangibleDraw = Math.floor(Math.random() * 20) + 1;>>\u000a<<if $intangible draw eq 1>>You have to ask three times for your food, the waiter bursts into tears. When the food finally comes out, it's cold. The waiter forgets about you. - 10<<set $score = $score-10>><<endif>>\u000a<<if $intangible draw eq 2>><<endif>>\u000a<<if $intangible draw eq 3>><<endif>>\u000a<<if $intangible draw eq 4>><<endif>>\u000a<<if $intangible draw eq 5>><<endif>>\u000a<<if $intangible draw eq 6>><<endif>>\u000a<<if $intangible draw eq 7>><<endif>>\u000a<<if $intangible draw eq 8>><<endif>>\u000a<<if $intangible draw eq 9>><<endif>>\u000a<<if $intangible draw eq 10>><<endif>>\u000a<<if $intangible draw eq 11>><<endif>>\u000a<<if $intangible draw eq 12>><<endif>>\u000a<<if $intangible draw eq 13>><<endif>>\u000a<<if $intangible draw eq 14>><<endif>>\u000a<<if $intangible draw eq 15>><<endif>>\u000a<<if $intangible draw eq 16>><<endif>>\u000a<<if $intangible draw eq 17>><<endif>>\u000a<<if $intangible draw eq 18>><<endif>>\u000a<<if $intangible draw eq 19>><<endif>>\u000a<<if $intangible draw eq 20>><<endif>>\u000a
 p433
 sg23
 VIntangibles Draw
@@ -1404,12 +1404,12 @@ sg25
 g26
 ((I2014
 I6
-I23
+I25
 I4
-I40
-I19
-I0
-I174
+I7
+I48
+I2
+I176
 I1
 tp435
 (dp436
@@ -1528,8 +1528,8 @@ g14
 I00
 sg15
 (lp473
-F404.5
-aF723.5
+F267.0
+aF798.5
 asg17
 (itiddlywiki
 Tiddler
@@ -1561,10 +1561,49 @@ sg31
 g455
 asg33
 g481
+sbsa(dp483
+g14
+I00
+sg15
+(lp484
+F264.5
+aF677.25
+asg17
+(itiddlywiki
+Tiddler
+p485
+(dp486
+g21
+Vdata:image/png;base64,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
+p487
+sg23
+VVegetarianLow
+p488
+sg25
+g26
+((I2014
+I6
+I25
+I14
+I17
+I37
+I2
+I176
+I1
+tp489
+(dp490
+tp491
+Rp492
+sg31
+(lp493
+S'Twine.image'
+p494
+asg33
+g492
 sbsasS'scale'
-p483
+p495
 F0.8
 sS'snapping'
-p484
+p496
 I00
 ss.
