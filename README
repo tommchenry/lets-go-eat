@@ -113,3 +113,11 @@ die/want to leave at the same time?
 conversation, but the music is really loud, the place is crowded, the food came
 out cold and the waiter left mid-shift."
 -Let players name starting friend group?
+-Create an array of variables that will allow numbers 1-9 to display as text
+instead of numbers.
+-Redoing the intangibles to consider restaurant quality
+-Disaster deck? Option for restaurant to catch on fire, open sewage, glass in
+the food, etc.
+-Redo "needs food badly" to pull the names, append 'and' then add the "need food
+badly"?
+

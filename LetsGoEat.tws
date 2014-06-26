@@ -5,49 +5,46 @@ S''
 p2
 sS'saveDestination'
 p3
-VC:\u005cUsers\u005ctmchenry\u005cDesktop\u005cDropbox\u005cTwine\u005cLetsGoEat\u005cLetsGoEat.tws
+S'C:\\Users\\Tom\\Dropbox\\Twine\\LetsGoEat\\LetsGoEat.tws'
 p4
-sS'metadata'
-p5
-(dp6
 sS'target'
-p7
+p5
 S'sugarcane'
-p8
+p6
 sS'storyPanel'
-p9
-(dp10
+p7
+(dp8
 S'widgets'
-p11
-(lp12
-(dp13
+p9
+(lp10
+(dp11
 S'selected'
-p14
+p12
 I00
 sS'pos'
-p15
-(lp16
+p13
+(lp14
 F35.0
 aF10.0
 asS'passage'
-p17
+p15
 (itiddlywiki
 Tiddler
-p18
-(dp20
+p16
+(dp18
 S'text'
-p21
+p19
 V<<silently>>\u000a<<display Friend Generator>>\u000a<<display Group Picker>>\u000a<<set \u000a$playerhungerlevel = Math.floor(Math.random() * 6) + 1; \u000a$tellerfriend = Math.floor(Math.random() * $friends.length); \u000a$time = 0;\u000a$currentPosition = 0;\u000a$score = 0;\u000a$currgoal = "Vegetarian";\u000a>>\u000a<<endsilently>>\u000a\u000aYou are in the lobby of the convention hotel. Everyone is excited to go to dinner but tired and hungry from a long day of working the convention floor. \u000a\u000aCurrently you have <<print $friends.length>> friends who want to eat dinner together. \u000a\u000a<<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> might want <<print $friends[$tellerfriend].secretpref>>, but only if that's okay with everybody. \u000a\u000a"Does <<print $friends[$tellerfriend].secretpref>> sound good to everybody?" [[you ask.|First Question]]\u000a\u000a[[Debug|Restaurant]]\u000a<<display Restaurant Generator>>\u005c\u000a<<display Town Generator>>
-p22
+p20
 sS'title'
-p23
+p21
 VStart
-p24
+p22
 sS'modified'
-p25
+p23
 ctime
 struct_time
-p26
+p24
 ((I2014
 I6
 I24
@@ -57,16 +54,16 @@ I8
 I1
 I175
 I1
+tp25
+(dp26
 tp27
-(dp28
-tp29
-Rp30
+Rp28
 sS'tags'
-p31
-(lp32
+p29
+(lp30
 sS'created'
-p33
-g26
+p31
+g24
 ((I2014
 I5
 I23
@@ -76,30 +73,30 @@ I18
 I4
 I143
 I1
+tp32
+(dp33
 tp34
-(dp35
-tp36
-Rp37
-sbsa(dp38
-g14
+Rp35
+sbsa(dp36
+g12
 I00
-sg15
-(lp39
+sg13
+(lp37
 I10
 aI150
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p40
-(dp41
-g21
+p38
+(dp39
+g19
 VLet's Go Eat
-p42
-sg23
+p40
+sg21
 VStoryTitle
-p43
-sg25
-g26
+p41
+sg23
+g24
 ((I2014
 I6
 I5
@@ -109,14 +106,14 @@ I55
 I3
 I156
 I1
+tp42
+(dp43
 tp44
-(dp45
-tp46
-Rp47
+Rp45
+sg29
+(lp46
 sg31
-(lp48
-sg33
-g26
+g24
 ((I2014
 I5
 I23
@@ -126,30 +123,30 @@ I19
 I4
 I143
 I1
+tp47
+(dp48
 tp49
-(dp50
-tp51
-Rp52
-sbsa(dp53
-g14
+Rp50
+sbsa(dp51
+g12
 I00
-sg15
-(lp54
+sg13
+(lp52
 I10
 aI291
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p55
-(dp56
-g21
+p53
+(dp54
+g19
 Vtommchenry
-p57
-sg23
+p55
+sg21
 VStoryAuthor
-p58
-sg25
-g26
+p56
+sg23
+g24
 ((I2014
 I5
 I23
@@ -159,14 +156,14 @@ I31
 I4
 I143
 I1
+tp57
+(dp58
 tp59
-(dp60
-tp61
-Rp62
+Rp60
+sg29
+(lp61
 sg31
-(lp63
-sg33
-g26
+g24
 ((I2014
 I5
 I23
@@ -176,30 +173,30 @@ I19
 I4
 I143
 I1
+tp62
+(dp63
 tp64
-(dp65
-tp66
-Rp67
-sbsa(dp68
-g14
+Rp65
+sbsa(dp66
+g12
 I00
-sg15
-(lp69
+sg13
+(lp67
 F254.5
 aF193.25
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p70
-(dp71
-g21
+p68
+(dp69
+g19
 V<<set //initialize \u000a\u000a$Jess = {\u000a	name: "Jess",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Indian",\u000a	secrethate: "Thai",\u000a};\u000a\u000a$Eric = {\u000a	name: "Eric",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Pizza",\u000a	secrethate: "Thai",\u000a};\u000a\u000a$KC = {\u000a	name: "KC",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Thai",\u000a	secrethate: "Indian",\u000a};\u000a\u000a$Holly = {\u000a	name: "Holly",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Steak",\u000a	secrethate: "Pizza",\u000a}\u000a\u000a$Kate = {\u000a	name: "Kate",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Vegetarian",\u000a	secrethate: "Steak",\u000a};\u000a\u000a$Sara = {\u000a	name: "Sara",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Vegetarian",\u000a	secrethate: "Steak",\u000a};\u000a\u000a$Phil = {\u000a	name: "Phil",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Pizza",\u000a	secrethate: "Vegetarian",\u000a};\u000a\u000a$Tony = {\u000a	name: "Tony",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Vegetarian",\u000a	secrethate: "Pizza",\u000a};\u000a\u000a$Beck = {\u000a	name: "Beck",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Steak",\u000a	secrethate: "Vegetarian",\u000a};\u000a\u000a$Adelaide = {\u000a	name: "Adelaide",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Indian",\u000a	secrethate: "Thai",\u000a};\u000a\u000a$Karla = {\u000a	name: "Karla",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Pizza",\u000a	secrethate: "Vegetarian",\u000a};\u000a\u000a$Daniel = {\u000a	name: "Daniel",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Pizza",\u000a	secrethate: "Vegetarian",\u000a};\u000a\u000a$Anne = {\u000a	name: "Anne",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Pizza",\u000a	secrethate: "Vegetarian",\u000a};\u000a\u000a$Catie = {\u000a	name: "Catie",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: 0,\u000a	money: 3,\u000a	secretpref: "Thai",\u000a	secrethate: "Indian",\u000a};\u000a\u000a$allFriends=[$Jess, $Eric, $KC, $Holly, $Kate, $Sara, $Phil,$Tony,$Beck,$Adelaide,$Karla,$Daniel,$Anne,$Catie];\u000a$deadFriends=[];\u000a>>
-p72
-sg23
+p70
+sg21
 VFriend Generator
-p73
-sg25
-g26
+p71
+sg23
+g24
 ((I2014
 I6
 I22
@@ -209,14 +206,14 @@ I11
 I6
 I173
 I1
+tp72
+(dp73
 tp74
-(dp75
-tp76
-Rp77
+Rp75
+sg29
+(lp76
 sg31
-(lp78
-sg33
-g26
+g24
 ((I2014
 I5
 I23
@@ -226,30 +223,30 @@ I46
 I4
 I143
 I1
+tp77
+(dp78
 tp79
-(dp80
-tp81
-Rp82
-sbsa(dp83
-g14
+Rp80
+sbsa(dp81
+g12
 I00
-sg15
-(lp84
+sg13
+(lp82
 F374.0
 aF12.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p85
-(dp86
-g21
+p83
+(dp84
+g19
 VNo one else says anything.\u000a\u000aAre you okay with going for <<print $friends[$tellerfriend].secretpref>>?\u000a\u000a[[Sure, that's fine.|First Yes]]\u000a[[Eh, I'd rather eat something else|First No]]
-p87
-sg23
+p85
+sg21
 VFirst Question
-p88
-sg25
-g26
+p86
+sg23
+g24
 ((I2014
 I5
 I23
@@ -259,14 +256,14 @@ I48
 I4
 I143
 I1
+tp87
+(dp88
 tp89
-(dp90
-tp91
-Rp92
+Rp90
+sg29
+(lp91
 sg31
-(lp93
-sg33
-g26
+g24
 ((I2014
 I5
 I23
@@ -276,30 +273,30 @@ I8
 I4
 I143
 I1
+tp92
+(dp93
 tp94
-(dp95
-tp96
-Rp97
-sbsa(dp98
-g14
+Rp95
+sbsa(dp96
+g12
 I00
-sg15
-(lp99
+sg13
+(lp97
 F414.0
 aF152.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p100
-(dp101
-g21
+p98
+(dp99
+g19
 V<<set $currgoal = $friends[$tellerfriend].secretpref>>\u000a"Alright, well let's get <<print $currgoal>>, I guess?" You say with a carefully considered lack of any force.\u000a\u000a[[Leave to Eat|Leave to Eat]]
-p102
-sg23
+p100
+sg21
 VFirst Yes
-p103
-sg25
-g26
+p101
+sg23
+g24
 ((I2014
 I5
 I24
@@ -309,14 +306,14 @@ I28
 I5
 I144
 I1
+tp102
+(dp103
 tp104
-(dp105
-tp106
-Rp107
+Rp105
+sg29
+(lp106
 sg31
-(lp108
-sg33
-g26
+g24
 ((I2014
 I5
 I23
@@ -326,30 +323,30 @@ I51
 I4
 I143
 I1
+tp107
+(dp108
 tp109
-(dp110
-tp111
-Rp112
-sbsa(dp113
-g14
+Rp110
+sbsa(dp111
+g12
 I00
-sg15
-(lp114
+sg13
+(lp112
 I505
 aI10
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p115
-(dp116
-g21
+p113
+(dp114
+g19
 VYou'd rather not have <<print $friends[$tellerfriend].secretpref>> tonight. \u000a\u000a"I think I might like <<cyclinglink $currgoal "Pizza" "Steak" "Thai" "Indian" "Vegetarian">> instead, [[but only if that's okay with everybody?"|First No 2]]
-p117
-sg23
+p115
+sg21
 VFirst No
-p118
-sg25
-g26
+p116
+sg23
+g24
 ((I2014
 I5
 I24
@@ -359,14 +356,14 @@ I59
 I5
 I144
 I1
+tp117
+(dp118
 tp119
-(dp120
-tp121
-Rp122
+Rp120
+sg29
+(lp121
 sg31
-(lp123
-sg33
-g26
+g24
 ((I2014
 I5
 I23
@@ -376,30 +373,30 @@ I0
 I4
 I143
 I1
+tp122
+(dp123
 tp124
-(dp125
-tp126
-Rp127
-sbsa(dp128
-g14
+Rp125
+sbsa(dp126
+g12
 I00
-sg15
-(lp129
+sg13
+(lp127
 F19.0
 aF434.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p130
-(dp131
-g21
+p128
+(dp129
+g19
 Vversion.extensions.cyclinglinkMacro={major:3,minor:3,revision:0};\u000amacros.cyclinglink={handler:function(a,b,c){var rl="cyclingLink";\u000afunction toggleText(w){w.classList.remove("cyclingLinkInit");\u000aw.classList.toggle(rl+"Enabled");w.classList.toggle(rl+"Disabled");\u000aw.style.display=((w.style.display=="none")?"inline":"none")}switch(c[c.length-1]){case"end":var end=true;\u000ac.pop();break;case"out":var out=true;c.pop();break}var v="";if(c.length&&c[0][0]=="$"){v=c[0].slice(1);\u000ac.shift()}var h=state.history[0].variables;if(out&&h[v]===""){return\u000a}var l=Wikifier.createInternalLink(a,null);l.className="internalLink cyclingLink";\u000al.setAttribute("data-cycle",0);for(var i=0;i<c.length;i++){var on=(i==Math.max(c.indexOf(h[v]),0));\u000avar d=insertElement(null,"span",null,"cyclingLinkInit cyclingLink"+((on)?"En":"Dis")+"abled");\u000aif(on){h[v]=c[i];l.setAttribute("data-cycle",i)}else{d.style.display="none"\u000a}insertText(d,c[i]);if(on&&end&&i==c.length-1){l.parentNode.replaceChild(d,l)\u000a}else{l.appendChild(d)}}l.onclick=function(){var t=this.childNodes;\u000avar u=this.getAttribute("data-cycle")-0;var m=t.length;toggleText(t[u]);\u000au=(u+1);if(!(out&&u==m)){u%=m;if(v){h[v]=c[u]}}else{h[v]=""}if((end||out)&&u==m-(end?1:0)){if(end){var n=this.removeChild(t[u]);\u000an.className=rl+"End";n.style.display="inline";this.parentNode.replaceChild(n,this)\u000a}else{this.parentNode.removeChild(this);return}return}toggleText(t[u]);\u000athis.setAttribute("data-cycle",u)}}};
-p132
-sg23
+p130
+sg21
 VCycling Link
-p133
-sg25
-g26
+p131
+sg23
+g24
 ((I2014
 I5
 I23
@@ -409,16 +406,16 @@ I7
 I4
 I143
 I1
+tp132
+(dp133
 tp134
-(dp135
-tp136
-Rp137
-sg31
-(lp138
+Rp135
+sg29
+(lp136
 Vscript
-p139
-asg33
-g26
+p137
+asg31
+g24
 ((I2014
 I5
 I23
@@ -428,30 +425,30 @@ I0
 I4
 I143
 I1
+tp138
+(dp139
 tp140
-(dp141
-tp142
-Rp143
-sbsa(dp144
-g14
+Rp141
+sbsa(dp142
+g12
 I00
-sg15
-(lp145
+sg13
+(lp143
 I661
 aI182
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p146
-(dp147
-g21
+p144
+(dp145
+g19
 V<<set $tellerfriend = Math.floor(Math.random()*$friends.length)>>\u000a<<if $friends[$tellerfriend].secrethate eq $currgoal>>\u000a<<print $friends[$tellerfriend].name>> says, "Oooh, I'm just not feeling <<print $currgoal>> tonight, if that's okay."\u000a\u000a"That's fine," you say, [[I'll have whatever. I was just thinking out loud."|First No 3]]\u000a<<else>>\u000a"<<print $currgoal>> is fine with me, I guess," <<print $friends[$tellerfriend].name>> says with a shrug. "I mean, I'll eat whatever."\u000a<<endif>>\u000aNo one else says anything. \u000a\u000a[[Leave to Eat]]
-p148
-sg23
+p146
+sg21
 VFirst No 2
-p149
-sg25
-g26
+p147
+sg23
+g24
 ((I2014
 I5
 I24
@@ -461,14 +458,14 @@ I47
 I5
 I144
 I1
+tp148
+(dp149
 tp150
-(dp151
-tp152
-Rp153
+Rp151
+sg29
+(lp152
 sg31
-(lp154
-sg33
-g26
+g24
 ((I2014
 I5
 I23
@@ -478,30 +475,30 @@ I34
 I4
 I143
 I1
+tp153
+(dp154
 tp155
-(dp156
-tp157
-Rp158
-sbsa(dp159
-g14
+Rp156
+sbsa(dp157
+g12
 I00
-sg15
-(lp160
+sg13
+(lp158
 I637
 aI362
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p161
-(dp162
-g21
+p159
+(dp160
+g19
 VSo <<print $friends[$tellerfriend].name>> doesn't want <<print $currgoal>>. \u000a\u000a"How about <<cyclinglink $currgoal "Pizza" "Steak" "Thai" "Indian">> instead, [[but only if that's okay with everybody?"|First No 2]]
-p163
-sg23
+p161
+sg21
 VFirst No 3
-p164
-sg25
-g26
+p162
+sg23
+g24
 ((I2014
 I5
 I23
@@ -511,14 +508,14 @@ I9
 I4
 I143
 I1
+tp163
+(dp164
 tp165
-(dp166
-tp167
-Rp168
+Rp166
+sg29
+(lp167
 sg31
-(lp169
-sg33
-g26
+g24
 ((I2014
 I5
 I23
@@ -528,30 +525,30 @@ I18
 I4
 I143
 I1
+tp168
+(dp169
 tp170
-(dp171
-tp172
-Rp173
-sbsa(dp174
-g14
+Rp171
+sbsa(dp172
+g12
 I00
-sg15
-(lp175
+sg13
+(lp173
 I462
 aI294
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p176
-(dp177
-g21
+p174
+(dp175
+g19
 VYou are at the doors of the convention center. \u000a\u000aRight now, it sounds like you're going to get <<print $currgoal>>, but only if that's what everybody wants. \u000a\u000a[[Walk to first restaurant|Restaurant]]\u000a
-p178
-sg23
+p176
+sg21
 VLeave to Eat
-p179
-sg25
-g26
+p177
+sg23
+g24
 ((I2014
 I5
 I28
@@ -561,14 +558,14 @@ I22
 I2
 I148
 I1
+tp178
+(dp179
 tp180
-(dp181
-tp182
-Rp183
+Rp181
+sg29
+(lp182
 sg31
-(lp184
-sg33
-g26
+g24
 ((I2014
 I5
 I24
@@ -578,30 +575,30 @@ I34
 I5
 I144
 I1
+tp183
+(dp184
 tp185
-(dp186
-tp187
-Rp188
-sbsa(dp189
-g14
-I01
-sg15
-(lp190
+Rp186
+sbsa(dp187
+g12
+I00
+sg13
+(lp188
 F702.25
 aF5.25
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p191
-(dp192
-g21
+p189
+(dp190
+g19
 V<<set //initialize\u000a\u000a//Steak\u000a$steak1= {name:"Flanks", quality:1, wait: 0, type:"Steak"};\u000a$steak2= {name:"Shanks", quality:2, wait: 2, type:"Steak"};\u000a$steak3= {name:"Hank's", quality:3, wait: 3, type:"Steak"};\u000a\u000a//Thai\u000a$thai1= {name:"Thai Express", quality:1, wait: 0, type:"Thai", image:"[img[ThaiLow]]"};\u000a$thai2= {name:"Taste of Thai", quality:2, wait: 2, type:"Thai"};\u000a$thai3= {name:"Urban Thai", quality:3, wait: 3, type:"Thai"};\u000a\u000a//Pizza\u000a$pizza1= {name:"Giggle's Pizza", quality:1, wait: 0, type:"Pizza", image:"[img[PizzaLow]]"};\u000a$pizza2= {name:"Daddy John's Pizza", quality:2, wait: 2, type:"Pizza"};\u000a$pizza3= {name:"Noble Rome Pizza", quality:2, wait: 1, type:"Pizza"};\u000a\u000a//Vegetarian\u000a$vegetarian1= {name:"Salad Twisters", quality:1, wait: 0, type:"Vegetarian", image:"[img[VegetarianLow]]"};\u000a$vegetarian2= {name:"Veggi-Express", quality:1, wait: 2, type:"Vegetarian"};\u000a$vegetarian3= {name:"Greenleaf's", quality:2, wait: 3, type:"Vegetarian"};\u000a\u000a//Indian\u000a$indian1= {name:"Curried Billy's", quality:1, wait: 0, type:"Indian"};\u000a$indian2= {name:"India Garden", quality:2, wait: 2, type:"Indian"};\u000a$indian3= {name:"India Classic", quality:3, wait: 2, type:"Indian"};\u000a\u000a$allRestaurants=[$steak1, $steak2, $steak3, $thai1, $thai2, $thai3, $pizza1, $pizza2, $pizza3, $vegetarian1, $vegetarian2, $vegetarian3, $indian1, $indian2, $indian3];\u000a>>\u000a
-p193
-sg23
+p191
+sg21
 VRestaurant Generator
-p194
-sg25
-g26
+p192
+sg23
+g24
 ((I2014
 I6
 I25
@@ -611,14 +608,14 @@ I26
 I2
 I176
 I1
+tp193
+(dp194
 tp195
-(dp196
-tp197
-Rp198
+Rp196
+sg29
+(lp197
 sg31
-(lp199
-sg33
-g26
+g24
 ((I2014
 I5
 I24
@@ -628,30 +625,30 @@ I37
 I5
 I144
 I1
+tp198
+(dp199
 tp200
-(dp201
-tp202
-Rp203
-sbsa(dp204
-g14
+Rp201
+sbsa(dp202
+g12
 I00
-sg15
-(lp205
+sg13
+(lp203
 F1143.0
 aF357.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p206
-(dp207
-g21
+p204
+(dp205
+g19
 V<<print $town[$currentPosition].image>>\u000a\u000aTown:\u000aName1 <<print $town[0].name>>\u000aName2 <<print $town[1].name>>\u000aName3 <<print $town[2].name>>\u000aName4 <<print $town[3].name>>\u000aName5 <<print $town[4].name>>\u000aName6 <<print $town[5].name>>\u000aHunger <<print $playerhungerlevel>>\u000aTime <<print $time>>\u000a\u000aRight now it kind of sounds like everybody wants <<print $currgoal>>. You walk to <<print $town[$currentPosition].name>>. It is a <<print $town[$currentPosition].type>> restaurant. <<if $town[$currentPosition].quality eq 1>>It looks a little rundown. You might have to get the food to go.<<endif>><<if $town[$currentPosition].quality eq 2>>This looks pretty good, for convention food.<<endif>><<if $town[$currentPosition].quality eq 3>>This place looks really nice, but it might be a little pricey for some people.<<endif>> <<if $town[$currentPosition].wait eq 0>>There's no line. You can walk in and get food right now.<<endif>><<if $town[$currentPosition].wait eq 1>>It looks like there are just a few people waiting in the lobby.<<endif>><<if $town[$currentPosition].wait eq 2>>The lobby is sort of crowded, you'd have to slide past people to even get in the door.<<endif>><<if $town[$currentPosition].wait eq 3>>The lobby is so full, groups are waiting outside. The idle hungry are leaning against the walls and thumbing their smartphones on benches.<<endif>>\u000a\u000a<<display Action List>>
-p208
-sg23
+p206
+sg21
 VRestaurant
-p209
-sg25
-g26
+p207
+sg23
+g24
 ((I2014
 I6
 I24
@@ -661,14 +658,14 @@ I28
 I1
 I175
 I1
+tp208
+(dp209
 tp210
-(dp211
-tp212
-Rp213
+Rp211
+sg29
+(lp212
 sg31
-(lp214
-sg33
-g26
+g24
 ((I2014
 I5
 I26
@@ -678,30 +675,30 @@ I1
 I0
 I146
 I1
+tp213
+(dp214
 tp215
-(dp216
-tp217
-Rp218
-sbsa(dp219
-g14
+Rp216
+sbsa(dp217
+g12
 I00
-sg15
-(lp220
+sg13
+(lp218
 I850
 aI199
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p221
-(dp222
-g21
+p219
+(dp220
+g19
 V<<set $i=0;\u000a//empty town\u000a$town=[];\u000a>>\u000a<<display Restaurant Picker>>\u000a
-p223
-sg23
+p221
+sg21
 VTown Generator
-p224
-sg25
-g26
+p222
+sg23
+g24
 ((I2014
 I5
 I28
@@ -711,14 +708,14 @@ I4
 I2
 I148
 I1
+tp223
+(dp224
 tp225
-(dp226
-tp227
-Rp228
+Rp226
+sg29
+(lp227
 sg31
-(lp229
-sg33
-g26
+g24
 ((I2014
 I5
 I27
@@ -728,30 +725,30 @@ I9
 I1
 I147
 I1
+tp228
+(dp229
 tp230
-(dp231
-tp232
-Rp233
-sbsa(dp234
-g14
+Rp231
+sbsa(dp232
+g12
 I00
-sg15
-(lp235
+sg13
+(lp233
 F898.0
 aF32.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p236
-(dp237
-g21
+p234
+(dp235
+g19
 V<<silently>>\u000a<<if $i lte 5>>\u000a<<set $restaurantPick = Math.floor(Math.random()*(\u000a$allRestaurants.length-$i))>>\u000a/%Pass <<print $i>>\u000aRestaurant Pick Number = <<print $restaurantPick>>\u000aRestaurants in Pool = \u000a0 <<print $allRestaurants[0].name>>\u000a1 <<print $allRestaurants[1].name>>\u000a2 <<print $allRestaurants[2].name>>\u000a3 <<print $allRestaurants[3].name>>\u000a4 <<print $allRestaurants[4].name>>\u000a5 <<print $allRestaurants[5].name>>\u000a6 <<print $allRestaurants[6].name>>\u000a7 <<print $allRestaurants[7].name>>\u000a8 <<print $allRestaurants[8].name>>\u000a9 <<print $allRestaurants[9].name>>\u000a10 <<print $allRestaurants[10].name>>\u000a11 <<print $allRestaurants[11].name>>\u000a12 <<print $allRestaurants[12].name>>\u000a13 <<print $allRestaurants[13].name>>\u000a14 <<print $allRestaurants[14].name>>\u000a15 <<print $allRestaurants[15].name>>\u000aRestaurant = <<print $allRestaurants[$restaurantPick].name>>\u000aTown = \u000a<<print $town[0].name>>\u000a<<print $town[1].name>>\u000a<<print $town[2].name>>\u000a<<print $town[3].name>>\u000a<<print $town[4].name>>\u000a<<print $town[5].name>>\u000a%/\u000a<<set $town.push($allRestaurants[$restaurantPick])>>\u000a<<set $allRestaurants.splice($restaurantPick,1)>>\u000a<<set $i=$i +1>><<display "Restaurant Picker">>\u000a<<endif>>\u000a<<endsilently>>
-p238
-sg23
+p236
+sg21
 VRestaurant Picker
-p239
-sg25
-g26
+p237
+sg23
+g24
 ((I2014
 I5
 I28
@@ -761,14 +758,14 @@ I26
 I2
 I148
 I1
+tp238
+(dp239
 tp240
-(dp241
-tp242
-Rp243
+Rp241
+sg29
+(lp242
 sg31
-(lp244
-sg33
-g26
+g24
 ((I2014
 I5
 I27
@@ -778,30 +775,30 @@ I31
 I1
 I147
 I1
+tp243
+(dp244
 tp245
-(dp246
-tp247
-Rp248
-sbsa(dp249
-g14
+Rp246
+sbsa(dp247
+g12
 I00
-sg15
-(lp250
-F996.0
-aF166.0
-asg17
+sg13
+(lp248
+F1007.6666666666664
+aF214.33333333333337
+asg15
 (itiddlywiki
 Tiddler
-p251
-(dp252
-g21
+p249
+(dp250
+g19
 V[[Eat Here]]\u000a[[Walk to the Next Restaurant|Next Restaurant]]\u000a[[Walk to the Previous Restaurant|Previous Restaurant]]\u000a<<if $town[$currentPosition].wait gte 1>>Wait Time: <<print $town[$currentPosition].wait>><br>[[Put Names In]]<<endif>>\u000a[[Take a Vote]]\u000a[[Check Phone]]
-p253
-sg23
+p251
+sg21
 VAction List
-p254
-sg25
-g26
+p252
+sg23
+g24
 ((I2014
 I6
 I16
@@ -811,14 +808,14 @@ I39
 I0
 I167
 I1
+tp253
+(dp254
 tp255
-(dp256
-tp257
-Rp258
+Rp256
+sg29
+(lp257
 sg31
-(lp259
-sg33
-g26
+g24
 ((I2014
 I5
 I28
@@ -828,30 +825,30 @@ I18
 I2
 I148
 I1
+tp258
+(dp259
 tp260
-(dp261
-tp262
-Rp263
-sbsa(dp264
-g14
+Rp261
+sbsa(dp262
+g12
 I00
-sg15
-(lp265
+sg13
+(lp263
 F933.0
 aF405.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p266
-(dp267
-g21
+p264
+(dp265
+g19
 V<<if $currentPosition + 1 lte 5>>\u000a<<set $currentPosition = $currentPosition + 1>>\u000a[[You walk further down the street to the next place.|Restaurant]]<<else>>You come to the crest of a hill and look back at the convention center, shrunk in the distance. You're now on the outskirts of town and only black forest and highway lay ahead for miles. \u000a\u000a[[No one's agreed on the restaurant yet, but they all agree you should head back.|Restaurant]]\u000a<<endif>>\u000a<<display Time Passer>>
-p268
-sg23
+p266
+sg21
 VNext Restaurant
-p269
-sg25
-g26
+p267
+sg23
+g24
 ((I2014
 I6
 I23
@@ -861,14 +858,14 @@ I28
 I0
 I174
 I1
+tp268
+(dp269
 tp270
-(dp271
-tp272
-Rp273
+Rp271
+sg29
+(lp272
 sg31
-(lp274
-sg33
-g26
+g24
 ((I2014
 I5
 I28
@@ -878,30 +875,30 @@ I57
 I2
 I148
 I1
+tp273
+(dp274
 tp275
-(dp276
-tp277
-Rp278
-sbsa(dp279
-g14
+Rp276
+sbsa(dp277
+g12
 I00
-sg15
-(lp280
+sg13
+(lp278
 F1195.0
 aF168.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p281
-(dp282
-g21
+p279
+(dp280
+g19
 V<<if $currentPosition - 1 gte 0>>\u000a<<set $currentPosition = $currentPosition - 1>>\u000a[[You walk further down the street to the next place.|Restaurant]]<<else>>You have returned to the convention center from whence you started.\u000a\u000a[[No one's agreed on the restaurant yet, but they all agree there won't be any food here until they start serving overpriced pizza slices in the exhibit hall tomorrow afternoon.|Restaurant]]\u000a<<endif>>\u000a<<display Time Passer>>
-p283
-sg23
+p281
+sg21
 VPrevious Restaurant
-p284
-sg25
-g26
+p282
+sg23
+g24
 ((I2014
 I6
 I23
@@ -911,14 +908,14 @@ I52
 I0
 I174
 I1
+tp283
+(dp284
 tp285
-(dp286
-tp287
-Rp288
+Rp286
+sg29
+(lp287
 sg31
-(lp289
-sg33
-g26
+g24
 ((I2014
 I5
 I28
@@ -928,30 +925,30 @@ I0
 I2
 I148
 I1
+tp288
+(dp289
 tp290
-(dp291
-tp292
-Rp293
-sbsa(dp294
-g14
+Rp291
+sbsa(dp292
+g12
 I00
-sg15
-(lp295
+sg13
+(lp293
 F1037.0
 aF5.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p296
-(dp297
-g21
+p294
+(dp295
+g19
 V<<set $i = 0>>\u000a<<set $score = 0>>\u000a<<print $town[$currentPosition].name>>\u000a<<display Point Check>>\u000aYou'll probably score about <<print $score>> points for eating here. \u000aAre You Sure You Want to Eat Here?\u000a[[Confirm|Eat Here Confirm]]\u000a[[Keep Looking|Restaurant]]
-p298
-sg23
+p296
+sg21
 VEat Here
-p299
-sg25
-g26
+p297
+sg23
+g24
 ((I2014
 I6
 I22
@@ -961,14 +958,14 @@ I45
 I6
 I173
 I1
+tp298
+(dp299
 tp300
-(dp301
-tp302
-Rp303
+Rp301
+sg29
+(lp302
 sg31
-(lp304
-sg33
-g26
+g24
 ((I2014
 I5
 I28
@@ -978,30 +975,30 @@ I35
 I2
 I148
 I1
+tp303
+(dp304
 tp305
-(dp306
-tp307
-Rp308
-sbsa(dp309
-g14
+Rp306
+sbsa(dp307
+g12
 I00
-sg15
-(lp310
+sg13
+(lp308
 F1211.0
 aF2.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p311
-(dp312
-g21
+p309
+(dp310
+g19
 V/%for loop\u000aif secret hate eq current restaurant.type - points or leave\u000aif hunger gte X and wait gte 1 leave\u000aif quality lte X and pickyness gte 1 leave or - points\u000a%/\u000a<<if $i lte $friends.length - 1>>\u005c\u000a<<if $friends[$i].secretpref eq $town[$currentPosition].type>>\u005c\u000a<<print $friends[$i].name>> says "Hooray!"\u005c\u000a<<set $score = $score + 5>>\u005c\u000a<<else if $friends[$i].secrethate eq $town[$currentPosition].type>>\u005c\u000a<<print $friends[$i].name>> says "Ugh!"\u005c\u000a<<set $score = $score - 3>>\u005c\u000a<<else>>\u005c\u000a<<print $friends[$i].name>> says "Cool."\u005c\u000a<<set $score + $score + 1>>\u005c\u000a<<endif>>\u005c\u000a<<set $i = $i + 1>>\u005c\u000a<<display Point Check>>\u000a<<endif>>
-p313
-sg23
+p311
+sg21
 VPoint Check
-p314
-sg25
-g26
+p312
+sg23
+g24
 ((I2014
 I6
 I16
@@ -1011,14 +1008,14 @@ I32
 I0
 I167
 I1
+tp313
+(dp314
 tp315
-(dp316
-tp317
-Rp318
+Rp316
+sg29
+(lp317
 sg31
-(lp319
-sg33
-g26
+g24
 ((I2014
 I5
 I28
@@ -1028,30 +1025,30 @@ I10
 I2
 I148
 I1
+tp318
+(dp319
 tp320
-(dp321
-tp322
-Rp323
-sbsa(dp324
-g14
+Rp321
+sbsa(dp322
+g12
 I00
-sg15
-(lp325
-F1360.0
-aF139.0
-asg17
+sg13
+(lp323
+F1365.0000000000002
+aF80.66666666666661
+asg15
 (itiddlywiki
 Tiddler
-p326
-(dp327
-g21
+p324
+(dp325
+g19
 VGAME OVER\u000a\u000a/%\u000a+\u000aPeople who secretly wanted this\u000aIf this was the group goal\u000aIntangibles\u000a-\u000aPeople who secretly hated this\u000aPeople who spent more money than they expected\u000aPeople who were angry and poor company\u000aPeople who were picky and didn't like the food\u000aPeople who starved to death\u000aPeople who left\u000aIf you ate poor quality food\u000aIf you ate food you didn't want\u000aIntangibles\u000a%/\u000a<<display Intangibles Draw>>\u000a<<set $score = 0>>\u000a<<set $i = 0>>\u000a<<display Point Check>>\u000aYour Final Score: <<print  $score>>
-p328
-sg23
+p326
+sg21
 VEat Here Confirm
-p329
-sg25
-g26
+p327
+sg23
+g24
 ((I2014
 I6
 I23
@@ -1061,14 +1058,14 @@ I3
 I0
 I174
 I1
+tp328
+(dp329
 tp330
-(dp331
-tp332
-Rp333
+Rp331
+sg29
+(lp332
 sg31
-(lp334
-sg33
-g26
+g24
 ((I2014
 I6
 I16
@@ -1078,30 +1075,30 @@ I27
 I0
 I167
 I1
+tp333
+(dp334
 tp335
-(dp336
-tp337
-Rp338
-sbsa(dp339
-g14
+Rp336
+sbsa(dp337
+g12
 I00
-sg15
-(lp340
+sg13
+(lp338
 F1309.0
 aF326.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p341
-(dp342
-g21
+p339
+(dp340
+g19
 VThe reception isn't great out here, so it takes a few minutes.\u000a\u000a<<if $currentPosition eq 5>>\u000a"Looks like that's about it, sorry everybody."\u000a<<endif>>\u000a<<if $currentPosition eq 4>>\u000a"Looks like there's a <<$town[5].type>> place not too far from here, but that's pretty much it."\u000a<<endif>>\u000a<<if $currentPosition lt 4>>\u000a"Okay, it looks like there's a <<$town[$currentPosition+1].type>> place not too far from here. Oh, and there's <<$town[$currentPosition+2].name>>, if that sounds good to anybody?"\u000a<<endif>>\u000a[[Nobody volunteers any new information.|Restaurant]]
-p343
-sg23
+p341
+sg21
 VCheck Phone
-p344
-sg25
-g26
+p342
+sg23
+g24
 ((I2014
 I6
 I16
@@ -1111,14 +1108,14 @@ I51
 I0
 I167
 I1
+tp343
+(dp344
 tp345
-(dp346
-tp347
-Rp348
+Rp346
+sg29
+(lp347
 sg31
-(lp349
-sg33
-g26
+g24
 ((I2014
 I6
 I16
@@ -1128,30 +1125,30 @@ I12
 I0
 I167
 I1
+tp348
+(dp349
 tp350
-(dp351
-tp352
-Rp353
-sbsa(dp354
-g14
+Rp351
+sbsa(dp352
+g12
 I00
-sg15
-(lp355
+sg13
+(lp353
 F1313.0
 aF460.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p356
-(dp357
-g21
+p354
+(dp355
+g19
 V<<set $playerhungerlevel = $playerhungerlevel + 1>>\u000a<<set $time = $time + 1>>\u000a<<set $i = 0;\u000a$tellerfriend = Math.floor(Math.random() * $friends.length);>> \u000a<<display Everyone Gets Hungrier>>\u000a
-p358
-sg23
+p356
+sg21
 VTime Passer
-p359
-sg25
-g26
+p357
+sg23
+g24
 ((I2014
 I6
 I22
@@ -1161,14 +1158,14 @@ I4
 I6
 I173
 I1
+tp358
+(dp359
 tp360
-(dp361
-tp362
-Rp363
+Rp361
+sg29
+(lp362
 sg31
-(lp364
-sg33
-g26
+g24
 ((I2014
 I6
 I23
@@ -1178,30 +1175,30 @@ I58
 I0
 I174
 I1
+tp363
+(dp364
 tp365
-(dp366
-tp367
-Rp368
-sbsa(dp369
-g14
+Rp366
+sbsa(dp367
+g12
 I00
-sg15
-(lp370
+sg13
+(lp368
 F1516.0
 aF370.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p371
-(dp372
-g21
+p369
+(dp370
+g19
 V<<if $i lte $friends.length - 1>>/%Roll to determine if they get more hunger%/<<set $hungerDice = Math.floor(Math.random() * 6) + 1>><<if $hungerDice lte 3>><<set $friends[$i].hungerlevel = $friends[$i].hungerlevel + 1>><<endif>>/%Display messages if they are hungry past a certain point%/<<if $friends[$i].hungerlevel gte 8>><<if $friends[$i].hungerlevel lt 10>><<print $friends[$i].name>> needs food badly.<br><<else>>/%Need to add code for friend to leave.%//%Starvation code%/<<if $friends[$i].hungerlevel lt 12>><<print $friends[$i].name>> is just going to go to one of the places you already passed, if that's okay?<br><<else>><<print $friends[$i].name>> has starved to death.<br><<set $deadFriends.push($friends[$i])>><<set $friends.splice($i,1)>><<endif>><<endif>><<endif>>/%<<print $friends[$i].name>>: <<print $friends[$i].hungerlevel>>%/<<set $i = $i + 1>><<display Everyone Gets Hungrier>><<endif>>
-p373
-sg23
+p371
+sg21
 VEveryone Gets Hungrier
-p374
-sg25
-g26
+p372
+sg23
+g24
 ((I2014
 I6
 I22
@@ -1211,14 +1208,14 @@ I3
 I6
 I173
 I1
+tp373
+(dp374
 tp375
-(dp376
-tp377
-Rp378
+Rp376
+sg29
+(lp377
 sg31
-(lp379
-sg33
-g26
+g24
 ((I2014
 I6
 I23
@@ -1228,30 +1225,30 @@ I36
 I0
 I174
 I1
+tp378
+(dp379
 tp380
-(dp381
-tp382
-Rp383
-sbsa(dp384
-g14
+Rp381
+sbsa(dp382
+g12
 I00
-sg15
-(lp385
+sg13
+(lp383
 F182.5
 aF375.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p386
-(dp387
-g21
+p384
+(dp385
+g19
 VGroup Picker Runs\u000a<<set $i=0;\u000a$groupSize=6+(Math.floor(Math.random()*5))+1;\u000a//empty friend group\u000a$friends=[];\u000a>>\u000a<<display Friend Picker>>
-p388
-sg23
+p386
+sg21
 VGroup Picker
-p389
-sg25
-g26
+p387
+sg23
+g24
 ((I2014
 I6
 I22
@@ -1261,14 +1258,14 @@ I29
 I6
 I173
 I1
+tp388
+(dp389
 tp390
-(dp391
-tp392
-Rp393
+Rp391
+sg29
+(lp392
 sg31
-(lp394
-sg33
-g26
+g24
 ((I2014
 I6
 I22
@@ -1278,30 +1275,30 @@ I11
 I6
 I173
 I1
+tp393
+(dp394
 tp395
-(dp396
-tp397
-Rp398
-sbsa(dp399
-g14
+Rp396
+sbsa(dp397
+g12
 I00
-sg15
-(lp400
+sg13
+(lp398
 F467.0
 aF418.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p401
-(dp402
-g21
+p399
+(dp400
+g19
 V<<if $i lte $groupSize>>\u000a<<set $friendPick = Math.floor(Math.random()*(\u000a$allFriends.length))>>\u000aPass <<print $i>>\u000aFriend Pick Number = <<print $friendPick>>\u000a/% Restaurants in Pool = \u000a0 <<print $allRestaurants[0].name>>\u000a1 <<print $allRestaurants[1].name>>\u000a2 <<print $allRestaurants[2].name>>\u000a3 <<print $allRestaurants[3].name>>\u000a4 <<print $allRestaurants[4].name>>\u000a5 <<print $allRestaurants[5].name>>\u000a6 <<print $allRestaurants[6].name>>\u000a7 <<print $allRestaurants[7].name>>\u000a8 <<print $allRestaurants[8].name>>\u000a9 <<print $allRestaurants[9].name>>\u000a10 <<print $allRestaurants[10].name>>\u000a11 <<print $allRestaurants[11].name>>\u000a12 <<print $allRestaurants[12].name>>\u000a13 <<print $allRestaurants[13].name>>\u000a14 <<print $allRestaurants[14].name>>\u000a15 <<print $allRestaurants[15].name>>\u000aRestaurant = <<print $allRestaurants[$restaurantPick].name>>\u000aTown = \u000a<<print $town[0].name>>\u000a<<print $town[1].name>>\u000a<<print $town[2].name>>\u000a<<print $town[3].name>>\u000a<<print $town[4].name>>\u000a<<print $town[5].name>>\u000a%/\u000a<<set $friends.push($allFriends[$friendPick])>>\u000a<<set $allFriends.splice($friendPick,1)>>\u000a<<set $i=$i +1>><<display "Friend Picker">>\u000a<<endif>>
-p403
-sg23
+p401
+sg21
 VFriend Picker
-p404
-sg25
-g26
+p402
+sg23
+g24
 ((I2014
 I6
 I22
@@ -1311,14 +1308,14 @@ I26
 I6
 I173
 I1
+tp403
+(dp404
 tp405
-(dp406
-tp407
-Rp408
+Rp406
+sg29
+(lp407
 sg31
-(lp409
-sg33
-g26
+g24
 ((I2014
 I6
 I22
@@ -1328,30 +1325,30 @@ I13
 I6
 I173
 I1
+tp408
+(dp409
 tp410
-(dp411
-tp412
-Rp413
-sbsa(dp414
-g14
+Rp411
+sbsa(dp412
+g12
 I00
-sg15
-(lp415
+sg13
+(lp413
 F478.5
 aF601.75
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p416
-(dp417
-g21
+p414
+(dp415
+g19
 V<<print $groupSize>>\u000a<<print $friends[0].name>>\u000a<<print $friends[1].name>>\u000a<<print $friends[2].name>>\u000a<<print $friends[3].name>>\u000a<<print $friends[4].name>>\u000a<<print $friends[5].name>>\u000a<<print $friends[6].name>>\u000a<<print $friends[7].name>>\u000a<<print $friends[8].name>>\u000a<<print $friends[9].name>>\u000a<<print $friends[10].name>>\u000a<<print $friends[11].name>>\u000a<<print $friends[12].name>>\u000a<<print $friends[13].name>>\u000a
-p418
-sg23
+p416
+sg21
 VFriend Picker Debug
-p419
-sg25
-g26
+p417
+sg23
+g24
 ((I2014
 I6
 I22
@@ -1361,14 +1358,14 @@ I6
 I6
 I173
 I1
+tp418
+(dp419
 tp420
-(dp421
-tp422
-Rp423
+Rp421
+sg29
+(lp422
 sg31
-(lp424
-sg33
-g26
+g24
 ((I2014
 I6
 I22
@@ -1378,47 +1375,47 @@ I50
 I6
 I173
 I1
+tp423
+(dp424
 tp425
-(dp426
-tp427
-Rp428
-sbsa(dp429
-g14
+Rp426
+sbsa(dp427
+g12
 I00
-sg15
-(lp430
-F1528.0
-aF175.75
-asg17
+sg13
+(lp428
+F1586.3333333333335
+aF92.41666666666669
+asg15
 (itiddlywiki
 Tiddler
+p429
+(dp430
+g19
+V/%Parts of a dining experience\u000aFood\u000aService\u000aAtmosphere\u000aPerceived Value/The Bill\u000aMaybe each is determined separately? \u000aFood 1d6+quality of restaurant (for example)\u000aThis incentivizes going to better restaurants, makes you want to pay the penalty for it being more expensive\u000aDisaster Rolls? \u000a%/\u000a<<set $foodDraw = Math.floor(Math.random() * 4) + $town[$currentPosition].quality>>\u005c\u000aFood Quality: <<print $foodDraw>>\u005c\u000aOld Score: <<print $score>>\u005c\u000a<<set $score = $score + $foodDraw>>\u005c\u000aNew Score: <<print $score>>\u000a<<if $foodDraw eq 0>>The food is terrible.<<endif>><<if $foodDraw eq 1>>The food is really bad.<<endif>><<if $foodDraw eq 2>>The food is not great<<endif>><<if $foodDraw eq 3>>The food is pretty good.<<endif>><<if $foodDraw eq 4>>The food is great.<<endif>><<if $foodDraw eq 5>>The food is spectacular.<<endif>><<if $foodDraw eq 6>>It's one of the best meals you've ever eaten.<<endif>>\u000a\u000a<<set $serviceDraw = Math.floor(Math.random() * 4) + $town[$currentPosition].quality>>\u005c\u000aService Quality: <<print $serviceDraw>>\u000aOld Score: <<print $score>>\u005c\u000a<<set $score = $score + $serviceDraw>>\u000aNew Score: <<print $score>>\u000a\u000a<<if $serviceDraw eq 0>>Your server ignores your table, then screams at you when you ask for water.<<endif>><<if $serviceDraw eq 1>>Your server is constantly rolling his eyes at you.<<endif>><<if $serviceDraw eq 2>>Your server<<endif>><<if $serviceDraw eq 3>>Your server is nothing special.<<endif>><<if $serviceDraw eq 4>>Your server is over-attentive and chatty. It's fine.<<endif>><<if $serviceDraw eq 5>>Your server tells a few bawdy jokes, flirts easily with all members of your party, and wins a smile from even the most cynical among you.<<endif>><<if $serviceDraw eq 6>>Your server seems to appear whenever needed, is charming, is so wholly capable as to redefine the concept of service.<<endif>>\u000a\u000a<<set $atmosphereDraw = Math.floor(Math.random()*4) + $town[$currentPosition].quality>>\u000aAtmosphere Quality: <<print $atmosphereDraw>>\u000aOld Score: <<print $score>>\u005c\u000a<<set $score = $score + $atmosphereDraw>>\u000aNew Score: <<print $score>>\u000a\u000a\u000a<<set $billDraw = Math.floor(Math.random()*4) + $town[$currentPosition].quality>>\u000aBill Quality: <<print $billDraw>>\u000aOld Score: <<print $score>>\u005c\u000a<<set $score = $score + $billDraw>>\u000aNew Score: <<print $score>>\u000a\u000a<<if $billDraw eq 0>>They can't split the bill correctly, so you offer to put it on your credit card. <<endif>>\u000a<<if $billDraw eq 1>><<endif>>\u000a<<if $billDraw eq 2>><<endif>>\u000a<<if $billDraw eq 3>><<endif>>\u000a<<if $billDraw eq 4>><<endif>>\u000a<<if $billDraw eq 5>><<endif>>\u000a<<if $billDraw eq 6>><<endif>>
 p431
-(dp432
-g21
-V/%Parts of a dining experience\u000aFood\u000aService\u000aAtmosphere\u000aPerceived Value\u000a%/\u000a<<set $intangibleDraw = Math.floor(Math.random() * 20) + 1;>>\u000a<<if $intangible draw eq 1>>You have to ask three times for your food, the waiter bursts into tears. When the food finally comes out, it's cold. The waiter forgets about you. - 10<<set $score = $score-10>><<endif>>\u000a<<if $intangible draw eq 2>><<endif>>\u000a<<if $intangible draw eq 3>><<endif>>\u000a<<if $intangible draw eq 4>><<endif>>\u000a<<if $intangible draw eq 5>><<endif>>\u000a<<if $intangible draw eq 6>><<endif>>\u000a<<if $intangible draw eq 7>><<endif>>\u000a<<if $intangible draw eq 8>><<endif>>\u000a<<if $intangible draw eq 9>><<endif>>\u000a<<if $intangible draw eq 10>><<endif>>\u000a<<if $intangible draw eq 11>><<endif>>\u000a<<if $intangible draw eq 12>><<endif>>\u000a<<if $intangible draw eq 13>><<endif>>\u000a<<if $intangible draw eq 14>><<endif>>\u000a<<if $intangible draw eq 15>><<endif>>\u000a<<if $intangible draw eq 16>><<endif>>\u000a<<if $intangible draw eq 17>><<endif>>\u000a<<if $intangible draw eq 18>><<endif>>\u000a<<if $intangible draw eq 19>><<endif>>\u000a<<if $intangible draw eq 20>><<endif>>\u000a
-p433
-sg23
+sg21
 VIntangibles Draw
-p434
-sg25
-g26
+p432
+sg23
+g24
 ((I2014
 I6
-I25
-I4
-I7
-I48
-I2
-I176
+I26
+I3
+I20
+I45
+I3
+I177
 I1
+tp433
+(dp434
 tp435
-(dp436
-tp437
-Rp438
+Rp436
+sg29
+(lp437
 sg31
-(lp439
-sg33
-g26
+g24
 ((I2014
 I6
 I23
@@ -1428,30 +1425,30 @@ I18
 I0
 I174
 I1
+tp438
+(dp439
 tp440
-(dp441
-tp442
-Rp443
-sbsa(dp444
-g14
+Rp441
+sbsa(dp442
+g12
 I00
-sg15
-(lp445
+sg13
+(lp443
 F264.5
 aF555.5
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p446
-(dp447
-g21
+p444
+(dp445
+g19
 Vdata:image/png;base64,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
-p448
-sg23
+p446
+sg21
 VPizzaLow
-p449
-sg25
-g26
+p447
+sg23
+g24
 ((I2014
 I6
 I24
@@ -1461,36 +1458,36 @@ I34
 I1
 I175
 I1
+tp448
+(dp449
 tp450
-(dp451
-tp452
-Rp453
-sg31
-(lp454
+Rp451
+sg29
+(lp452
 S'Twine.image'
-p455
-asg33
-g453
-sbsa(dp456
-g14
+p453
+asg31
+g451
+sbsa(dp454
+g12
 I00
-sg15
-(lp457
+sg13
+(lp455
 F33.75
 aF558.75
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p458
-(dp459
-g21
+p456
+(dp457
+g19
 V/* Your story will use the CSS in this passage to style the page.\u000aGive this passage more tags, and it will only affect passages with those tags.\u000aExample selectors: */\u000a\u000ahtml, body, div, span, applet, object, iframe,\u000ah1, h2, h3, h4, h5, h6, p, blockquote, pre,\u000aa, abbr, acronym, address, big, cite, code,\u000adel, dfn, em, img, ins, kbd, q, s, samp,\u000asmall, strike, strong, sub, sup, tt, var,\u000ab, u, i, center,\u000adl, dt, dd, ol, ul, li,\u000afieldset, form, label, legend,\u000atable, caption, tbody, tfoot, thead, tr, th, td,\u000aarticle, aside, canvas, details, embed, \u000afigure, figcaption, footer, header, hgroup, \u000amenu, nav, output, ruby, section, summary,\u000atime, mark, audio, video {\u000a	margin: 0;\u000a	padding: 0;\u000a	border: 0;\u000a	font-size: 100%;\u000a	font: inherit;\u000a	vertical-align: baseline;\u000a}\u000a/* HTML5 display-role reset for older browsers */\u000aarticle, aside, details, figcaption, figure, \u000afooter, header, hgroup, menu, nav, section {\u000a	display: block;\u000a}\u000abody {\u000a	line-height: 1;\u000a}\u000aol, ul {\u000a	list-style: none;\u000a}\u000ablockquote, q {\u000a	quotes: none;\u000a}\u000ablockquote:before, blockquote:after,\u000aq:before, q:after {\u000a	content: '';\u000a	content: none;\u000a}\u000atable {\u000a	border-collapse: collapse;\u000a	border-spacing: 0;\u000a}\u000a\u000a/*Actual Stylesheet */\u000a\u000abody {\u000a	/* This affects the entire page */\u000a	background: #424254;\u000a	margin: 0;\u000a	padding: 0;\u000a	\u000a	\u000a}\u000a.passage {\u000a	/* This only affects passages */\u000a	border:none;\u000a	width: 100%;\u000a	\u000a}\u000a.passage a {\u000a	/* This affects passage links */\u000a	\u000a	\u000a}\u000a.passage a:hover {\u000a	/* This affects links while the cursor is over them */\u000a	\u000a	\u000a}\u000a\u000a#sidebar{\u000adisplay:none;\u000a}\u000a#passages{\u000amargin-left: 0em;\u000a}
-p460
-sg23
+p458
+sg21
 VMain Stylesheet
-p461
-sg25
-g26
+p459
+sg23
+g24
 ((I2014
 I6
 I24
@@ -1500,16 +1497,16 @@ I52
 I1
 I175
 I1
+tp460
+(dp461
 tp462
-(dp463
-tp464
-Rp465
-sg31
-(lp466
+Rp463
+sg29
+(lp464
 Vstylesheet
-p467
-asg33
-g26
+p465
+asg31
+g24
 ((I2014
 I6
 I24
@@ -1519,30 +1516,30 @@ I25
 I1
 I175
 I1
+tp466
+(dp467
 tp468
-(dp469
-tp470
-Rp471
-sbsa(dp472
-g14
+Rp469
+sbsa(dp470
+g12
 I00
-sg15
-(lp473
+sg13
+(lp471
 F267.0
 aF798.5
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p474
-(dp475
-g21
+p472
+(dp473
+g19
 Vdata:image/png;base64,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
-p476
-sg23
+p474
+sg21
 VThaiLow
-p477
-sg25
-g26
+p475
+sg23
+g24
 ((I2014
 I6
 I24
@@ -1552,35 +1549,35 @@ I32
 I1
 I175
 I1
+tp476
+(dp477
 tp478
-(dp479
-tp480
-Rp481
-sg31
-(lp482
-g455
-asg33
-g481
-sbsa(dp483
-g14
+Rp479
+sg29
+(lp480
+g453
+asg31
+g479
+sbsa(dp481
+g12
 I00
-sg15
-(lp484
+sg13
+(lp482
 F264.5
 aF677.25
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p485
-(dp486
-g21
+p483
+(dp484
+g19
 Vdata:image/png;base64,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
-p487
-sg23
+p485
+sg21
 VVegetarianLow
-p488
-sg25
-g26
+p486
+sg23
+g24
 ((I2014
 I6
 I25
@@ -1590,20 +1587,20 @@ I37
 I2
 I176
 I1
+tp487
+(dp488
 tp489
-(dp490
-tp491
-Rp492
-sg31
-(lp493
+Rp490
+sg29
+(lp491
 S'Twine.image'
-p494
-asg33
-g492
+p492
+asg31
+g490
 sbsasS'scale'
-p495
-F0.8
+p493
+F0.6000000000000001
 sS'snapping'
-p496
+p494
 I00
 ss.
