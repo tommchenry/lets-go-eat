@@ -21,7 +21,7 @@ back to the hotel
 
 5/24/2014:
 XRandom restaurant rolls?
--Check your phone, show the next couple restaurants ahead
+xCheck your phone, show the next couple restaurants ahead
 
 5/26/2014
 XRestuarant Map Maker -- pulls random restaurants from the restaurant pool to
@@ -120,4 +120,27 @@ instead of numbers.
 the food, etc.
 -Redo "needs food badly" to pull the names, append 'and' then add the "need food
 badly"?
+
+6/25/2014
+-Finished low-quality restaurant art
+-Add ability for players to post Yelp style reviews after they eat at a place
+and finish the game?
+xAdd extra descriptor for each restaurant to give more flavor to the descriptive
+text -- e.g. restaurant[$currentLocation].descriptor
+
+6/27/2014
+-Started on friend designs
+-Worked on CSS a little
+
+6/28/2014
+-Added basic griping and gossip by the turn's tellerfriend.
+-Maybe have a check for the $tellerfriend to see if this is a place they
+hate/love whenever you arrive at a new place? Is this too much info?
+-Talked with Sara: she suggests additional food genres and losing the cheap
+Indian place, expensive pizza, cheap steak
+-Small 8 bit font? 
+-Wrote random hate/pref picker, assigns values on each friend, now all friend
+stats are randomized
+	-Better to just have a pool of names and make the game build out all
+stats based on a prototype? 
 
