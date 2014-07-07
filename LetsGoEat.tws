@@ -5,7 +5,7 @@ VC:\u005cUsers\u005cTom\u005cDropbox\u005cTwine\u005cLetsGoEat\u005cLetsGoEat.ht
 p2
 sS'saveDestination'
 p3
-VC:\u005cUsers\u005cTom\u005cDropbox\u005cTwine\u005cLetsGoEat\u005cLetsGoEat.tws
+S'C:\\Users\\tmchenry\\Desktop\\Dropbox\\Twine\\LetsGoEat\\LetsGoEat.tws'
 p4
 sS'metadata'
 p5
@@ -645,7 +645,7 @@ Tiddler
 p206
 (dp207
 g21
-V<<silently>>Town:\u000aName1 <<print $town[0].name>>\u000aName2 <<print $town[1].name>>\u000aName3 <<print $town[2].name>>\u000aName4 <<print $town[3].name>>\u000aName5 <<print $town[4].name>>\u000aName6 <<print $town[5].name>>\u000aHunger <<print $playerhungerlevel>>\u000aTime <<print $time>><<endsilently>>\u000a\u000a\u000aRight now it kind of sounds like everybody wants <<print $currgoal>>. You walk to <<print $town[$currentPosition].name>>. It is a <<print $town[$currentPosition].type>> restaurant. <<print $town[$currentPosition].descriptor>> <<if $town[$currentPosition].quality eq 1>>It looks a little rundown. You might have to get the food to go.<<endif>><<if $town[$currentPosition].quality eq 2>>This looks pretty good, for convention food.<<endif>><<if $town[$currentPosition].quality eq 3>>This place looks really nice, but it might be a little pricey for some people.<<endif>> <<if $town[$currentPosition].wait eq 0>>There's no line. You can walk in and get food right now.<<endif>><<if $town[$currentPosition].wait eq 1>>It looks like there are just a few people waiting in the lobby.<<endif>><<if $town[$currentPosition].wait eq 2>>The lobby is sort of crowded, you'd have to slide past people to even get in the door.<<endif>><<if $town[$currentPosition].wait eq 3>>The lobby is so full, groups are waiting outside. The idle hungry are leaning against the walls and thumbing their smartphones on benches.<<endif>>\u000a\u000a<<display Action List>>\u000a<<print $town[$currentPosition].image>>
+V<<silently>>Town:\u000aName1 <<print $town[0].name>>\u000aName2 <<print $town[1].name>>\u000aName3 <<print $town[2].name>>\u000aName4 <<print $town[3].name>>\u000aName5 <<print $town[4].name>>\u000aName6 <<print $town[5].name>>\u000aHunger <<print $playerhungerlevel>>\u000aTime <<print $time>><<endsilently>>\u000a\u000a\u000aRight now it kind of sounds like everybody wants <<print $currgoal>>. You walk to <<print $town[$currentPosition].name>>. It is a <<print $town[$currentPosition].type>> restaurant. <<print $town[$currentPosition].descriptor>> <<if $town[$currentPosition].quality eq 1>>It looks a little rundown. You might have to get the food to go.<<endif>><<if $town[$currentPosition].quality eq 2>>This looks pretty good, for convention food.<<endif>><<if $town[$currentPosition].quality eq 3>>This place looks really nice, but it might be a little pricey for some people.<<endif>> <<if $town[$currentPosition].wait eq 0>>There's no line. You can walk in and get food right now.<<endif>><<if $town[$currentPosition].wait eq 1>>It looks like there are just a few people waiting in the lobby.<<endif>><<if $town[$currentPosition].wait eq 2>>The lobby is sort of crowded, you'd have to slide past people to even get in the door.<<endif>><<if $town[$currentPosition].wait eq 3>>The lobby is so full, groups are waiting outside. The idle hungry are leaning against the walls and thumbing their smartphones on benches.<<endif>>\u000a<<display Teller Info>>\u000a<<display Action List>>\u000a<<print $town[$currentPosition].image>>
 p208
 sg23
 VRestaurant
@@ -653,13 +653,13 @@ p209
 sg25
 g26
 ((I2014
-I6
-I29
+I7
+I7
+I18
+I15
+I56
 I0
-I44
-I3
-I6
-I180
+I188
 I1
 tp210
 (dp211
@@ -1145,7 +1145,7 @@ Tiddler
 p356
 (dp357
 g21
-V<<set $playerhungerlevel = $playerhungerlevel + 1>>\u000a<<set $time = $time + 1>>\u000a<<set $i = 0;\u000a$tellerfriend = Math.floor(Math.random() * $friends.length);\u000a$teller = Math.floor(Math.random() * 8) + 1;\u000a$otherfriend = Math.floor(Math.random() * $friends.length);>>\u000a<<if $otherfriend eq $tellerfriend>>\u000a<<if $tellerfriend gt 0>>\u000a<<set $otherfriend = $otherfriend - 1>><<endif>>\u000a<<if $tellerfriend eq 0>><<set $otherfriend = $otherfriend + 1>><<endif>>\u000a<<endif>>\u000a<<if $teller eq 1>>Everyone is just really pissed off and grumbly. You need to find food soon.<<endif>>\u000a<<if $teller eq 2>><<print $friends[$tellerfriend].name>>  says "So, do we have any kind of plan, or are we just going to keep wandering around until everything's closed?"<<endif>>\u000a<<if $teller eq 3>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> will eat whatever, but <<print $friends[$tellerfriend].pronoun>>'s pretty sure that <<print $friends[$otherfriend].name>> might like <<print $friends[$otherfriend].secretpref>>, if you think that's something the group might be into.<<endif>>\u000a<<if $teller eq 4>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> will eat anything, but just maybe not <<print $friends[$tellerfriend].secrethate>>, you know, if you can help it. But whatever's fine.<<endif>>\u000a<<if $teller eq 5>><<print $friends[$tellerfriend].name>> says supposedly there was a really good <<print $friends[$tellerfriend].secretpref>> somewhere nearby, so that might be interesting.<<endif>>\u000a<<if $teller eq 6>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> might want <<print $friends[$tellerfriend].secretpref>>, but <<print $friends[$tellerfriend].pronoun>>'s fine with whatever, really.<<endif>><<if $teller eq 7>><<print $friends[$tellerfriend].name>> says, "Obviously, I'll eat whatever, but <<print $friends[$otherfriend].name>> and I just had <<print $friends[$tellerfriend].secrethate>> the other night, so, you know..." and trails off.<<endif>><<if $teller eq 8>><<print $friends[$tellerfriend].name>> announces "Well, my only opinion is I have no opinion. Whatever the group decides is fine with me!"<<endif>>\u000a<<display Everyone Gets Hungrier>>\u000a\u000a
+V<<set $playerhungerlevel = $playerhungerlevel + 1>>\u000a<<set $time = $time + 1>>\u000a<<set $i = 0;\u000a$tellerfriend = Math.floor(Math.random() * $friends.length);\u000a$teller = Math.floor(Math.random() * 8) + 1;\u000a$otherfriend = Math.floor(Math.random() * $friends.length);>>\u000a<<if $otherfriend eq $tellerfriend>>\u000a<<if $tellerfriend gt 0>>\u000a<<set $otherfriend = $otherfriend - 1>><<endif>>\u000a<<if $tellerfriend eq 0>><<set $otherfriend = $otherfriend + 1>><<endif>>\u000a<<endif>>\u000a<<if $teller eq 1>>Everyone is just really pissed off and grumbly. You need to find food soon.<<endif>>\u000a<<if $teller eq 2>><<print $friends[$tellerfriend].name>>  says "So, do we have any kind of plan, or are we just going to keep wandering around until everything's closed?"<<endif>>\u000a<<if $teller eq 3>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> will eat whatever, but <<print $friends[$tellerfriend].pronoun>>'s pretty sure that <<print $friends[$otherfriend].name>> might like <<print $friends[$otherfriend].secretpref>>, if you think that's something the group might be into.<<endif>>\u000a<<if $teller eq 4>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> will eat anything, but just maybe not <<print $friends[$tellerfriend].secrethate>>, you know, if you can help it. But whatever's fine.<<endif>>\u000a<<if $teller eq 5>><<print $friends[$tellerfriend].name>> says supposedly there was a really good <<print $friends[$tellerfriend].secretpref>> somewhere nearby, so that might be interesting.<<endif>>\u000a<<if $teller eq 6>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> might want <<print $friends[$tellerfriend].secretpref>>, but <<print $friends[$tellerfriend].pronoun>>'s fine with whatever, really.<<endif>><<if $teller eq 7>><<print $friends[$tellerfriend].name>> says, "Obviously, I'll eat whatever, but <<print $friends[$otherfriend].name>> and I just had <<print $friends[$tellerfriend].secrethate>> the other night, so, you know..." and trails off.<<endif>><<if $teller eq 8>><<print $friends[$tellerfriend].name>> announces "Well, my only opinion is I have no opinion. Whatever the group decides is fine with me!"<<endif>>\u000a<<set $tellerfriend = Math.floor(Math.random() * $friends.length)>>\u000a<<display Everyone Gets Hungrier>>\u000a\u000a
 p358
 sg23
 VTime Passer
@@ -1153,13 +1153,13 @@ p359
 sg25
 g26
 ((I2014
-I6
-I28
-I19
-I25
-I56
-I5
-I179
+I7
+I7
+I22
+I31
+I58
+I0
+I188
 I1
 tp360
 (dp361
@@ -1484,7 +1484,7 @@ Tiddler
 p458
 (dp459
 g21
-V@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);\u000a/* Your story will use the CSS in this passage to style the page.\u000aGive this passage more tags, and it will only affect passages with those tags.\u000aExample selectors: */\u000a\u000ahtml, body, div, span, applet, object, iframe,\u000ah1, h2, h3, h4, h5, h6, p, blockquote, pre,\u000aa, abbr, acronym, address, big, cite, code,\u000adel, dfn, em, img, ins, kbd, q, s, samp,\u000asmall, strike, strong, sub, sup, tt, var,\u000ab, u, i, center,\u000adl, dt, dd, ol, ul, li,\u000afieldset, form, label, legend,\u000atable, caption, tbody, tfoot, thead, tr, th, td,\u000aarticle, aside, canvas, details, embed, \u000afigure, figcaption, footer, header, hgroup, \u000amenu, nav, output, ruby, section, summary,\u000atime, mark, audio, video {\u000a	margin: 0;\u000a	padding: 0;\u000a	border: 0;\u000a	font-size: 100%;\u000a	font: inherit;\u000a	vertical-align: baseline;\u000a}\u000a/* HTML5 display-role reset for older browsers */\u000aarticle, aside, details, figcaption, figure, \u000afooter, header, hgroup, menu, nav, section {\u000a	display: block;\u000a}\u000abody {\u000a	line-height: 1;\u000a}\u000aol, ul {\u000a	list-style: none;\u000a}\u000ablockquote, q {\u000a	quotes: none;\u000a}\u000ablockquote:before, blockquote:after,\u000aq:before, q:after {\u000a	content: '';\u000a	content: none;\u000a}\u000atable {\u000a	border-collapse: collapse;\u000a	border-spacing: 0;\u000a}\u000a\u000a/*Actual Stylesheet */\u000a\u000abody {\u000a	/* This affects the entire page */\u000a	background: #424254;\u000a	margin: 0;\u000a	padding: 0;\u000a	color: #fff2df;\u000a	font-family: 'Press Start 2P', cursive;\u000a	\u000a}\u000a.passage {\u000a	/* This only affects passages */\u000a	border:none;\u000a	width: 100%;\u000a	max-width: 600px;\u000a	\u000a}\u000a.passage a {\u000a	/* This affects passage links */\u000a	color: #a4a4b8;\u000a	\u000a}\u000a.passage a:hover {\u000a	/* This affects links while the cursor is over them */\u000a	color: #696981;\u000a	\u000a}\u000a.passage p{\u000a	font-size: 0.6 em;\u000a}\u000a\u000a#sidebar{\u000adisplay:none;\u000a}\u000a#passages{\u000amargin-left: 0em;\u000a}\u000a
+V@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);\u000a/* Your story will use the CSS in this passage to style the page.\u000aGive this passage more tags, and it will only affect passages with those tags.\u000aExample selectors: */\u000a\u000ahtml, body, div, span, applet, object, iframe,\u000ah1, h2, h3, h4, h5, h6, p, blockquote, pre,\u000aa, abbr, acronym, address, big, cite, code,\u000adel, dfn, em, img, ins, kbd, q, s, samp,\u000asmall, strike, strong, sub, sup, tt, var,\u000ab, u, i, center,\u000adl, dt, dd, ol, ul, li,\u000afieldset, form, label, legend,\u000atable, caption, tbody, tfoot, thead, tr, th, td,\u000aarticle, aside, canvas, details, embed, \u000afigure, figcaption, footer, header, hgroup, \u000amenu, nav, output, ruby, section, summary,\u000atime, mark, audio, video {\u000a	margin: 0;\u000a	padding: 0;\u000a	border: 0;\u000a	font-size: 100%;\u000a	font: inherit;\u000a	vertical-align: baseline;\u000a}\u000a/* HTML5 display-role reset for older browsers */\u000aarticle, aside, details, figcaption, figure, \u000afooter, header, hgroup, menu, nav, section {\u000a	display: block;\u000a}\u000abody {\u000a	line-height: 1;\u000a}\u000aol, ul {\u000a	list-style: none;\u000a}\u000ablockquote, q {\u000a	quotes: none;\u000a}\u000ablockquote:before, blockquote:after,\u000aq:before, q:after {\u000a	content: '';\u000a	content: none;\u000a}\u000atable {\u000a	border-collapse: collapse;\u000a	border-spacing: 0;\u000a}\u000a\u000a/*Actual Stylesheet */\u000a\u000abody {\u000a	/* This affects the entire page */\u000a	background: #424254;\u000a	margin: 0;\u000a	padding: 0;\u000a	color: #fff2df;\u000a	font-family: Arial;\u000a	\u000a}\u000a.passage {\u000a	/* This only affects passages */\u000a	border:none;\u000a	width: 100%;\u000a	max-width: 600px;\u000a	\u000a}\u000a.passage a {\u000a	/* This affects passage links */\u000a	color: #a4a4b8;\u000a	\u000a}\u000a.passage a:hover {\u000a	/* This affects links while the cursor is over them */\u000a	color: #696981;\u000a	\u000a}\u000a.passage p{\u000a	font-size: 0.6 em;\u000a}\u000a\u000a#sidebar{\u000adisplay:none;\u000a}\u000a#passages{\u000amargin-left: 0em;\u000a}\u000a
 p460
 sg23
 VMain Stylesheet
@@ -1492,13 +1492,13 @@ p461
 sg25
 g26
 ((I2014
-I6
-I27
-I16
-I6
+I7
+I7
+I18
 I5
-I4
-I178
+I25
+I0
+I188
 I1
 tp462
 (dp463
@@ -1679,7 +1679,7 @@ asg33
 g516
 sbsa(dp518
 g14
-I01
+I00
 sg15
 (lp519
 F764.3333333333335
@@ -1777,10 +1777,60 @@ tp544
 (dp545
 tp546
 Rp547
+sbsa(dp548
+g14
+I01
+sg15
+(lp549
+F1051.6666666666665
+aF556.6666666666666
+asg17
+(itiddlywiki
+Tiddler
+p550
+(dp551
+g21
+V<<set $tellerreact = Math.floor(Math.random() * 6) + 1>>\u000a<<if $friends[$tellerfriend].secretpref eq $town[$currentPosition].type>>/%If Teller is pleased%/\u000a<<if $tellerreact eq 1>><<print $friends[$tellerfriend].name>> says, "Oh, this might be interesting."<<endif>>\u000a<<if $tellerreact eq 2>><<print $friends[$tellerfriend].name>> raises an eyebrow.<<endif>>\u000a<<if $tellerreact eq 3>><<print $friends[$tellerfriend].name>>asks, "What do you think about this place?"<<endif>>\u000a<<if $tellerreact eq 4>><<print $friends[$tellerfriend].name>> says, "I've eaten here before. It's not bad, if it's what you're into."<<endif>>\u000a<<if $tellerreact eq 5>><<print $friends[$tellerfriend].name>> says, "I think I've heard of this place. Might be okay."<<endif>>\u000a<<if $tellerreact eq 6>><<print $friends[$tellerfriend].name>> says, "I'd be happy eating here. I don't know."<<endif>>\u000a/%end pleased Teller%/\u000a<<else if $friends[$tellerfriend].secrethate eq $town[$currentPosition].type>>\u000a/%Teller is angry%/\u000a<<if $tellerreact eq 1>><<print $friends[$tellerfriend].name>> says, "Eh, I'd rather not, if that's okay."<<endif>>\u000a<<if $tellerreact eq 2>><<print $friends[$tellerfriend].name>> looks around, bored.<<endif>>\u000a<<if $tellerreact eq 3>><<print $friends[$tellerfriend].name>>asks, "Could we maybe keep looking, if everybody's not too tired already?"<<endif>>\u000a<<if $tellerreact eq 4>><<print $friends[$tellerfriend].name>> says, "Ugh, this place."<<endif>>\u000a<<if $tellerreact eq 5>><<print $friends[$tellerfriend].name>> says, "If you guys have your hearts set on <<print $town[$currentPosition].type>>, I might just grab something on my own."<<endif>>\u000a<<if $tellerreact eq 6>><<print $friends[$tellerfriend].name>> says, "Meh. C'mon, let's keep moving."<<endif>>\u000a/%end angry Teller%/\u000a<<else>>\u000a/%Teller is fine%/\u000a<<if $tellerreact eq 1>><<print $friends[$tellerfriend].name>> waits for your response.<<endif>>\u000a<<if $tellerreact eq 2>><<print $friends[$tellerfriend].name>> gives a half-hearted shrug.<<endif>>\u000a<<if $tellerreact eq 3>><<print $friends[$tellerfriend].name>> says, "Well, they've definitely got food here."<<endif>>\u000a<<if $tellerreact eq 4>><<print $friends[$tellerfriend].name>> asks,"Look, I'll eat here if we can't find anything better, but only if that's cool with everybody."<<endif>>\u000a<<if $tellerreact eq 5>><<print $friends[$tellerfriend].name>> says, "Sure, <<print $town[$currentPosition].type>> is fine, I'm just hungry."<<endif>>\u000a<<if $tellerreact eq 6>><<print $friends[$tellerfriend].name>> says, "Well, how does everybody feel about this place?" Nobody says anything.<<endif>>\u000a/%end fine Teller%/\u000a<<endif>>
+p552
+sg23
+VTeller Info
+p553
+sg25
+g26
+((I2014
+I7
+I7
+I22
+I32
+I31
+I0
+I188
+I1
+tp554
+(dp555
+tp556
+Rp557
+sg31
+(lp558
+sg33
+g26
+((I2014
+I7
+I7
+I18
+I13
+I28
+I0
+I188
+I1
+tp559
+(dp560
+tp561
+Rp562
 sbsasS'scale'
-p548
+p563
 F0.6000000000000001
 sS'snapping'
-p549
+p564
 I00
 ss.
