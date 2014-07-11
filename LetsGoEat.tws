@@ -5,7 +5,7 @@ VC:\u005cUsers\u005cTom\u005cDropbox\u005cTwine\u005cLetsGoEat\u005cLetsGoEat.ht
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\tmchenry\\Desktop\\Dropbox\\Twine\\LetsGoEat\\LetsGoEat.tws'
+S'C:\\Users\\Tom\\Dropbox\\Twine\\LetsGoEat\\LetsGoEat.tws'
 p4
 sS'metadata'
 p5
@@ -193,7 +193,7 @@ Tiddler
 p70
 (dp71
 g21
-V<<set //initialize \u000a\u000a$Jess = {\u000a	name: "Jess",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Indian",\u000a	secrethate: "Thai",\u000a};\u000a\u000a$Eric = {\u000a	name: "Eric",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Pizza",\u000a	secrethate: "Thai",\u000a};\u000a\u000a$KC = {\u000a	name: "KC",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Thai",\u000a	secrethate: "Indian",\u000a};\u000a\u000a$Holly = {\u000a	name: "Holly",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Steak",\u000a	secrethate: "Pizza",\u000a}\u000a\u000a$Kate = {\u000a	name: "Kate",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Vegetarian",\u000a	secrethate: "Steak",\u000a};\u000a\u000a$Sara = {\u000a	name: "Sara",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Vegetarian",\u000a	secrethate: "Steak",\u000a};\u000a\u000a$Phil = {\u000a	name: "Phil",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Pizza",\u000a	secrethate: "Vegetarian",\u000a};\u000a\u000a$Tony = {\u000a	name: "Tony",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Vegetarian",\u000a	secrethate: "Pizza",\u000a};\u000a\u000a$Beck = {\u000a	name: "Beck",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Steak",\u000a	secrethate: "Vegetarian",\u000a};\u000a\u000a$Adelaide = {\u000a	name: "Adelaide",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Indian",\u000a	secrethate: "Thai",\u000a};\u000a\u000a$Karla = {\u000a	name: "Karla",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Pizza",\u000a	secrethate: "Vegetarian",\u000a};\u000a\u000a$Daniel = {\u000a	name: "Daniel",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Pizza",\u000a	secrethate: "Vegetarian",\u000a};\u000a\u000a$Anne = {\u000a	name: "Anne",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Pizza",\u000a	secrethate: "Vegetarian",\u000a};\u000a\u000a$Catie = {\u000a	name: "Catie",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Thai",\u000a	secrethate: "Indian",\u000a};\u000a\u000a$allFriends=[$Jess, $Eric, $KC, $Holly, $Kate, $Sara, $Phil,$Tony,$Beck,$Adelaide,$Karla,$Daniel,$Anne,$Catie];\u000a$deadFriends=[];>>
+V<<set //initialize \u000a\u000a$Jess = {\u000a	name: "Jess",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Indian",\u000a	secrethate: "Thai",\u000a};\u000a\u000a$Eric = {\u000a	name: "Eric",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Pizza",\u000a	secrethate: "Thai",\u000a};\u000a\u000a$KC = {\u000a	name: "KC",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Thai",\u000a	secrethate: "Indian",\u000a};\u000a\u000a$Holly = {\u000a	name: "Holly",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Steak",\u000a	secrethate: "Pizza",\u000a}\u000a\u000a$Kate = {\u000a	name: "Kate",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Vegetarian",\u000a	secrethate: "Steak",\u000a};\u000a\u000a$Sara = {\u000a	name: "Sara",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Vegetarian",\u000a	secrethate: "Steak",\u000a};\u000a\u000a$Phil = {\u000a	name: "Phil",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Pizza",\u000a	secrethate: "Vegetarian",\u000a};\u000a\u000a$Tony = {\u000a	name: "Tony",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Vegetarian",\u000a	secrethate: "Pizza",\u000a};\u000a\u000a$Beck = {\u000a	name: "Beck",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Steak",\u000a	secrethate: "Vegetarian",\u000a};\u000a\u000a$Adelaide = {\u000a	name: "Adelaide",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Indian",\u000a	secrethate: "Thai",\u000a};\u000a\u000a$Karla = {\u000a	name: "Karla",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Pizza",\u000a	secrethate: "Vegetarian",\u000a};\u000a\u000a$Daniel = {\u000a	name: "Daniel",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Pizza",\u000a	secrethate: "Vegetarian",\u000a};\u000a\u000a$Anne = {\u000a	name: "Anne",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Pizza",\u000a	secrethate: "Vegetarian",\u000a};\u000a\u000a$Catie = {\u000a	name: "Catie",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Thai",\u000a	secrethate: "Indian",\u000a};\u000a\u000a$Casey = {\u000a	name: "Casey",\u000a	pronoun: "he",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Thai",\u000a	secrethate: "Indian",\u000a}\u000a\u000a$Erika = {\u000a	name: "Erika",\u000a	pronoun: "she",\u000a	hungerlevel: Math.floor(Math.random() * 6) + 1,\u000a	pickiness: Math.floor(Math.random() * 3) + 1,\u000a	money: Math.floor(Math.random() * 3) + 1,\u000a	secretpref: "Thai",\u000a	secrethate: "Indian",\u000a}\u000a$allFriends=[$Jess, $Eric, $KC, $Holly, $Kate, $Sara, $Phil,$Tony,$Beck,$Adelaide,$Karla,$Daniel,$Anne,$Catie,$Casey,$Erika];\u000a$deadFriends=[];>>
 p72
 sg23
 VFriend Generator
@@ -201,13 +201,13 @@ p73
 sg25
 g26
 ((I2014
-I6
-I29
+I7
+I11
+I15
 I1
-I30
-I38
-I6
-I180
+I50
+I4
+I192
 I1
 tp74
 (dp75
@@ -634,7 +634,7 @@ tp202
 Rp203
 sbsa(dp204
 g14
-I00
+I01
 sg15
 (lp205
 F1143.0
@@ -645,7 +645,7 @@ Tiddler
 p206
 (dp207
 g21
-V<<silently>>Town:\u000aName1 <<print $town[0].name>>\u000aName2 <<print $town[1].name>>\u000aName3 <<print $town[2].name>>\u000aName4 <<print $town[3].name>>\u000aName5 <<print $town[4].name>>\u000aName6 <<print $town[5].name>>\u000aHunger <<print $playerhungerlevel>>\u000aTime <<print $time>><<endsilently>>\u000a\u000a\u000aRight now it kind of sounds like everybody wants <<print $currgoal>>. You walk to <<print $town[$currentPosition].name>>. It is a <<print $town[$currentPosition].type>> restaurant. <<print $town[$currentPosition].descriptor>> <<if $town[$currentPosition].quality eq 1>>It looks a little rundown. You might have to get the food to go.<<endif>><<if $town[$currentPosition].quality eq 2>>This looks pretty good, for convention food.<<endif>><<if $town[$currentPosition].quality eq 3>>This place looks really nice, but it might be a little pricey for some people.<<endif>> <<if $town[$currentPosition].wait eq 0>>There's no line. You can walk in and get food right now.<<endif>><<if $town[$currentPosition].wait eq 1>>It looks like there are just a few people waiting in the lobby.<<endif>><<if $town[$currentPosition].wait eq 2>>The lobby is sort of crowded, you'd have to slide past people to even get in the door.<<endif>><<if $town[$currentPosition].wait eq 3>>The lobby is so full, groups are waiting outside. The idle hungry are leaning against the walls and thumbing their smartphones on benches.<<endif>>\u000a<<display Teller Info>>\u000a<<display Action List>>\u000a<<print $town[$currentPosition].image>>
+V<<silently>>\u000a<<set $tellerfriend = Math.floor(Math.random() * $friends.length)>>\u000aTown:\u000aName1 <<print $town[0].name>>\u000aName2 <<print $town[1].name>>\u000aName3 <<print $town[2].name>>\u000aName4 <<print $town[3].name>>\u000aName5 <<print $town[4].name>>\u000aName6 <<print $town[5].name>>\u000aHunger <<print $playerhungerlevel>>\u000aTime <<print $time>><<endsilently>>\u000aTeller Friend <<print $tellerfriend>>\u000a	Name <<print $friends[$tellerfriend].name>>\u000a	Pref <<print $friends[$tellerfriend].secretpref>>\u000a	Hate <<print $friends[$tellerfriend].secrethate>>\u000aFriends <<print $friends>>\u000aName1 <<print $friends[0].name>>\u000aName2 <<print $friends[1].name>>\u000aName3 <<print $friends[2].name>>\u000aName4 <<print $friends[3].name>>\u000aName5 <<print $friends[4].name>>\u000aName6 <<print $friends[5].name>>\u000aName7 <<print $friends[6].name>>\u000aName8 <<print $friends[7].name>>\u000aName9 <<print $friends[8].name>>\u000aName10 <<print $friends[9].name>>\u000aName11 <<print $friends[10].name>>\u000aName12 <<print $friends[11].name>>\u000a\u000a\u000aRight now it kind of sounds like everybody wants <<print $currgoal>>. You walk to <<print $town[$currentPosition].name>>. It is a <<print $town[$currentPosition].type>> restaurant. <<print $town[$currentPosition].descriptor>> <<if $town[$currentPosition].quality eq 1>>It looks a little rundown. You might have to get the food to go.<<endif>><<if $town[$currentPosition].quality eq 2>>This looks pretty good, for convention food.<<endif>><<if $town[$currentPosition].quality eq 3>>This place looks really nice, but it might be a little pricey for some people.<<endif>> <<if $town[$currentPosition].wait eq 0>>There's no line. You can walk in and get food right now.<<endif>><<if $town[$currentPosition].wait eq 1>>It looks like there are just a few people waiting in the lobby.<<endif>><<if $town[$currentPosition].wait eq 2>>The lobby is sort of crowded, you'd have to slide past people to even get in the door.<<endif>><<if $town[$currentPosition].wait eq 3>>The lobby is so full, groups are waiting outside. The idle hungry are leaning against the walls and thumbing their smartphones on benches.<<endif>>\u000a<<display Teller Info>>\u000a<<display Action List>>\u000a<<print $town[$currentPosition].image>>
 p208
 sg23
 VRestaurant
@@ -654,12 +654,12 @@ sg25
 g26
 ((I2014
 I7
-I7
-I18
+I11
 I15
-I56
-I0
-I188
+I42
+I48
+I4
+I192
 I1
 tp210
 (dp211
@@ -1137,15 +1137,15 @@ g14
 I00
 sg15
 (lp355
-F1321.3333333333337
-aF560.0
+F1316.3333333333335
+aF555.0000000000001
 asg17
 (itiddlywiki
 Tiddler
 p356
 (dp357
 g21
-V<<set $playerhungerlevel = $playerhungerlevel + 1>>\u000a<<set $time = $time + 1>>\u000a<<set $i = 0;\u000a$tellerfriend = Math.floor(Math.random() * $friends.length);\u000a$teller = Math.floor(Math.random() * 8) + 1;\u000a$otherfriend = Math.floor(Math.random() * $friends.length);>>\u000a<<if $otherfriend eq $tellerfriend>>\u000a<<if $tellerfriend gt 0>>\u000a<<set $otherfriend = $otherfriend - 1>><<endif>>\u000a<<if $tellerfriend eq 0>><<set $otherfriend = $otherfriend + 1>><<endif>>\u000a<<endif>>\u000a<<if $teller eq 1>>Everyone is just really pissed off and grumbly. You need to find food soon.<<endif>>\u000a<<if $teller eq 2>><<print $friends[$tellerfriend].name>>  says "So, do we have any kind of plan, or are we just going to keep wandering around until everything's closed?"<<endif>>\u000a<<if $teller eq 3>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> will eat whatever, but <<print $friends[$tellerfriend].pronoun>>'s pretty sure that <<print $friends[$otherfriend].name>> might like <<print $friends[$otherfriend].secretpref>>, if you think that's something the group might be into.<<endif>>\u000a<<if $teller eq 4>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> will eat anything, but just maybe not <<print $friends[$tellerfriend].secrethate>>, you know, if you can help it. But whatever's fine.<<endif>>\u000a<<if $teller eq 5>><<print $friends[$tellerfriend].name>> says supposedly there was a really good <<print $friends[$tellerfriend].secretpref>> somewhere nearby, so that might be interesting.<<endif>>\u000a<<if $teller eq 6>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> might want <<print $friends[$tellerfriend].secretpref>>, but <<print $friends[$tellerfriend].pronoun>>'s fine with whatever, really.<<endif>><<if $teller eq 7>><<print $friends[$tellerfriend].name>> says, "Obviously, I'll eat whatever, but <<print $friends[$otherfriend].name>> and I just had <<print $friends[$tellerfriend].secrethate>> the other night, so, you know..." and trails off.<<endif>><<if $teller eq 8>><<print $friends[$tellerfriend].name>> announces "Well, my only opinion is I have no opinion. Whatever the group decides is fine with me!"<<endif>>\u000a<<set $tellerfriend = Math.floor(Math.random() * $friends.length)>>\u000a<<display Everyone Gets Hungrier>>\u000a\u000a
+V<<set $playerhungerlevel = $playerhungerlevel + 1>>\u000a<<set $time = $time + 1>>\u000a<<set $i = 0;\u000a$teller = Math.floor(Math.random() * 8) + 1;\u000a$otherfriend = Math.floor(Math.random() * $friends.length);\u000a$leavers =[];>>\u000a<<if $otherfriend eq $tellerfriend>>\u000a<<if $tellerfriend gt 0>>\u000a<<set $otherfriend = $otherfriend - 1>><<endif>>\u000a<<if $tellerfriend eq 0>><<set $otherfriend = $otherfriend + 1>><<endif>>\u000a<<endif>>\u000a<<if $teller eq 1>>Everyone is just really pissed off and grumbly. You need to find food soon.<<endif>>\u000a<<if $teller eq 2>><<print $friends[$tellerfriend].name>>  says "So, do we have any kind of plan, or are we just going to keep wandering around until everything's closed?"<<endif>>\u000a<<if $teller eq 3>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> will eat whatever, but <<print $friends[$tellerfriend].pronoun>>'s pretty sure that <<print $friends[$otherfriend].name>> might like <<print $friends[$otherfriend].secretpref>>, if you think that's something the group might be into.<<endif>>\u000a<<if $teller eq 4>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> will eat anything, but just maybe not <<print $friends[$tellerfriend].secrethate>>, you know, if you can help it. But whatever's fine.<<endif>>\u000a<<if $teller eq 5>><<print $friends[$tellerfriend].name>> says supposedly there was a really good <<print $friends[$tellerfriend].secretpref>> somewhere nearby, so that might be interesting.<<endif>>\u000a<<if $teller eq 6>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> might want <<print $friends[$tellerfriend].secretpref>>, but <<print $friends[$tellerfriend].pronoun>>'s fine with whatever, really.<<endif>><<if $teller eq 7>><<print $friends[$tellerfriend].name>> says, "Obviously, I'll eat whatever, but <<print $friends[$otherfriend].name>> and I just had <<print $friends[$tellerfriend].secrethate>> the other night, so, you know..." and trails off.<<endif>><<if $teller eq 8>><<print $friends[$tellerfriend].name>> announces "Well, my only opinion is I have no opinion. Whatever the group decides is fine with me!"<<endif>>\u000a<<set $tellerfriend = Math.floor(Math.random() * $friends.length)>>\u000a<<display Everyone Gets Hungrier>>\u000a\u000a
 p358
 sg23
 VTime Passer
@@ -1154,12 +1154,12 @@ sg25
 g26
 ((I2014
 I7
-I7
-I22
-I31
-I58
-I0
-I188
+I11
+I15
+I41
+I55
+I4
+I192
 I1
 tp360
 (dp361
@@ -1195,7 +1195,7 @@ Tiddler
 p371
 (dp372
 g21
-V<<if $i lte $friends.length - 1>>/%Roll to determine if they get more hunger%/<<set $hungerDice = Math.floor(Math.random() * 6) + 1>><<if $hungerDice lte 3>><<set $friends[$i].hungerlevel = $friends[$i].hungerlevel + 1>><<endif>>/%Display messages if they are hungry past a certain point%/<<if $friends[$i].hungerlevel gte 8>><<if $friends[$i].hungerlevel lt 10>><<print $friends[$i].name>> needs food badly.<br><<else>>/%Need to add code for friend to leave.%//%Starvation code%/<<if $friends[$i].hungerlevel lt 12>><<print $friends[$i].name>> is just going to go to one of the places you already passed, if that's okay?<br><<else>><<print $friends[$i].name>> has starved to death.<br><<set $deadFriends.push($friends[$i])>><<set $friends.splice($i,1)>><<endif>><<endif>><<endif>>/%<<print $friends[$i].name>>: <<print $friends[$i].hungerlevel>>%/<<set $i = $i + 1>><<display Everyone Gets Hungrier>><<endif>>
+V<<if $i lte $friends.length - 1>>/%Roll to determine if they get more hunger%/<<set $hungerDice = Math.floor(Math.random() * 6) + 1>><<if $hungerDice lte 3>><<set $friends[$i].hungerlevel = $friends[$i].hungerlevel + 1>><<endif>>/%Display messages if they are hungry past a certain point%/<<if $friends[$i].hungerlevel gte 8>><<if $friends[$i].hungerlevel lt 10>><<print $friends[$i].name>> needs food badly.<br><<else>>/%Need to add code for friend to leave.%//%Starvation code%/<<if $friends[$i].hungerlevel lt 12>><<display Leavers>><br><<else>><<print $friends[$i].name>> has starved to death.<br><<set $deadFriends.push($friends[$i])>><<set $friends.splice($i,1)>><<endif>><<endif>><<endif>>/%<<print $friends[$i].name>>: <<print $friends[$i].hungerlevel>>%/<<set $i = $i + 1>><<display Everyone Gets Hungrier>><<endif>>\u000a\u000a
 p373
 sg23
 VEveryone Gets Hungrier
@@ -1203,13 +1203,13 @@ p374
 sg25
 g26
 ((I2014
-I6
-I22
-I21
-I14
-I3
-I6
-I173
+I7
+I8
+I18
+I39
+I39
+I1
+I189
 I1
 tp375
 (dp376
@@ -1779,7 +1779,7 @@ tp546
 Rp547
 sbsa(dp548
 g14
-I01
+I00
 sg15
 (lp549
 F1051.6666666666665
@@ -1790,7 +1790,7 @@ Tiddler
 p550
 (dp551
 g21
-V<<set $tellerreact = Math.floor(Math.random() * 6) + 1>>\u000a<<if $friends[$tellerfriend].secretpref eq $town[$currentPosition].type>>/%If Teller is pleased%/\u000a<<if $tellerreact eq 1>><<print $friends[$tellerfriend].name>> says, "Oh, this might be interesting."<<endif>>\u000a<<if $tellerreact eq 2>><<print $friends[$tellerfriend].name>> raises an eyebrow.<<endif>>\u000a<<if $tellerreact eq 3>><<print $friends[$tellerfriend].name>>asks, "What do you think about this place?"<<endif>>\u000a<<if $tellerreact eq 4>><<print $friends[$tellerfriend].name>> says, "I've eaten here before. It's not bad, if it's what you're into."<<endif>>\u000a<<if $tellerreact eq 5>><<print $friends[$tellerfriend].name>> says, "I think I've heard of this place. Might be okay."<<endif>>\u000a<<if $tellerreact eq 6>><<print $friends[$tellerfriend].name>> says, "I'd be happy eating here. I don't know."<<endif>>\u000a/%end pleased Teller%/\u000a<<else if $friends[$tellerfriend].secrethate eq $town[$currentPosition].type>>\u000a/%Teller is angry%/\u000a<<if $tellerreact eq 1>><<print $friends[$tellerfriend].name>> says, "Eh, I'd rather not, if that's okay."<<endif>>\u000a<<if $tellerreact eq 2>><<print $friends[$tellerfriend].name>> looks around, bored.<<endif>>\u000a<<if $tellerreact eq 3>><<print $friends[$tellerfriend].name>>asks, "Could we maybe keep looking, if everybody's not too tired already?"<<endif>>\u000a<<if $tellerreact eq 4>><<print $friends[$tellerfriend].name>> says, "Ugh, this place."<<endif>>\u000a<<if $tellerreact eq 5>><<print $friends[$tellerfriend].name>> says, "If you guys have your hearts set on <<print $town[$currentPosition].type>>, I might just grab something on my own."<<endif>>\u000a<<if $tellerreact eq 6>><<print $friends[$tellerfriend].name>> says, "Meh. C'mon, let's keep moving."<<endif>>\u000a/%end angry Teller%/\u000a<<else>>\u000a/%Teller is fine%/\u000a<<if $tellerreact eq 1>><<print $friends[$tellerfriend].name>> waits for your response.<<endif>>\u000a<<if $tellerreact eq 2>><<print $friends[$tellerfriend].name>> gives a half-hearted shrug.<<endif>>\u000a<<if $tellerreact eq 3>><<print $friends[$tellerfriend].name>> says, "Well, they've definitely got food here."<<endif>>\u000a<<if $tellerreact eq 4>><<print $friends[$tellerfriend].name>> asks,"Look, I'll eat here if we can't find anything better, but only if that's cool with everybody."<<endif>>\u000a<<if $tellerreact eq 5>><<print $friends[$tellerfriend].name>> says, "Sure, <<print $town[$currentPosition].type>> is fine, I'm just hungry."<<endif>>\u000a<<if $tellerreact eq 6>><<print $friends[$tellerfriend].name>> says, "Well, how does everybody feel about this place?" Nobody says anything.<<endif>>\u000a/%end fine Teller%/\u000a<<endif>>
+V<<set $tellerreact = Math.floor(Math.random() * 6) + 1>>\u000a<<if $friends[$tellerfriend].secretpref eq $town[$currentPosition].type>>/%If Teller is pleased%/\u000a<<if $tellerreact eq 1>><<print $friends[$tellerfriend].name>> says, "Oh, this might be interesting."<<endif>>\u000a<<if $tellerreact eq 2>><<print $friends[$tellerfriend].name>> raises an eyebrow.<<endif>>\u000a<<if $tellerreact eq 3>><<print $friends[$tellerfriend].name>> asks, "What do you think about this place?"<<endif>>\u000a<<if $tellerreact eq 4>><<print $friends[$tellerfriend].name>> says, "I've eaten here before. It's not bad, if it's what you're into."<<endif>>\u000a<<if $tellerreact eq 5>><<print $friends[$tellerfriend].name>> says, "I think I've heard of this place. Might be okay."<<endif>>\u000a<<if $tellerreact eq 6>><<print $friends[$tellerfriend].name>> says, "I'd be happy eating here. I don't know."<<endif>>\u000a/%end pleased Teller%/\u000a<<else if $friends[$tellerfriend].secrethate eq $town[$currentPosition].type>>\u000a/%Teller is angry%/\u000a<<if $tellerreact eq 1>><<print $friends[$tellerfriend].name>> says, "Eh, I'd rather not, if that's okay."<<endif>>\u000a<<if $tellerreact eq 2>><<print $friends[$tellerfriend].name>> looks around, bored.<<endif>>\u000a<<if $tellerreact eq 3>><<print $friends[$tellerfriend].name>> asks, "Could we maybe keep looking, if everybody's not too tired already?"<<endif>>\u000a<<if $tellerreact eq 4>><<print $friends[$tellerfriend].name>> says, "Ugh, this place."<<endif>>\u000a<<if $tellerreact eq 5>><<print $friends[$tellerfriend].name>> says, "If you guys have your hearts set on <<print $town[$currentPosition].type>>, I might just grab something on my own."<<endif>>\u000a<<if $tellerreact eq 6>><<print $friends[$tellerfriend].name>> says, "Meh. C'mon, let's keep moving."<<endif>>\u000a/%end angry Teller%/\u000a<<else>>\u000a/%Teller is fine%/\u000a<<if $tellerreact eq 1>><<print $friends[$tellerfriend].name>> waits for your response.<<endif>>\u000a<<if $tellerreact eq 2>><<print $friends[$tellerfriend].name>> gives a half-hearted shrug.<<endif>>\u000a<<if $tellerreact eq 3>><<print $friends[$tellerfriend].name>> says, "Well, they've definitely got food here."<<endif>>\u000a<<if $tellerreact eq 4>><<print $friends[$tellerfriend].name>> asks,"Look, I'll eat here if we can't find anything better, but only if that's cool with everybody."<<endif>>\u000a<<if $tellerreact eq 5>><<print $friends[$tellerfriend].name>> says, "Sure, <<print $town[$currentPosition].type>> is fine, I'm just hungry."<<endif>>\u000a<<if $tellerreact eq 6>><<print $friends[$tellerfriend].name>> says, "Well, how does everybody feel about this place?" Nobody says anything.<<endif>>\u000a/%end fine Teller%/\u000a<<endif>>
 p552
 sg23
 VTeller Info
@@ -1799,12 +1799,12 @@ sg25
 g26
 ((I2014
 I7
-I7
-I22
-I32
-I31
-I0
-I188
+I8
+I17
+I33
+I39
+I1
+I189
 I1
 tp554
 (dp555
@@ -1827,10 +1827,110 @@ tp559
 (dp560
 tp561
 Rp562
+sbsa(dp563
+g14
+I00
+sg15
+(lp564
+F1654.9999999999998
+aF388.33333333333326
+asg17
+(itiddlywiki
+Tiddler
+p565
+(dp566
+g21
+V<<print $friends[$i].name>> is just going to go to one of the places you already passed, if that's okay?\u000a<<set $leavers.push($friends[$i])>>\u000a<<set $friends.splice($i,1)>>\u000a<<set $j = 0>>\u000a<<display Leaver Persuade>>\u000a
+p567
+sg23
+VLeavers
+p568
+sg25
+g26
+((I2014
+I7
+I8
+I15
+I13
+I41
+I1
+I189
+I1
+tp569
+(dp570
+tp571
+Rp572
+sg31
+(lp573
+sg33
+g26
+((I2014
+I7
+I8
+I16
+I51
+I35
+I1
+I189
+I1
+tp574
+(dp575
+tp576
+Rp577
+sbsa(dp578
+g14
+I00
+sg15
+(lp579
+F1651.6666666666665
+aF253.3333333333333
+asg17
+(itiddlywiki
+Tiddler
+p580
+(dp581
+g21
+V<<if $j lte $friends.length - 1>>\u000a//basic hunger test, could be upgraded to an overall frustration test\u000a<<if $friends[$j].hungerlevel gte 8>>\u000a<<set $leaveDice = Math.floor(Math.random() * 6) + 1>>\u000a<<if $leaveDice lte 5>>\u000a//this friend is persuaded to leave as well\u000a<<set $leavers.push($friends[$j])>>\u000a<<set $friends.splice($j,1)>>\u000a<<print $friends[$j].name>> is going to go along with them, too.\u000a<<endif>>\u000aLeavers Test: \u000a<<print $leavers[0].name>>\u000a<<print $leavers[1].name>>\u000a<<print $leavers[2].name>>\u000a<<print $leavers[3].name>>\u000a<<print $leavers[4].name>>\u000a<<print $leavers[5].name>>\u000a<<endif>>\u000a<<endif>>
+p582
+sg23
+VLeaver Persuade
+p583
+sg25
+g26
+((I2014
+I7
+I11
+I15
+I23
+I0
+I4
+I192
+I1
+tp584
+(dp585
+tp586
+Rp587
+sg31
+(lp588
+sg33
+g26
+((I2014
+I7
+I8
+I20
+I40
+I36
+I1
+I189
+I1
+tp589
+(dp590
+tp591
+Rp592
 sbsasS'scale'
-p563
+p593
 F0.6000000000000001
 sS'snapping'
-p564
+p594
 I00
 ss.

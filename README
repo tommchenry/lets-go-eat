@@ -156,3 +156,16 @@ trying to pay only for what you ate
 -I've taken a week off and now I don't want to work on this or anything.
 -Random draw event where a friend announces she's changed her preferences. 
 -Made a teller event for arriving at a restaurant.
+
+7/8/2014
+-Trying to create additional for loop for those a leaver might persuade to come
+with them? 
+
+7/11/2014
+-Leavers keep making separate groups, persuader not working correctly. Created
+additional debug tools to find out why sometimes a teller won't draw correctly.
+-Leavers Test displays only occasionally? This is probably related to the
+persuader not working correctly.
+-Additional Error: Teller Friend draw can somehow pull beyond the
+$friends.length, especially late in the game as the number of friends dwindles.
+-Error Resolved: Teller pick is fixed, but now if you get to one friend left. 
