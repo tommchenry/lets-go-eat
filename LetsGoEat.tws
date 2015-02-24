@@ -5,7 +5,7 @@ VC:\u005cUsers\u005cTom\u005cDropbox\u005cTwine\u005cLetsGoEat\u005cLetsGoEat.ht
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\Tom\\Dropbox\\Twine\\LetsGoEat\\LetsGoEat.tws'
+VC:\u005cTom McHenry's Dropbox\u005cDropbox\u005cGames - Twine\u005cLetsGoEat\u005cLetsGoEat.tws
 p4
 sS'metadata'
 p5
@@ -23,7 +23,7 @@ p11
 (dp13
 S'selected'
 p14
-I00
+I01
 sS'pos'
 p15
 (lp16
@@ -185,8 +185,8 @@ g14
 I00
 sg15
 (lp69
-F284.5
-aF248.25
+F222.83333333333331
+aF106.58333333333334
 asg17
 (itiddlywiki
 Tiddler
@@ -537,8 +537,8 @@ g14
 I00
 sg15
 (lp175
-I462
-aI294
+F315.33333333333326
+aF290.66666666666663
 asg17
 (itiddlywiki
 Tiddler
@@ -634,7 +634,7 @@ tp202
 Rp203
 sbsa(dp204
 g14
-I01
+I00
 sg15
 (lp205
 F1143.0
@@ -645,22 +645,22 @@ Tiddler
 p206
 (dp207
 g21
-V<<silently>>\u000a<<set $tellerfriend = Math.floor(Math.random() * $friends.length)>>\u000aTown:\u000aName1 <<print $town[0].name>>\u000aName2 <<print $town[1].name>>\u000aName3 <<print $town[2].name>>\u000aName4 <<print $town[3].name>>\u000aName5 <<print $town[4].name>>\u000aName6 <<print $town[5].name>>\u000aHunger <<print $playerhungerlevel>>\u000aTime <<print $time>><<endsilently>>\u000aTeller Friend <<print $tellerfriend>>\u000a	Name <<print $friends[$tellerfriend].name>>\u000a	Pref <<print $friends[$tellerfriend].secretpref>>\u000a	Hate <<print $friends[$tellerfriend].secrethate>>\u000aFriends <<print $friends>>\u000aName1 <<print $friends[0].name>>\u000aName2 <<print $friends[1].name>>\u000aName3 <<print $friends[2].name>>\u000aName4 <<print $friends[3].name>>\u000aName5 <<print $friends[4].name>>\u000aName6 <<print $friends[5].name>>\u000aName7 <<print $friends[6].name>>\u000aName8 <<print $friends[7].name>>\u000aName9 <<print $friends[8].name>>\u000aName10 <<print $friends[9].name>>\u000aName11 <<print $friends[10].name>>\u000aName12 <<print $friends[11].name>>\u000a\u000a\u000aRight now it kind of sounds like everybody wants <<print $currgoal>>. You walk to <<print $town[$currentPosition].name>>. It is a <<print $town[$currentPosition].type>> restaurant. <<print $town[$currentPosition].descriptor>> <<if $town[$currentPosition].quality eq 1>>It looks a little rundown. You might have to get the food to go.<<endif>><<if $town[$currentPosition].quality eq 2>>This looks pretty good, for convention food.<<endif>><<if $town[$currentPosition].quality eq 3>>This place looks really nice, but it might be a little pricey for some people.<<endif>> <<if $town[$currentPosition].wait eq 0>>There's no line. You can walk in and get food right now.<<endif>><<if $town[$currentPosition].wait eq 1>>It looks like there are just a few people waiting in the lobby.<<endif>><<if $town[$currentPosition].wait eq 2>>The lobby is sort of crowded, you'd have to slide past people to even get in the door.<<endif>><<if $town[$currentPosition].wait eq 3>>The lobby is so full, groups are waiting outside. The idle hungry are leaning against the walls and thumbing their smartphones on benches.<<endif>>\u000a<<display Teller Info>>\u000a<<display Action List>>\u000a<<print $town[$currentPosition].image>>
+V<<silently>>\u000a<<set $tellerfriend = Math.floor(Math.random() * $friends.length)>>\u000a<<endsilently>>\u000a<table><tbody><tr><td style="width: 600px;">\u000a<<print $town[$currentPosition].image>>\u000aRight now it kind of sounds like everybody wants <<print $currgoal>>. You walk to <<print $town[$currentPosition].name>>. It is a <<print $town[$currentPosition].type>> restaurant. <<print $town[$currentPosition].descriptor>> <<if $town[$currentPosition].quality eq 1>>It looks a little rundown. You might have to get the food to go.<<endif>><<if $town[$currentPosition].quality eq 2>>This looks pretty good, for convention food.<<endif>><<if $town[$currentPosition].quality eq 3>>This place looks really nice, but it might be a little pricey for some people.<<endif>> <<if $town[$currentPosition].wait eq 0>>There's no line. You can walk in and get food right now.<<endif>><<if $town[$currentPosition].wait eq 1>>It looks like there are just a few people waiting in the lobby.<<endif>><<if $town[$currentPosition].wait eq 2>>The lobby is sort of crowded, you'd have to slide past people to even get in the door.<<endif>><<if $town[$currentPosition].wait eq 3>>The lobby is so full, groups are waiting outside. The idle hungry are leaning against the walls and thumbing their smartphones on benches.<<endif>>\u000a<<display Teller Info>>\u000a<<display Action List>>\u000a</td><td>\u000a<<display Debug Info>>\u000a</td></tr></tbody></table>
 p208
 sg23
 VRestaurant
 p209
 sg25
 g26
-((I2014
-I7
-I11
-I15
-I42
-I48
-I4
-I192
+((I2015
+I2
+I24
+I12
+I31
+I9
 I1
+I55
+I0
 tp210
 (dp211
 tp212
@@ -1484,22 +1484,22 @@ Tiddler
 p458
 (dp459
 g21
-V@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);\u000a/* Your story will use the CSS in this passage to style the page.\u000aGive this passage more tags, and it will only affect passages with those tags.\u000aExample selectors: */\u000a\u000ahtml, body, div, span, applet, object, iframe,\u000ah1, h2, h3, h4, h5, h6, p, blockquote, pre,\u000aa, abbr, acronym, address, big, cite, code,\u000adel, dfn, em, img, ins, kbd, q, s, samp,\u000asmall, strike, strong, sub, sup, tt, var,\u000ab, u, i, center,\u000adl, dt, dd, ol, ul, li,\u000afieldset, form, label, legend,\u000atable, caption, tbody, tfoot, thead, tr, th, td,\u000aarticle, aside, canvas, details, embed, \u000afigure, figcaption, footer, header, hgroup, \u000amenu, nav, output, ruby, section, summary,\u000atime, mark, audio, video {\u000a	margin: 0;\u000a	padding: 0;\u000a	border: 0;\u000a	font-size: 100%;\u000a	font: inherit;\u000a	vertical-align: baseline;\u000a}\u000a/* HTML5 display-role reset for older browsers */\u000aarticle, aside, details, figcaption, figure, \u000afooter, header, hgroup, menu, nav, section {\u000a	display: block;\u000a}\u000abody {\u000a	line-height: 1;\u000a}\u000aol, ul {\u000a	list-style: none;\u000a}\u000ablockquote, q {\u000a	quotes: none;\u000a}\u000ablockquote:before, blockquote:after,\u000aq:before, q:after {\u000a	content: '';\u000a	content: none;\u000a}\u000atable {\u000a	border-collapse: collapse;\u000a	border-spacing: 0;\u000a}\u000a\u000a/*Actual Stylesheet */\u000a\u000abody {\u000a	/* This affects the entire page */\u000a	background: #424254;\u000a	margin: 0;\u000a	padding: 0;\u000a	color: #fff2df;\u000a	font-family: Arial;\u000a	\u000a}\u000a.passage {\u000a	/* This only affects passages */\u000a	border:none;\u000a	width: 100%;\u000a	max-width: 600px;\u000a	\u000a}\u000a.passage a {\u000a	/* This affects passage links */\u000a	color: #a4a4b8;\u000a	\u000a}\u000a.passage a:hover {\u000a	/* This affects links while the cursor is over them */\u000a	color: #696981;\u000a	\u000a}\u000a.passage p{\u000a	font-size: 0.6 em;\u000a}\u000a\u000a#sidebar{\u000adisplay:none;\u000a}\u000a#passages{\u000amargin-left: 0em;\u000a}\u000a
+V/* Your story will use the CSS in this passage to style the page.\u000aGive this passage more tags, and it will only affect passages with those tags.\u000aExample selectors: */\u000a\u000ahtml, body, div, span, applet, object, iframe,\u000ah1, h2, h3, h4, h5, h6, p, blockquote, pre,\u000aa, abbr, acronym, address, big, cite, code,\u000adel, dfn, em, img, ins, kbd, q, s, samp,\u000asmall, strike, strong, sub, sup, tt, var,\u000ab, u, i, center,\u000adl, dt, dd, ol, ul, li,\u000afieldset, form, label, legend,\u000atable, caption, tbody, tfoot, thead, tr, th, td,\u000aarticle, aside, canvas, details, embed, \u000afigure, figcaption, footer, header, hgroup, \u000amenu, nav, output, ruby, section, summary,\u000atime, mark, audio, video {\u000a	margin: 0;\u000a	padding: 0;\u000a	border: 0;\u000a	font-size: 100%;\u000a	font: inherit;\u000a	vertical-align: baseline;\u000a}\u000a/* HTML5 display-role reset for older browsers */\u000aarticle, aside, details, figcaption, figure, \u000afooter, header, hgroup, menu, nav, section {\u000a	display: block;\u000a}\u000abody {\u000a	line-height: 1;\u000a}\u000aol, ul {\u000a	list-style: none;\u000a}\u000ablockquote, q {\u000a	quotes: none;\u000a}\u000ablockquote:before, blockquote:after,\u000aq:before, q:after {\u000a	content: '';\u000a	content: none;\u000a}\u000atable {\u000a	border-collapse: collapse;\u000a	border-spacing: 0;\u000a}\u000a\u000a/*Actual Stylesheet */\u000a\u000a.revision-span-in {\u000a	opacity: 0;\u000a}\u000a.revision-span:not(.revision-span-out) {\u000a	transition: 1s; -webkit-transition: 1s;\u000a}\u000a.revision-span-out {\u000a	position:absolute;\u000a	opacity: 0;\u000a}\u000a\u000abody {\u000a	/* This affects the entire page */\u000a	background:#2f3030;\u000a	margin: 0;\u000a	padding: 0;\u000a	color: #fff2df;\u000a	font-family: Arial;\u000a	\u000a}\u000a\u000a.passage {\u000a	/* This only affects passages */\u000a	border:none;\u000a}\u000a.passage a {\u000a	/* This affects passage links */\u000a	color: #a4a4b8;\u000a	\u000a}\u000a.passage a:hover {\u000a	/* This affects links while the cursor is over them */\u000a	color: #696981;\u000a	\u000a}\u000a.passage p{\u000a	font-size: 0.6 em;\u000a	/*font-family: 'Press Start 2P', cursive;*/\u000a}\u000a\u000a#sidebar{\u000a	display:none;\u000a}\u000a\u000a#passages{\u000a	margin: 0;\u000a	padding: 0;\u000a	width: 100%\u000a}\u000a\u000a
 p460
 sg23
 VMain Stylesheet
 p461
 sg25
 g26
-((I2014
-I7
-I7
+((I2015
+I2
+I24
+I12
 I18
-I5
-I25
-I0
-I188
+I26
 I1
+I55
+I0
 tp462
 (dp463
 tp464
@@ -1797,22 +1797,24 @@ VTeller Info
 p553
 sg25
 g26
-((I2014
-I7
-I8
-I17
-I33
-I39
+((I2015
+I2
+I24
+I12
+I27
+I40
 I1
-I189
-I1
+I55
+I0
 tp554
 (dp555
 tp556
 Rp557
 sg31
 (lp558
-sg33
+Vnobr
+p559
+asg33
 g26
 ((I2014
 I7
@@ -1823,28 +1825,28 @@ I28
 I0
 I188
 I1
-tp559
-(dp560
-tp561
-Rp562
-sbsa(dp563
+tp560
+(dp561
+tp562
+Rp563
+sbsa(dp564
 g14
 I00
 sg15
-(lp564
+(lp565
 F1654.9999999999998
 aF388.33333333333326
 asg17
 (itiddlywiki
 Tiddler
-p565
-(dp566
+p566
+(dp567
 g21
 V<<print $friends[$i].name>> is just going to go to one of the places you already passed, if that's okay?\u000a<<set $leavers.push($friends[$i])>>\u000a<<set $friends.splice($i,1)>>\u000a<<set $j = 0>>\u000a<<display Leaver Persuade>>\u000a
-p567
+p568
 sg23
 VLeavers
-p568
+p569
 sg25
 g26
 ((I2014
@@ -1856,12 +1858,12 @@ I41
 I1
 I189
 I1
-tp569
-(dp570
-tp571
-Rp572
+tp570
+(dp571
+tp572
+Rp573
 sg31
-(lp573
+(lp574
 sg33
 g26
 ((I2014
@@ -1873,28 +1875,28 @@ I35
 I1
 I189
 I1
-tp574
-(dp575
-tp576
-Rp577
-sbsa(dp578
+tp575
+(dp576
+tp577
+Rp578
+sbsa(dp579
 g14
 I00
 sg15
-(lp579
+(lp580
 F1651.6666666666665
 aF253.3333333333333
 asg17
 (itiddlywiki
 Tiddler
-p580
-(dp581
+p581
+(dp582
 g21
 V<<if $j lte $friends.length - 1>>\u000a//basic hunger test, could be upgraded to an overall frustration test\u000a<<if $friends[$j].hungerlevel gte 8>>\u000a<<set $leaveDice = Math.floor(Math.random() * 6) + 1>>\u000a<<if $leaveDice lte 5>>\u000a//this friend is persuaded to leave as well\u000a<<set $leavers.push($friends[$j])>>\u000a<<set $friends.splice($j,1)>>\u000a<<print $friends[$j].name>> is going to go along with them, too.\u000a<<endif>>\u000aLeavers Test: \u000a<<print $leavers[0].name>>\u000a<<print $leavers[1].name>>\u000a<<print $leavers[2].name>>\u000a<<print $leavers[3].name>>\u000a<<print $leavers[4].name>>\u000a<<print $leavers[5].name>>\u000a<<endif>>\u000a<<endif>>
-p582
+p583
 sg23
 VLeaver Persuade
-p583
+p584
 sg25
 g26
 ((I2014
@@ -1906,12 +1908,12 @@ I0
 I4
 I192
 I1
-tp584
-(dp585
-tp586
-Rp587
+tp585
+(dp586
+tp587
+Rp588
 sg31
-(lp588
+(lp589
 sg33
 g26
 ((I2014
@@ -1923,14 +1925,64 @@ I36
 I1
 I189
 I1
-tp589
-(dp590
-tp591
-Rp592
+tp590
+(dp591
+tp592
+Rp593
+sbsa(dp594
+g14
+I00
+sg15
+(lp595
+F1489.9999999999998
+aF289.99999999999994
+asg17
+(itiddlywiki
+Tiddler
+p596
+(dp597
+g21
+V<div id="debug" style="font-size: 0.6em; color:#8fc951; font-family:Courier; background-color: #000000; width: 200px;">\u000aTown:\u000aName1 <<print $town[0].name>>\u000aName2 <<print $town[1].name>>\u000aName3 <<print $town[2].name>>\u000aName4 <<print $town[3].name>>\u000aName5 <<print $town[4].name>>\u000aName6 <<print $town[5].name>>\u000aHunger <<print $playerhungerlevel>>\u000aTime <<print $time>>\u000a\u000aTeller Friend <<print $tellerfriend>>\u000a	Name <<print $friends[$tellerfriend].name>>\u000a	Pref <<print $friends[$tellerfriend].secretpref>>\u000a	Hate <<print $friends[$tellerfriend].secrethate>>\u000aFriends <<print $friends>>\u000aName1 <<print $friends[0].name>>\u000aName2 <<print $friends[1].name>>\u000aName3 <<print $friends[2].name>>\u000aName4 <<print $friends[3].name>>\u000aName5 <<print $friends[4].name>>\u000aName6 <<print $friends[5].name>>\u000aName7 <<print $friends[6].name>>\u000aName8 <<print $friends[7].name>>\u000aName9 <<print $friends[8].name>>\u000aName10 <<print $friends[9].name>>\u000aName11 <<print $friends[10].name>>\u000aName12 <<print $friends[11].name>>\u000a</div>
+p598
+sg23
+VDebug Info
+p599
+sg25
+g26
+((I2015
+I2
+I24
+I12
+I30
+I27
+I1
+I55
+I0
+tp600
+(dp601
+tp602
+Rp603
+sg31
+(lp604
+sg33
+g26
+((I2015
+I2
+I24
+I11
+I46
+I13
+I1
+I55
+I0
+tp605
+(dp606
+tp607
+Rp608
 sbsasS'scale'
-p593
+p609
 F0.6000000000000001
 sS'snapping'
-p594
+p610
 I00
 ss.
