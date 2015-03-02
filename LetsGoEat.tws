@@ -23,7 +23,7 @@ p11
 (dp13
 S'selected'
 p14
-I01
+I00
 sS'pos'
 p15
 (lp16
@@ -1979,10 +1979,260 @@ tp605
 (dp606
 tp607
 Rp608
+sbsa(dp609
+g14
+I00
+sg15
+(lp610
+F184.99999999999997
+aF539.9999999999999
+asg17
+(itiddlywiki
+Tiddler
+p611
+(dp612
+g21
+VFirst Playthrough: \u000aFull Game\u000a[[Credits]]\u000a\u000aSecond Playthrough: \u000aFull Game\u000aJust Let's Go Eat\u000a[[Credits]]
+p613
+sg23
+VTitle Screen
+p614
+sg25
+g26
+((I2015
+I3
+I2
+I12
+I15
+I47
+I0
+I61
+I0
+tp615
+(dp616
+tp617
+Rp618
+sg31
+(lp619
+sg33
+g26
+((I2015
+I3
+I2
+I12
+I14
+I7
+I0
+I61
+I0
+tp620
+(dp621
+tp622
+Rp623
+sbsa(dp624
+g14
+I00
+sg15
+(lp625
+F297.0
+aF679.9999999999999
+asg17
+(itiddlywiki
+Tiddler
+p626
+(dp627
+g21
+VSara\u000aAlice\u000aSPX\u000aWrite about Annual Session\u000aAlmost a Year to the Date of Inception\u000aGuessing vs. Asking
+p628
+sg23
+VCredits
+p629
+sg25
+g26
+((I2015
+I3
+I2
+I12
+I16
+I29
+I0
+I61
+I0
+tp630
+(dp631
+tp632
+Rp633
+sg31
+(lp634
+sg33
+g26
+((I2015
+I3
+I2
+I12
+I15
+I55
+I0
+I61
+I0
+tp635
+(dp636
+tp637
+Rp638
+sbsa(dp639
+g14
+I01
+sg15
+(lp640
+F791.9999999999995
+aF892.0
+asg17
+(itiddlywiki
+Tiddler
+p641
+(dp642
+g21
+V<<print $customFriends>>\u000aWho Are You Sharing a Room With?\u000a(Name Up to 5 of Your Friends)\u000a\u000aFriend 1 <<textinput $friend1>>\u000aFriend 2 <<textinput $friend2>>\u000aFriend 3 <<textinput $friend3>>\u000aFriend 4 <<textinput $friend4>>\u000aFriend 5 <<textinput $friend5>>\u000a<<button [[Name Friends.|Display Friends]]>>
+p643
+sg23
+VName Your Friends
+p644
+sg25
+g26
+((I2015
+I3
+I2
+I14
+I44
+I0
+I0
+I61
+I0
+tp645
+(dp646
+tp647
+Rp648
+sg31
+(lp649
+sg33
+g26
+((I2015
+I3
+I2
+I12
+I16
+I55
+I0
+I61
+I0
+tp650
+(dp651
+tp652
+Rp653
+sbsa(dp654
+g14
+I00
+sg15
+(lp655
+F983.6666666666661
+aF756.6666666666661
+asg17
+(itiddlywiki
+Tiddler
+p656
+(dp657
+g21
+V<<nobr>><<if $friend1 eq "">><<set $friend1 = "test1">><<endif>>\u000a<<if $friend2 eq "">><<set $friend2 = "test2">><<endif>>\u000a<<if $friend3 eq "">><<set $friend3 = "test3">><<endif>>\u000a<<if $friend4 eq "">><<set $friend4 = "test4">><<endif>>\u000a<<if $friend5 eq "">><<set $friend5 = "test5">><<endif>><<endnobr>>\u000a<<print $friend1>>\u000a<<print $friend2>>\u000a<<print $friend3>>\u000a<<print $friend4>>\u000a<<print $friend5>>\u000a\u000aIs this Correct? \u000aYes|[[No|Name Your Friends]]\u000a\u000a//some passage where the values of $friend are assigned to $friend.names
+p658
+sg23
+VDisplay Friends
+p659
+sg25
+g26
+((I2015
+I3
+I2
+I12
+I31
+I4
+I0
+I61
+I0
+tp660
+(dp661
+tp662
+Rp663
+sg31
+(lp664
+sg33
+g26
+((I2015
+I3
+I2
+I12
+I17
+I50
+I0
+I61
+I0
+tp665
+(dp666
+tp667
+Rp668
+sbsa(dp669
+g14
+I00
+sg15
+(lp670
+F756.6666666666665
+aF723.3333333333333
+asg17
+(itiddlywiki
+Tiddler
+p671
+(dp672
+g21
+V<<set $customFriends = 0>>\u000aHow many people will be sharing a room with you? \u000a(How many custom friends would you like to add? Limit 5.)\u000a[[0|Name Your Friends]]|[[1|Name Your Friends][$customFriends = 1]]|[[2|Name Your Friends][$customFriends = 2]]|[[3|Name Your Friends][$customFriends = 3]]|[[4|Name Your Friends][$customFriends = 4]]|[[5|Name Your Friends][$customFriends = 5]]
+p673
+sg23
+VCustom Friends Count
+p674
+sg25
+g26
+((I2015
+I3
+I2
+I14
+I44
+I46
+I0
+I61
+I0
+tp675
+(dp676
+tp677
+Rp678
+sg31
+(lp679
+sg33
+g26
+((I2015
+I3
+I2
+I14
+I37
+I42
+I0
+I61
+I0
+tp680
+(dp681
+tp682
+Rp683
 sbsasS'scale'
-p609
+p684
 F0.6000000000000001
 sS'snapping'
-p610
+p685
 I00
 ss.
