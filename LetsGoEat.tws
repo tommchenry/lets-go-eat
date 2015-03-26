@@ -27,8 +27,8 @@ I00
 sS'pos'
 p15
 (lp16
-F35.0
-aF10.0
+F30.0
+aF8.333333333333334
 asS'passage'
 p17
 (itiddlywiki
@@ -595,21 +595,21 @@ Tiddler
 p191
 (dp192
 g21
-V<<set //initialize\u000a\u000a//Steak\u000a$steak1= {name:"Flanks", quality:1, wait: 0, type:"Steak", image:"[img[SteakLow]]", descriptor: "It's the sort of place that a Ponderosa would put out of business."};\u000a$steak2= {name:"Shanks", quality:2, wait: 2, type:"Steak", image:"[img[SteakLow]]", descriptor: "This is a descriptive sentence."};\u000a$steak3= {name:"Hank's", quality:3, wait: 3, type:"Steak", image:"[img[SteakLow]]", descriptor: "This is a descriptive sentence."};\u000a\u000a//Thai\u000a$thai1= {name:"Thai Express", quality:1, wait: 0, type:"Thai", image:"[img[ThaiLow]]", descriptor: "This is a descriptive sentence."};\u000a$thai2= {name:"Taste of Thai", quality:2, wait: 2, type:"Thai", image:"[img[ThaiLow]]", descriptor: "This is a descriptive sentence."};\u000a$thai3= {name:"Urban Thai", quality:3, wait: 3, type:"Thai", image:"[img[ThaiLow]]", descriptor: "This is a descriptive sentence."};\u000a\u000a//Pizza\u000a$pizza1= {name:"Giggle's Pizza", quality:1, wait: 0, type:"Pizza", image:"[img[PizzaLow]]", descriptor: "This is a descriptive sentence."};\u000a$pizza2= {name:"Daddy John's Pizza", quality:2, wait: 2, type:"Pizza", image:"[img[PizzaLow]]", descriptor: "This is a descriptive sentence."};\u000a$pizza3= {name:"Noble Rome Pizza", quality:2, wait: 1, type:"Pizza", image:"[img[PizzaLow]]", descriptor: "This is a descriptive sentence."};\u000a\u000a//Vegetarian\u000a$vegetarian1= {name:"Salad Twisters", quality:1, wait: 0, type:"Vegetarian", image:"[img[VegetarianLow]]", descriptor: "This is a descriptive sentence."};\u000a$vegetarian2= {name:"Veggi-Express", quality:1, wait: 2, type:"Vegetarian", image:"[img[VegetarianLow]]", descriptor: "This is a descriptive sentence."};\u000a$vegetarian3= {name:"Greenleaf's", quality:2, wait: 3, type:"Vegetarian", image:"[img[VegetarianLow]]", descriptor: "This is a descriptive sentence."};\u000a\u000a//Indian\u000a$indian1= {name:"Curried Billy's", quality:1, wait: 0, type:"Indian", image:"[img[IndianLow]]", descriptor: "This is a descriptive sentence."};\u000a$indian2= {name:"India Garden", quality:2, wait: 2, type:"Indian", image:"[img[IndianLow]]", descriptor: "This is a descriptive sentence."};\u000a$indian3= {name:"India Classic", quality:3, wait: 2, type:"Indian", image:"[img[IndianLow]]", descriptor: "This is a descriptive sentence."};\u000a\u000a//Do They Have Alcohol?\u000a//Burgers\u000a//Mexican\u000a//Sushi\u000a\u000a$allRestaurants=[$steak1, $steak2, $steak3, $thai1, $thai2, $thai3, $pizza1, $pizza2, $pizza3, $vegetarian1, $vegetarian2, $vegetarian3, $indian1, $indian2, $indian3];\u000a>>\u000a
+V<<set //initialize\u000a\u000a//Steak\u000a$steak1= {name:"Flanks", quality:1, wait: 0, type:"Steak", image:"[img[SteakLow]]", descriptor: "It's the sort of place that a Ponderosa would put out of business."};\u000a$steak2= {name:"Shanks", quality:2, wait: 2, type:"Steak", image:"[img[SteakLow]]", descriptor: "It looks like the sort of place a high school would hold a banquet for their football team."};\u000a$steak3= {name:"Hank's", quality:3, wait: 3, type:"Steak", image:"[img[SteakLow]]", descriptor: "It looks like the sort of place that used to require gentlemen to wear a tie."};\u000a\u000a//Thai\u000a$thai1= {name:"Thai Express", quality:1, wait: 0, type:"Thai", image:"[img[ThaiLow]]", descriptor: "This is the sort of place where a college freshman first tries Thai food and then uses it to show off how cultured he's become."};\u000a$thai2= {name:"Taste of Thai", quality:2, wait: 2, type:"Thai", image:"[img[ThaiLow]]", descriptor: "This is the sort of bland place that nevertheless yuppies will swear is one of the city's best-kept secrets."};\u000a$thai3= {name:"Urban Thai", quality:3, wait: 3, type:"Thai", image:"[img[ThaiLow]]", descriptor: "Chrome, exposed ductwork, sneering waitstaff -- Urban Thai has it all."};\u000a\u000a//Pizza\u000a$pizza1= {name:"Giggle's Pizza", quality:1, wait: 0, type:"Pizza", image:"[img[PizzaLow]]", descriptor: "The sort of pizza place where most people stop eating after college."};\u000a$pizza2= {name:"Daddy John's Pizza", quality:2, wait: 2, type:"Pizza", image:"[img[PizzaLow]]", descriptor: "This is the sort of pizza place a fun coach takes the softball team out to."};\u000a$pizza3= {name:"Noble Rome Pizza", quality:2, wait: 1, type:"Pizza", image:"[img[PizzaLow]]", descriptor: "This is a pizza place so classy they serve beer AND wine."};\u000a\u000a//Vegetarian\u000a$vegetarian1= {name:"Salad Twisters", quality:1, wait: 0, type:"Vegetarian", image:"[img[VegetarianLow]]", descriptor: "This place is just bowls of uncooked vegetables jammed into crushed ice."};\u000a$vegetarian2= {name:"Veggi-Express", quality:1, wait: 2, type:"Vegetarian", image:"[img[VegetarianLow]]", descriptor: "This is one of those places that's just a normal diner with all the meats sneakily replaced by similarly flavored seitans, tempehs and tofus."};\u000a$vegetarian3= {name:"Greenleaf's", quality:2, wait: 3, type:"Vegetarian", image:"[img[VegetarianLow]]", descriptor: "This place is so classy they have a seasonal menu and a produce garden on the roof."};\u000a\u000a//Indian\u000a$indian1= {name:"Curried Billy's", quality:1, wait: 0, type:"Indian", image:"[img[IndianLow]]", descriptor: "This is the sort of place that's always buffet, but you're gambling on how long any given pan of food has been sitting out."};\u000a$indian2= {name:"India Garden", quality:2, wait: 2, type:"Indian", image:"[img[IndianLow]]", descriptor: "This place is classy enough to have white tablecloths (which are themselves covered in white paper), but not so classy that there aren't a few dining room televisions."};\u000a$indian3= {name:"India Classic", quality:3, wait: 2, type:"Indian", image:"[img[IndianLow]]", descriptor: "It looks so classy that you bet each grain of rice is individually plated for maximum visual and flavor impact."};\u000a\u000a//Do They Have Alcohol?\u000a//Burgers\u000a//Mexican\u000a//Sushi\u000a\u000a$allRestaurants=[$steak1, $steak2, $steak3, $thai1, $thai2, $thai3, $pizza1, $pizza2, $pizza3, $vegetarian1, $vegetarian2, $vegetarian3, $indian1, $indian2, $indian3];\u000a>>\u000a
 p193
 sg23
 VRestaurant Generator
 p194
 sg25
 g26
-((I2014
-I6
-I29
-I0
-I13
-I14
-I6
-I180
+((I2015
+I3
+I17
+I15
+I20
+I45
+I1
+I76
 I1
 tp195
 (dp196
@@ -645,7 +645,7 @@ Tiddler
 p206
 (dp207
 g21
-V<<silently>>\u000a<<set $tellerfriend = Math.floor(Math.random() * $friends.length)>>\u000a<<endsilently>>\u000a<table><tbody><tr><td style="width: 600px;">\u000a<<print $town[$currentPosition].image>>\u000aRight now it kind of sounds like everybody wants <<print $currgoal>>. You walk to <<print $town[$currentPosition].name>>. It is a <<print $town[$currentPosition].type>> restaurant. <<print $town[$currentPosition].descriptor>> <<if $town[$currentPosition].quality eq 1>>It looks a little rundown. You might have to get the food to go.<<endif>><<if $town[$currentPosition].quality eq 2>>This looks pretty good, for convention food.<<endif>><<if $town[$currentPosition].quality eq 3>>This place looks really nice, but it might be a little pricey for some people.<<endif>> <<if $town[$currentPosition].wait eq 0>>There's no line. You can walk in and get food right now.<<endif>><<if $town[$currentPosition].wait eq 1>>It looks like there are just a few people waiting in the lobby.<<endif>><<if $town[$currentPosition].wait eq 2>>The lobby is sort of crowded, you'd have to slide past people to even get in the door.<<endif>><<if $town[$currentPosition].wait eq 3>>The lobby is so full, groups are waiting outside. The idle hungry are leaning against the walls and thumbing their smartphones on benches.<<endif>>\u000a<<display Teller Info>>\u000a<<display Action List>>\u000a</td><td>\u000a<<display Debug Info>>\u000a</td></tr></tbody></table>
+V<<silently>>\u000a<<set $tellerfriend = Math.floor(Math.random() * ($friends.length-1))>>\u000a<<endsilently>>\u000a<table><tbody><tr><td style="width: 600px;">\u000a<<print $town[$currentPosition].image>>\u000aRight now it kind of sounds like everybody wants <<print $currgoal>>. You walk to <<print $town[$currentPosition].name>>. It is a <<print $town[$currentPosition].type>> restaurant. <<print $town[$currentPosition].descriptor>> <<if $town[$currentPosition].quality eq 1>>It looks a little rundown. You might have to get the food to go.<<endif>><<if $town[$currentPosition].quality eq 2>>This looks pretty good, for convention food.<<endif>><<if $town[$currentPosition].quality eq 3>>This place looks really nice, but it might be a little pricey for some people.<<endif>> <<if $town[$currentPosition].wait eq 0>>There's no line. You can walk in and get food right now.<<endif>><<if $town[$currentPosition].wait eq 1>>It looks like there are just a few people waiting in the lobby.<<endif>><<if $town[$currentPosition].wait eq 2>>The lobby is sort of crowded, you'd have to slide past people to even get in the door.<<endif>><<if $town[$currentPosition].wait eq 3>>The lobby is so full, groups are waiting outside. The idle hungry are leaning against the walls and thumbing their smartphones on benches.<<endif>>\u000a<<display Teller Info>>\u000a<<display Action List>>\u000a</td><td>\u000a<<display Debug Info>>\u000a</td></tr></tbody></table>
 p208
 sg23
 VRestaurant
@@ -653,14 +653,14 @@ p209
 sg25
 g26
 ((I2015
-I2
-I24
-I12
-I31
-I9
+I3
+I26
+I15
+I57
+I15
+I3
+I85
 I1
-I55
-I0
 tp210
 (dp211
 tp212
@@ -687,8 +687,8 @@ g14
 I00
 sg15
 (lp220
-I850
-aI199
+F850.0
+aF199.0
 asg17
 (itiddlywiki
 Tiddler
@@ -838,28 +838,28 @@ I00
 sg15
 (lp265
 F933.0
-aF405.0
+aF406.6666666666667
 asg17
 (itiddlywiki
 Tiddler
 p266
 (dp267
 g21
-V<<if $currentPosition + 1 lte 5>>\u000a<<set $currentPosition = $currentPosition + 1>>\u000a[[You walk further down the street to the next place.|Restaurant]]<<else>>You come to the crest of a hill and look back at the convention center, shrunk in the distance. You're now on the outskirts of town and only black forest and highway lay ahead for miles. \u000a\u000a[[No one's agreed on the restaurant yet, but they all agree you should head back.|Restaurant]]\u000a<<endif>>\u000a<<display Time Passer>>
+V<table><tbody><tr><td style="width: 600px;">\u000a<<if $currentPosition + 1 lte 5>>\u000a<<set $currentPosition = $currentPosition + 1>>\u000a[[You walk farther down the street to the next place.|Restaurant]]<<else>>You come to the crest of a hill and look back at the convention center, shrunk in the distance. You're now on the outskirts of town and only black forest and highway lay ahead for miles. \u000a\u000a[[No one's agreed on the restaurant yet, but they all agree you should head back.|Restaurant]]\u000a<<endif>>\u000a<<display Time Passer>>\u000a</td></tr></tbody></table>
 p268
 sg23
 VNext Restaurant
 p269
 sg25
 g26
-((I2014
-I6
-I23
-I0
-I20
-I28
-I0
-I174
+((I2015
+I3
+I26
+I16
+I7
+I33
+I3
+I85
 I1
 tp270
 (dp271
@@ -895,21 +895,21 @@ Tiddler
 p281
 (dp282
 g21
-V<<if $currentPosition - 1 gte 0>>\u000a<<set $currentPosition = $currentPosition - 1>>\u000a[[You walk further down the street to the next place.|Restaurant]]<<else>>You have returned to the convention center from whence you started.\u000a\u000a[[No one's agreed on the restaurant yet, but they all agree there won't be any food here until they start serving overpriced pizza slices in the exhibit hall tomorrow afternoon.|Restaurant]]\u000a<<endif>>\u000a<<display Time Passer>>
+V<table><tbody><tr><td style="width: 600px;">\u000a<<if $currentPosition - 1 gte 0>>\u000a<<set $currentPosition = $currentPosition - 1>>\u000a[[You walk farther down the street to the next place.|Restaurant]]<<else>>You have returned to the convention center from whence you started.\u000a\u000a[[No one's agreed on the restaurant yet, but they all agree there won't be any food here until they start serving overpriced pizza slices in the exhibit hall tomorrow afternoon.|Restaurant]]\u000a<<endif>>\u000a<<display Time Passer>>\u000a</td></tr></tbody></table>
 p283
 sg23
 VPrevious Restaurant
 p284
 sg25
 g26
-((I2014
-I6
-I23
-I0
-I21
-I52
-I0
-I174
+((I2015
+I3
+I26
+I16
+I7
+I46
+I3
+I85
 I1
 tp285
 (dp286
@@ -1095,21 +1095,21 @@ Tiddler
 p341
 (dp342
 g21
-VThe reception isn't great out here, so it takes a few minutes.\u000a\u000a<<if $currentPosition eq 5>>\u000a"Looks like that's about it, sorry everybody."\u000a<<endif>>\u000a<<if $currentPosition eq 4>>\u000a"Looks like there's a <<$town[5].type>> place not too far from here, but that's pretty much it."\u000a<<endif>>\u000a<<if $currentPosition lt 4>>\u000a"Okay, it looks like there's a <<$town[$currentPosition+1].type>> place not too far from here. Oh, and there's <<$town[$currentPosition+2].name>>, if that sounds good to anybody?"\u000a<<endif>>\u000a[[Nobody volunteers any new information.|Restaurant]]
+V<table><tbody><tr><td style="width: 600px;">\u000aThe reception isn't great out here, so it takes a few minutes.\u000a\u000a<<if $currentPosition eq 5>>\u000a"Looks like that's about it, sorry everybody."\u000a<<endif>>\u000a<<if $currentPosition eq 4>>\u000a"Looks like there's a <<$town[5].type>> place not too far from here, but that's pretty much it."\u000a<<endif>>\u000a<<if $currentPosition lt 4>>\u000a"Okay, it looks like there's a <<$town[$currentPosition+1].type>> place not too far from here. Oh, and there's <<$town[$currentPosition+2].name>>, if that sounds good to anybody?"\u000a<<endif>>\u000a[[Nobody volunteers any new information.|Restaurant]]\u000a</td></tr></tbody></table>
 p343
 sg23
 VCheck Phone
 p344
 sg25
 g26
-((I2014
-I6
+((I2015
+I3
+I26
 I16
-I23
-I35
-I51
-I0
-I167
+I2
+I45
+I3
+I85
 I1
 tp345
 (dp346
@@ -1134,32 +1134,32 @@ tp352
 Rp353
 sbsa(dp354
 g14
-I00
+I01
 sg15
 (lp355
-F1316.3333333333335
-aF555.0000000000001
+F1314.6666666666667
+aF556.6666666666667
 asg17
 (itiddlywiki
 Tiddler
 p356
 (dp357
 g21
-V<<set $playerhungerlevel = $playerhungerlevel + 1>>\u000a<<set $time = $time + 1>>\u000a<<set $i = 0;\u000a$teller = Math.floor(Math.random() * 8) + 1;\u000a$otherfriend = Math.floor(Math.random() * $friends.length);\u000a$leavers =[];>>\u000a<<if $otherfriend eq $tellerfriend>>\u000a<<if $tellerfriend gt 0>>\u000a<<set $otherfriend = $otherfriend - 1>><<endif>>\u000a<<if $tellerfriend eq 0>><<set $otherfriend = $otherfriend + 1>><<endif>>\u000a<<endif>>\u000a<<if $teller eq 1>>Everyone is just really pissed off and grumbly. You need to find food soon.<<endif>>\u000a<<if $teller eq 2>><<print $friends[$tellerfriend].name>>  says "So, do we have any kind of plan, or are we just going to keep wandering around until everything's closed?"<<endif>>\u000a<<if $teller eq 3>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> will eat whatever, but <<print $friends[$tellerfriend].pronoun>>'s pretty sure that <<print $friends[$otherfriend].name>> might like <<print $friends[$otherfriend].secretpref>>, if you think that's something the group might be into.<<endif>>\u000a<<if $teller eq 4>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> will eat anything, but just maybe not <<print $friends[$tellerfriend].secrethate>>, you know, if you can help it. But whatever's fine.<<endif>>\u000a<<if $teller eq 5>><<print $friends[$tellerfriend].name>> says supposedly there was a really good <<print $friends[$tellerfriend].secretpref>> somewhere nearby, so that might be interesting.<<endif>>\u000a<<if $teller eq 6>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> might want <<print $friends[$tellerfriend].secretpref>>, but <<print $friends[$tellerfriend].pronoun>>'s fine with whatever, really.<<endif>><<if $teller eq 7>><<print $friends[$tellerfriend].name>> says, "Obviously, I'll eat whatever, but <<print $friends[$otherfriend].name>> and I just had <<print $friends[$tellerfriend].secrethate>> the other night, so, you know..." and trails off.<<endif>><<if $teller eq 8>><<print $friends[$tellerfriend].name>> announces "Well, my only opinion is I have no opinion. Whatever the group decides is fine with me!"<<endif>>\u000a<<set $tellerfriend = Math.floor(Math.random() * $friends.length)>>\u000a<<display Everyone Gets Hungrier>>\u000a\u000a
+V<<nobr>>\u000a<<set $playerhungerlevel = $playerhungerlevel + 1>>\u000a<<set $time = $time + 1>>\u000a<<set $i = 0;\u000a$teller = Math.floor(Math.random() * 8) + 1;\u000a$otherfriend = Math.floor(Math.random() * $friends.length);\u000a$leavers =[];>>\u000a<<if $otherfriend eq $tellerfriend>>\u000a<<if $tellerfriend gt 0>>\u000a<<set $otherfriend = $otherfriend - 1>><<endif>>\u000a<<if $tellerfriend eq 0>><<set $otherfriend = $otherfriend + 1>><<endif>>\u000a<<endif>>\u000a<<if $teller eq 1>>Everyone is just really pissed off and grumbly. You need to find food soon.<<endif>>\u000a<<if $teller eq 2>><<print $friends[$tellerfriend].name>>  says "So, do we have any kind of plan, or are we just going to keep wandering around until everything's closed?"<<endif>>\u000a<<if $teller eq 3>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> will eat whatever, but <<print $friends[$tellerfriend].pronoun>>'s pretty sure that <<print $friends[$otherfriend].name>> might like <<print $friends[$otherfriend].secretpref>>, if you think that's something the group might be into.<<endif>>\u000a<<if $teller eq 4>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> will eat anything, but just maybe not <<print $friends[$tellerfriend].secrethate>>, you know, if you can help it. But whatever's fine.<<endif>>\u000a<<if $teller eq 5>><<print $friends[$tellerfriend].name>> says supposedly there was a really good <<print $friends[$tellerfriend].secretpref>> place somewhere nearby, so that might be interesting.<<endif>>\u000a<<if $teller eq 6>><<print $friends[$tellerfriend].name>> says <<print $friends[$tellerfriend].pronoun>> might want <<print $friends[$tellerfriend].secretpref>>, but <<print $friends[$tellerfriend].pronoun>>'s fine with whatever, really.<<endif>><<if $teller eq 7>><<print $friends[$tellerfriend].name>> says, "Obviously, I'll eat whatever, but <<print $friends[$otherfriend].name>> and I just had <<print $friends[$tellerfriend].secrethate>> the other night, so, you know..." and trails off.<<endif>><<if $teller eq 8>><<print $friends[$tellerfriend].name>> announces "Well, my only opinion is I have no opinion. Whatever the group decides is fine with me!"<<endif>>\u000a<<set $tellerfriend = Math.floor(Math.random() * $friends.length)>>\u000a<<display Everyone Gets Hungrier>>\u000a<<endnobr>>\u000a\u000a
 p358
 sg23
 VTime Passer
 p359
 sg25
 g26
-((I2014
-I7
+((I2015
+I3
+I26
+I16
 I11
-I15
-I41
-I55
-I4
-I192
+I20
+I3
+I85
 I1
 tp360
 (dp361
@@ -1287,8 +1287,8 @@ g14
 I00
 sg15
 (lp400
-F467.0
-aF418.0
+F478.6666666666667
+aF404.6666666666665
 asg17
 (itiddlywiki
 Tiddler
@@ -1782,8 +1782,8 @@ g14
 I00
 sg15
 (lp549
-F1051.6666666666665
-aF556.6666666666666
+F1141.6666666666663
+aF644.9999999999997
 asg17
 (itiddlywiki
 Tiddler
@@ -2081,7 +2081,7 @@ tp637
 Rp638
 sbsa(dp639
 g14
-I01
+I00
 sg15
 (lp640
 F791.9999999999995
@@ -2092,7 +2092,7 @@ Tiddler
 p641
 (dp642
 g21
-V<<print $customFriends>>\u000aWho Are You Sharing a Room With?\u000a(Name Up to 5 of Your Friends)\u000a\u000aFriend 1 <<textinput $friend1>>\u000aFriend 2 <<textinput $friend2>>\u000aFriend 3 <<textinput $friend3>>\u000aFriend 4 <<textinput $friend4>>\u000aFriend 5 <<textinput $friend5>>\u000a<<button [[Name Friends.|Display Friends]]>>
+V<<print $customFriends>>\u000aWho Are You Sharing a Room With?\u000a(Name Up to 5 of Your Friends)\u000a\u000a<<if $customFriends gt 0>>Friend 1 <<textinput $friend1>><<endif>>\u000a<<if $customFriends gt 1>>Friend 2 <<textinput $friend2>><<endif>>\u000a<<if $customFriends gt 2>>Friend 3 <<textinput $friend3>><<endif>>\u000a<<if $customFriends gt 3>>Friend 4 <<textinput $friend4>><<endif>>\u000a<<if $customFriends gt 4>>Friend 5 <<textinput $friend5>><<endif>>\u000a<<button [[Name Friends.|Display Friends]]>>
 p643
 sg23
 VName Your Friends
@@ -2102,9 +2102,9 @@ g26
 ((I2015
 I3
 I2
-I14
-I44
-I0
+I19
+I25
+I4
 I0
 I61
 I0
@@ -2142,7 +2142,7 @@ Tiddler
 p656
 (dp657
 g21
-V<<nobr>><<if $friend1 eq "">><<set $friend1 = "test1">><<endif>>\u000a<<if $friend2 eq "">><<set $friend2 = "test2">><<endif>>\u000a<<if $friend3 eq "">><<set $friend3 = "test3">><<endif>>\u000a<<if $friend4 eq "">><<set $friend4 = "test4">><<endif>>\u000a<<if $friend5 eq "">><<set $friend5 = "test5">><<endif>><<endnobr>>\u000a<<print $friend1>>\u000a<<print $friend2>>\u000a<<print $friend3>>\u000a<<print $friend4>>\u000a<<print $friend5>>\u000a\u000aIs this Correct? \u000aYes|[[No|Name Your Friends]]\u000a\u000a//some passage where the values of $friend are assigned to $friend.names
+V<<nobr>><<if $friend1 eq "">><<set $friend1 = "Jess">><<endif>>\u000a<<if $friend2 eq "">><<set $friend2 = "Eric">><<endif>>\u000a<<if $friend3 eq "">><<set $friend3 = "KC">><<endif>>\u000a<<if $friend4 eq "">><<set $friend4 = "Holly">><<endif>>\u000a<<if $friend5 eq "">><<set $friend5 = "Kate">><<endif>><<endnobr>>\u000a<<if $customFriends gt 0>><<print $friend1>><<endif>>\u000a<<if $customFriends gt 1>><<print $friend2>><<endif>>\u000a<<if $customFriends gt 2>><<print $friend3>><<endif>>\u000a<<if $customFriends gt 3>><<print $friend4>><<endif>>\u000a<<if $customFriends gt 4>><<print $friend5>><<endif>>\u000a\u000aIs this Correct? \u000a[[Yes]]|[[No|Name Your Friends]]\u000a\u000a//some passage where the values of $friend are assigned to $friend.names
 p658
 sg23
 VDisplay Friends
@@ -2152,9 +2152,9 @@ g26
 ((I2015
 I3
 I2
-I12
-I31
-I4
+I19
+I29
+I20
 I0
 I61
 I0
@@ -2229,10 +2229,310 @@ tp680
 (dp681
 tp682
 Rp683
+sbsa(dp684
+g14
+I00
+sg15
+(lp685
+F1343.333333333333
+aF871.6666666666664
+asg17
+(itiddlywiki
+Tiddler
+p686
+(dp687
+g21
+V<<nobr>>\u000a<<display Friend Generator>>\u000aGo Ahead and delete this part later:\u000a<<set $friends = [$Erika, $Casey, $Beck, $Tony, $Jess, $Eric, $KC, $Sara]\u000a>>\u000a<<set $tellerfriend = Math.floor(Math.random() * ($friends.length-1))>>\u000aKeep this bit:\u000a<<set $i = 0;\u000a$teller = Math.floor(Math.random() * 8) + 1;\u000a$otherfriend = Math.floor(Math.random() * $friends.length);\u000a$friends_copy = $friends.slice();\u000a$leavers =[];>>\u000a<<print $friends[$tellerfriend].name>> is leaving.\u000a<<set $newGroupLeader = $friends[$tellerfriend].name>>\u000a<<set $leavers.push($friends[$tellerfriend])>>\u000a<<set $friends.splice($tellerfriend,1)>>\u000a<<display Leaver Loop>><<set $list = $leavers>><<if $leavers.length gt 1>><<set $i = 0>>\u000a<<display Lister Looper>> are leaving.<<else>><<print $leavers[0].name>> is leaving.<<endif>><br><br>\u000a\u000a[[C'mon guys.|Leaver Refuse]]\u000a[[Well, whatever.|Leaver Accept]]\u000a<<endnobr>>
+p688
+sg23
+VLeaver Debug
+p689
+sg25
+g26
+((I2015
+I3
+I26
+I15
+I38
+I1
+I3
+I85
+I1
+tp690
+(dp691
+tp692
+Rp693
+sg31
+(lp694
+sg33
+g26
+((I2015
+I3
+I17
+I14
+I7
+I22
+I1
+I76
+I1
+tp695
+(dp696
+tp697
+Rp698
+sbsa(dp699
+g14
+I00
+sg15
+(lp700
+F1549.9999999999998
+aF811.6666666666665
+asg17
+(itiddlywiki
+Tiddler
+p701
+(dp702
+g21
+V<<nobr>>\u000a<<if $i lt 0>><<set $i = 0>><<endif>>\u000a<<if $i lt $friends.length>>\u000a<<if $friends[$i].hungerlevel gte 8>>\u000a<<set $leaveDice = Math.floor(Math.random() * 8) + 1>>\u000a<<if $leaveDice lte 3>>\u000a<<set $leavers.push($friends[$i])>>\u000a<<set $friends.splice($i,1)>>\u000a<<set $i = $i - 2>>\u000a<<endif>>\u000a<<endif>>\u000a<<set $i = $i + 1>>\u000a<<display Leaver Loop>>\u000a<<endif>>\u000a<<endnobr>>
+p703
+sg23
+VLeaver Loop
+p704
+sg25
+g26
+((I2015
+I3
+I26
+I15
+I59
+I11
+I3
+I85
+I1
+tp705
+(dp706
+tp707
+Rp708
+sg31
+(lp709
+sg33
+g26
+((I2015
+I3
+I24
+I15
+I3
+I54
+I1
+I83
+I1
+tp710
+(dp711
+tp712
+Rp713
+sbsa(dp714
+g14
+I00
+sg15
+(lp715
+F1114.6666666666672
+aF919.9999999999997
+asg17
+(itiddlywiki
+Tiddler
+p716
+(dp717
+g21
+VLists array items with correct grammar.\u000a\u000a<<set $fruits = ["apples","oranges","bananas", "potatoes", "pineapples", "cotton"]>>\u000a<<set $list = $fruits>>\u000a<<set $i = 0>>\u000aThe fruits I liked were <<display Lister Looper>>
+p718
+sg23
+VLister
+p719
+sg25
+g26
+((I2015
+I3
+I25
+I11
+I27
+I32
+I2
+I84
+I1
+tp720
+(dp721
+tp722
+Rp723
+sg31
+(lp724
+sg33
+g26
+((I2015
+I3
+I24
+I15
+I29
+I40
+I1
+I83
+I1
+tp725
+(dp726
+tp727
+Rp728
+sbsa(dp729
+g14
+I00
+sg15
+(lp730
+F1113.3333333333333
+aF1066.6666666666665
+asg17
+(itiddlywiki
+Tiddler
+p731
+(dp732
+g21
+V<<nobr>>\u000a<<if $i eq 0>>\u000a<<print $list[$i].name>>\u000a<<set $i = $i + 1>><<display Lister Looper>>\u000a<<else>>\u000a<<if $i lte $list.length>>\u000a<<if $i eq $list.length - 1>>\u000a, and <<print $list[$i].name>>\u000a<<else>>\u000a, <<print $list[$i].name>>\u000a<<set $i = $i + 1>><<display Lister Looper>>\u000a<<endif>>\u000a<<endif>>\u000a<<endif>>\u000a<<endnobr>>\u000a
+p733
+sg23
+VLister Looper
+p734
+sg25
+g26
+((I2015
+I3
+I25
+I11
+I42
+I56
+I2
+I84
+I1
+tp735
+(dp736
+tp737
+Rp738
+sg31
+(lp739
+sg33
+g26
+((I2015
+I3
+I24
+I15
+I30
+I50
+I1
+I83
+I1
+tp740
+(dp741
+tp742
+Rp743
+sbsa(dp744
+g14
+I00
+sg15
+(lp745
+F1316.6666666666665
+aF1103.3333333333333
+asg17
+(itiddlywiki
+Tiddler
+p746
+(dp747
+g21
+VNow it's just you and: <<set $list = $friends>><<set $i = 0>><<display Lister Looper>>
+p748
+sg23
+VLeaver Accept
+p749
+sg25
+g26
+((I2015
+I3
+I26
+I15
+I54
+I58
+I3
+I85
+I1
+tp750
+(dp751
+tp752
+Rp753
+sg31
+(lp754
+sg33
+g26
+((I2015
+I3
+I26
+I14
+I15
+I34
+I3
+I85
+I1
+tp755
+(dp756
+tp757
+Rp758
+sbsa(dp759
+g14
+I00
+sg15
+(lp760
+F1523.333333333333
+aF961.6666666666665
+asg17
+(itiddlywiki
+Tiddler
+p761
+(dp762
+g21
+V"Alright, we'll stay, but let's find something, like, soon, okay?" <<print $newGroupLeader>> says.\u000a<<set $friends = $friends_copy.slice()>>\u000a<<set $list = $friends>><<set $i = 0>><<display Lister Looper>>\u000a\u000a
+p763
+sg23
+VLeaver Refuse
+p764
+sg25
+g26
+((I2015
+I3
+I26
+I15
+I53
+I40
+I3
+I85
+I1
+tp765
+(dp766
+tp767
+Rp768
+sg31
+(lp769
+sg33
+g26
+((I2015
+I3
+I26
+I14
+I15
+I47
+I3
+I85
+I1
+tp770
+(dp771
+tp772
+Rp773
 sbsasS'scale'
-p684
+p774
 F0.6000000000000001
 sS'snapping'
-p685
+p775
 I00
 ss.
